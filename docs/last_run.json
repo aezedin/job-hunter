@@ -1,5 +1,5 @@
 {
- "at": "2026-10-06T22:57:33.822636+00:00",
+ "at": "2026-10-06T22:59:25.120961+00:00",
  "sources": [
   "| Reed | \u2705 checked | 578 |",
   "| Adzuna | \u2705 checked | 171 |",
@@ -7,7 +7,7 @@
  ],
  "found": 1014,
  "kept": 12,
- "new": 9,
+ "new": 0,
  "filtered_out": {
   "too old": 59,
   "training-course advert": 41,
