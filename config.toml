@@ -47,8 +47,17 @@ title_must_include = [
 # Skip titles containing any of these
 title_exclude = [
   "senior", "sr.", "lead", "principal", "head of", "manager", "director",
-  "architect", "staff ", "chief", "3rd line", "third line", "vp ",
+  "architect", "staff", "chief", "3rd line", "third line", "vp",
+  "consultant", "specialist", "japanese", "german", "french", "mandarin",
 ]
+# Recruiters selling paid training courses disguised as jobs - always skip
+company_exclude = [
+  "newto training", "netcom", "itol recruit", "career change", "training",
+  "academy", "itonlinelearning", "learning",
+]
+# Very high pay means it isn't really entry level (or it's a day rate
+# that Adzuna turned into a yearly figure)
+max_salary_min = 50000
 # Skip if the description asks for this many years or more
 max_years_experience = 3
 

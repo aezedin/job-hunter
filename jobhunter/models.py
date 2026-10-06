@@ -28,7 +28,9 @@ class Job:
     def key(self) -> str:
         """Stable id that also de-duplicates the same job seen on two sites."""
         norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
-        return hashlib.sha1(f"{norm(self.title)}|{norm(self.company)}".encode()).hexdigest()[:12]
+        # first word of the company only, so "Randstad" and "Randstad Technologies" match
+        company = (self.company or "").split()[0] if (self.company or "").split() else ""
+        return hashlib.sha1(f"{norm(self.title)}|{norm(company)}".encode()).hexdigest()[:12]
 
     def age_hours(self, now: datetime | None = None) -> float | None:
         if not self.posted_at:

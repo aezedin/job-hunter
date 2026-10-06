@@ -1,4 +1,5 @@
 """Filter out jobs that don't fit, then score the rest 0-100 against your CV."""
+import re
 from datetime import datetime, timezone
 
 from .models import Job
@@ -12,13 +13,25 @@ ENTRY_WORDS = ["graduate", "junior", "entry", "intern", "apprentice", "trainee",
 EXEMPT_FROM_SALARY = ["intern", "apprentice", "placement", "graduate scheme"]
 
 
+def has(text: str, terms) -> bool:
+    """Whole-word-ish match: 'soc' matches 'SOC Analyst' but not 'Associate'."""
+    for t in terms:
+        t = t.strip().lower()
+        right = r"(?![a-z])" if len(t) <= 4 else ""
+        if re.search(r"(?<![a-z])" + re.escape(t) + right, text):
+            return True
+    return False
+
+
 def reject_reason(job: Job, cfg: dict, now: datetime) -> str | None:
     s, f = cfg["search"], cfg["filters"]
     title = job.title.lower()
-    if not any(w in title for w in f["title_must_include"]):
+    if not has(title, f["title_must_include"]):
         return "title not a target role"
-    if any(w in title for w in f["title_exclude"]):
-        return "too senior"
+    if has(title, f["title_exclude"]):
+        return "too senior or wrong type"
+    if any(w in (job.company or "").lower() for w in f.get("company_exclude", [])):
+        return "training-course advert"
     age = job.age_hours(now)
     if age is not None and age > s["max_age_hours"]:
         return "too old"
@@ -28,6 +41,8 @@ def reject_reason(job: Job, cfg: dict, now: datetime) -> str | None:
     # Reed sometimes reports hourly/daily rates; only compare annual-looking figures
     if top and top > 1000 and top < s["min_salary"] and not any(w in title for w in EXEMPT_FROM_SALARY):
         return "salary below floor"
+    if job.salary_min and job.salary_min > f.get("max_salary_min", 10**9):
+        return "pay too high for entry level"
     yrs = years_required(job.description)
     if yrs is not None and yrs >= f["max_years_experience"]:
         return f"asks for {yrs}+ years"
@@ -38,7 +53,7 @@ def score(job: Job, profile: dict, now: datetime) -> Job:
     title, text = job.title.lower(), f"{job.title} {job.description}".lower()
     pts, why = 0, []
 
-    if any(w in title for w in CORE_TITLES):
+    if has(title, CORE_TITLES):
         pts += 35; why.append("core target role")
     else:
         pts += 20

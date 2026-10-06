@@ -14,6 +14,8 @@ CFG = {
         "title_must_include": ["it support", "service desk", "soc", "security analyst", "cyber", "intern", "1st line"],
         "title_exclude": ["senior", "lead", "manager"],
         "max_years_experience": 3,
+        "company_exclude": ["newto training", "training"],
+        "max_salary_min": 50000,
     },
 }
 PROFILE = {"skills": ["Security+", "Troubleshooting", "Windows", "Networking", "Wireshark", "Nmap", "Python", "Ticketing"]}
@@ -29,7 +31,10 @@ def J(**kw):
 def test_filters():
     run = lambda j: matcher.reject_reason(j, CFG, NOW)
     assert run(J()) is None
-    assert run(J(title="Senior SOC Analyst")) == "too senior"
+    assert run(J(title="Senior SOC Analyst")) == "too senior or wrong type"
+    assert run(J(title="Associate Building Surveyor")) == "title not a target role"
+    assert run(J(company="Newto Training")) == "training-course advert"
+    assert run(J(salary_min=78000, salary_max=84500)) == "pay too high for entry level"
     assert run(J(title="Marketing Executive")) == "title not a target role"
     assert run(J(posted_at=NOW - timedelta(days=5))) == "too old"
     assert run(J(applicants=140)) == "140 applicants"

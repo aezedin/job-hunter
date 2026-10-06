@@ -8,7 +8,9 @@
   python -m jobhunter links                     print fresh LinkedIn/Indeed links
 """
 import argparse
+import json
 import logging
+from datetime import datetime, timezone
 import os
 import sys
 import tomllib
@@ -50,6 +52,10 @@ def cmd_run(args):
 
     kept, rejected = matcher.run(found, cfg, prof)
     store = Store(ROOT / "data" / "jobs.db")
+    now = datetime.now(timezone.utc)
+    hidden = store.recheck_new(lambda j: matcher.reject_reason(j, cfg, now))
+    if hidden:
+        print(f"Hid {hidden} saved job(s) that no longer match the filters")
     new = store.add_new(kept)
     skipped = ", ".join(f"{v} {k}" for k, v in sorted(rejected.items(), key=lambda x: -x[1])) or "none"
     print(f"Found {len(found)} · kept {len(kept)} · NEW {len(new)} · skipped: {skipped}")
@@ -65,8 +71,6 @@ def cmd_run(args):
         with open(summary_file, "a") as fh:
             fh.write("\n".join(lines) + "\n")
     # Saved in the repo too, so problems can be diagnosed without the Actions log
-    import json
-    from datetime import datetime, timezone
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "docs" / "last_run.json").write_text(json.dumps({
         "at": datetime.now(timezone.utc).isoformat(), "sources": report,

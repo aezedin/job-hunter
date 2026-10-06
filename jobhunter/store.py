@@ -67,3 +67,18 @@ class Store:
             if d["key"].startswith(key_prefix):
                 return d
         return None
+
+    def recheck_new(self, reject_fn) -> int:
+        """Re-apply the current filters to jobs still marked 'new' and hide the
+        ones that no longer fit (e.g. after config.toml changes)."""
+        from .models import Job
+        from .sources import parse_iso
+        fields = Job.__dataclass_fields__
+        hidden = 0
+        for d in self.all("new"):
+            kw = {k: v for k, v in d.items() if k in fields}
+            kw["posted_at"] = parse_iso(d.get("posted_at"))
+            if reject_fn(Job(**kw)):
+                hidden += self.set_status(d["key"], "skipped", notes="auto-hidden: no longer matches filters")
+        return hidden
+
