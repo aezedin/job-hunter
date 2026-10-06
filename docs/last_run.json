@@ -1,18 +1,20 @@
 {
- "at": "2026-10-06T22:55:13.410365+00:00",
+ "at": "2026-10-06T22:57:33.822636+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 579 |",
+  "| Reed | \u2705 checked | 578 |",
   "| Adzuna | \u2705 checked | 171 |",
   "| Company career pages | \u2705 checked | 265 |"
  ],
- "found": 1015,
- "kept": 41,
- "new": 41,
+ "found": 1014,
+ "kept": 12,
+ "new": 9,
  "filtered_out": {
-  "too old": 97,
-  "title not a target role": 471,
-  "too senior": 30,
-  "69 applicants": 1
+  "too old": 59,
+  "training-course advert": 41,
+  "title not a target role": 474,
+  "too senior or wrong type": 38,
+  "69 applicants": 1,
+  "pay too high for entry level": 5
  },
  "warnings": [],
  "alerts_on": true,
@@ -22,10 +24,12 @@
   "1st Line IT Support",
   "1st Line Service Desk Engineer",
   "1st Line Support",
+  "1st Line Support Engineer",
   "2027 Graduate Programme - Transport & Infrastructure \u2013 Intelligent Infrastructure",
   "2nd Charge Underwriter",
   "2nd Line Corporate Service Desk IT Technician",
   "2nd Line Engineer \u2013 MSP",
+  "2nd Line IT Support Analyst - Contract - Inside IR35",
   "2nd Line IT Support Engineer",
   "2nd Line Support",
   "2nd Line Support - City based - MSP - hybrid - support, onsite and projects",
@@ -54,8 +58,6 @@
   "Apprentice Retail Sales Assistant",
   "Apprentice Sales Advisor - Uncapped Commission",
   "Apprenticeship",
-  "Apprenticeship Review Officer",
-  "Assistant Librarian - Barbican Library",
-  "Assistant Quality Manager / FieldView Administrator"
+  "Apprenticeship Review Officer"
  ]
 }
