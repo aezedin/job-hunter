@@ -1,0 +1,7 @@
+# Your CV and contact details never go to GitHub
+*.docx
+*.pdf
+kits/
+.env
+__pycache__/
+.venv/

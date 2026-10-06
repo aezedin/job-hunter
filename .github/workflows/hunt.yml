@@ -1,0 +1,38 @@
+name: Job hunt
+
+on:
+  schedule:
+    # Every 2 hours, 06:00-22:00 UTC (07:00-23:00 UK summer time)
+    - cron: "0 6-22/2 * * *"
+  workflow_dispatch: {}   # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency: hunt
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Search, score and notify
+        env:
+          REED_API_KEY: ${{ secrets.REED_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python -m jobhunter run
+      - name: Save results (so the same job is never alerted twice)
+        run: |
+          git config user.name "job-hunter-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.db docs/
+          git diff --cached --quiet || git commit -m "Job hunt $(date -u +%F' '%H:%M)"
+          git push

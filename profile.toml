@@ -1,0 +1,4 @@
+name = "Abdulhakim Ezedin"
+skills = ["Security+", "Troubleshooting", "Windows", "Networking", "Wireshark", "Nmap", "Python", "Ticketing", "Customer service", "Incident response", "Documentation", "GDPR", "Vulnerability assessment", "TryHackMe / HTB", "Risk"]
+# One-line pitch used at the top of cover letters
+pitch = "I am a CompTIA Security+ certified Cyber Security student (University of West London) with front-line support experience and hands-on lab work in Nmap, Wireshark and Python."

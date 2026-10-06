@@ -1,0 +1,59 @@
+# Job Hunter settings. Edit this file to change what it looks for.
+
+[search]
+location = "London"
+radius_miles = 15
+# Searches run against Reed and Adzuna (one call per term)
+search_terms = [
+  "IT support",
+  "service desk analyst",
+  "helpdesk analyst",
+  "1st line support",
+  "SOC analyst",
+  "cyber security analyst",
+  "security analyst graduate",
+  "cyber security intern",
+  "IT apprentice",
+  "junior penetration tester",
+]
+# Only keep jobs posted within this many hours
+max_age_hours = 72
+# Annual salary floor (GBP). Jobs that don't show a salary are KEPT.
+# Internships/apprenticeships are exempt from the floor.
+min_salary = 24000
+# Reed shows how many people applied. Skip jobs above this.
+max_applicants = 60
+
+[filters]
+# A job title must contain at least one of these (case-insensitive)
+title_must_include = [
+  "it support", "it technician", "service desk", "helpdesk", "help desk",
+  "desktop support", "1st line", "first line", "2nd line", "second line",
+  "technical support", "it analyst", "soc", "security analyst", "cyber",
+  "security operations", "penetration", "pen test", "infosec",
+  "information security", "it intern", "it apprentice", "security intern",
+  "it graduate", "graduate security", "vulnerability", "grc", "incident respon",
+]
+# Skip titles containing any of these
+title_exclude = [
+  "senior", "sr.", "lead", "principal", "head of", "manager", "director",
+  "architect", "staff ", "chief", "3rd line", "third line", "vp ",
+]
+# Skip if the description asks for this many years or more
+max_years_experience = 3
+
+[notify]
+# Free push notifications to your phone: install the "ntfy" app and subscribe
+# to the topic set in the NTFY_TOPIC environment variable / GitHub secret.
+min_score_to_alert = 55
+# Jobs at or above this score AND under 12h old get an urgent alert
+urgent_score = 70
+
+# Company career boards checked directly (posted by the employer, often
+# days before they reach job sites). Add more: find the company's
+# "boards.greenhouse.io/<slug>", "jobs.lever.co/<slug>" or
+# "jobs.ashbyhq.com/<slug>" link and add the slug.
+[companies]
+greenhouse = ["monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
+lever = ["palantir"]
+ashby = ["snyk", "synthesia"]
