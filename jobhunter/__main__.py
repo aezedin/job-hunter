@@ -64,6 +64,16 @@ def cmd_run(args):
         lines += [f"- {j.score}% [{j.title} – {j.company}]({j.url})" for j in new[:20]]
         with open(summary_file, "a") as fh:
             fh.write("\n".join(lines) + "\n")
+    # Saved in the repo too, so problems can be diagnosed without the Actions log
+    import json
+    from datetime import datetime, timezone
+    (ROOT / "docs").mkdir(exist_ok=True)
+    (ROOT / "docs" / "last_run.json").write_text(json.dumps({
+        "at": datetime.now(timezone.utc).isoformat(), "sources": report,
+        "found": len(found), "kept": len(kept), "new": len(new), "filtered_out": rejected,
+        "warnings": _warnings[-30:], "alerts_on": bool(topic),
+        "sample_rejected_titles": sorted({j.title for j in found if j not in kept})[:40],
+    }, indent=1))
 
     alerts = [j for j in new if j.score >= n["min_score_to_alert"]]
     for j in alerts[:8]:  # individual alerts for the best; the rest go in a digest
@@ -109,8 +119,18 @@ def cmd_profile(args):
     print(f"Saved profile.toml for {p['name']}: {', '.join(p['skills'])}")
 
 
+_warnings: list[str] = []
+
+
+class _Keep(logging.Handler):
+    def emit(self, record):
+        if record.levelno >= logging.WARNING:
+            _warnings.append(record.getMessage()[:300])
+
+
 def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    logging.getLogger().addHandler(_Keep())
     ap = argparse.ArgumentParser(prog="jobhunter")
     sub = ap.add_subparsers(required=True)
     sub.add_parser("run").set_defaults(fn=cmd_run)
