@@ -32,7 +32,8 @@ def job_alert(topic, job, urgent: bool):
     age = job.age_hours()
     lines = [f"{job.company} · {job.location}",
              f"Salary: {job.salary_text()}" + (f" · {job.applicants} applicants" if job.applicants is not None else ""),
-             (f"Posted {age:.0f}h ago · " if age is not None else "") + how,
+             (("Posted " + (f"{age:.0f}h ago" if age < 48 else f"{age / 24:.0f} days ago") + " · ")
+              if age is not None else "") + how,
              "Why: " + "; ".join(job.reasons[:3])]
     return send(topic, f"{'🔥 ' if urgent else ''}{job.score}% {job.title}", "\n".join(lines),
                 url=job.url, priority=5 if urgent else 4, tags=["briefcase"])
