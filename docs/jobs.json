@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T23:30:52.224782+00:00",
+ "updated": "2026-10-06T23:47:15.568703+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -23,32 +23,6 @@
     "link your GitHub portfolio"
    ],
    "key": "f6ae44dfff85",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5896924125",
-   "title": "Security Engineer Intern - Summer 2027",
-   "company": "DV Trading",
-   "location": "London, UK",
-   "url": "https://www.brightnetwork.co.uk/graduate-jobs/dv-trading/security-engineer-internship-london-2027-ams2",
-   "posted_at": "2026-09-24T15:02:46+00:00",
-   "description": "About Us : Founded 20 years ago and headquartered in Chicago, the DV Group of financial services firms has grown to more than 600 people operating throughout North America, Europe and Asia. Since spinning out of a large brokerage firm in 2016, DV Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers \u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "contract_type": "contract",
-   "score": 78,
-   "reasons": [
-    "rolling deadline, apply early",
-    "essentials match your CV",
-    "Python is a plus"
-   ],
-   "key": "b0212a6ebcf4",
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
@@ -295,6 +269,32 @@
    "status": "skipped",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
    "notes": "auto-hidden: no longer matches filters"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5896924125",
+   "title": "Security Engineer Intern - Summer 2027",
+   "company": "DV Trading",
+   "location": "London, UK",
+   "url": "https://www.brightnetwork.co.uk/graduate-jobs/dv-trading/security-engineer-internship-london-2027-ams2",
+   "posted_at": "2026-09-24T15:02:46+00:00",
+   "description": "About Us : Founded 20 years ago and headquartered in Chicago, the DV Group of financial services firms has grown to more than 600 people operating throughout North America, Europe and Asia. Since spinning out of a large brokerage firm in 2016, DV Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 78,
+   "reasons": [
+    "rolling deadline, apply early",
+    "essentials match your CV",
+    "Python is a plus"
+   ],
+   "key": "b0212a6ebcf4",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": "UWL not in their university list"
   },
   {
    "source": "reed",

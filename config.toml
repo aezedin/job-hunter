@@ -87,6 +87,8 @@ certs_not_held = [
 graduation_year = 2028
 # Recruiters selling paid training courses disguised as jobs - always skip
 company_exclude = [
+  # employers whose forms only accept a fixed list of universities (UWL not listed)
+  "dv trading",
   "newto training", "netcom", "itol recruit", "career change", "training",
   "academy", "itonlinelearning", "learning",
 ]
