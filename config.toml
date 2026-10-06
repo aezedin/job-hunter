@@ -2,7 +2,7 @@
 
 [search]
 location = "London"
-radius_miles = 15
+radius_miles = 8
 # Searches run against Reed and Adzuna (one call per term)
 search_terms = [
   "IT support",
