@@ -29,19 +29,42 @@ def load_cfg():
 def cmd_run(args):
     cfg, prof = load_cfg(), profile.load(ROOT / "profile.toml")
     s = cfg["search"]
+    report = []  # one line per source, shown on the GitHub run page
+
+    def source(name, needs_key, fn):
+        if needs_key is False:
+            report.append(f"| {name} | ⚠️ skipped: key missing (add it under Settings → Secrets) | 0 |")
+            return []
+        jobs = fn()
+        report.append(f"| {name} | ✅ checked | {len(jobs)} |")
+        return jobs
+
+    reed_key = os.getenv("REED_API_KEY", "")
+    az_id, az_key = os.getenv("ADZUNA_APP_ID", ""), os.getenv("ADZUNA_APP_KEY", "")
     found = []
-    found += reed.fetch(os.getenv("REED_API_KEY", ""), s["search_terms"], s["location"], s["radius_miles"])
-    found += adzuna.fetch(os.getenv("ADZUNA_APP_ID", ""), os.getenv("ADZUNA_APP_KEY", ""),
-                          s["search_terms"], s["location"], s["radius_miles"], s["max_age_hours"])
-    found += companies.fetch(cfg.get("companies", {}))
+    found += source("Reed", bool(reed_key), lambda: reed.fetch(
+        reed_key, s["search_terms"], s["location"], s["radius_miles"]))
+    found += source("Adzuna", bool(az_id and az_key), lambda: adzuna.fetch(
+        az_id, az_key, s["search_terms"], s["location"], s["radius_miles"], s["max_age_hours"]))
+    found += source("Company career pages", None, lambda: companies.fetch(cfg.get("companies", {})))
 
     kept, rejected = matcher.run(found, cfg, prof)
     store = Store(ROOT / "data" / "jobs.db")
     new = store.add_new(kept)
-    print(f"Found {len(found)} · kept {len(kept)} · NEW {len(new)} · skipped: "
-          + ", ".join(f"{v} {k}" for k, v in sorted(rejected.items(), key=lambda x: -x[1])))
+    skipped = ", ".join(f"{v} {k}" for k, v in sorted(rejected.items(), key=lambda x: -x[1])) or "none"
+    print(f"Found {len(found)} · kept {len(kept)} · NEW {len(new)} · skipped: {skipped}")
 
     topic, n = os.getenv("NTFY_TOPIC", ""), cfg["notify"]
+    summary_file = os.getenv("GITHUB_STEP_SUMMARY")
+    if summary_file:
+        lines = ["## Job hunt report", "", "| Source | Status | Jobs found |", "|---|---|---|", *report,
+                 "", f"**{len(found)}** found → **{len(kept)}** fit your filters → **{len(new)}** new",
+                 "", f"Filtered out: {skipped}",
+                 "", "Phone alerts: " + ("✅ on" if topic else "⚠️ off (add NTFY_TOPIC secret)"), ""]
+        lines += [f"- {j.score}% [{j.title} – {j.company}]({j.url})" for j in new[:20]]
+        with open(summary_file, "a") as fh:
+            fh.write("\n".join(lines) + "\n")
+
     alerts = [j for j in new if j.score >= n["min_score_to_alert"]]
     for j in alerts[:8]:  # individual alerts for the best; the rest go in a digest
         age = j.age_hours()
