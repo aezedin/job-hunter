@@ -1,31 +1,6 @@
 {
- "updated": "2026-10-06T22:57:34.093852+00:00",
+ "updated": "2026-10-06T22:58:57.656915+00:00",
  "jobs": [
-  {
-   "source": "reed",
-   "source_id": "57422373",
-   "title": "1st Line Technicians",
-   "company": "Lloyd Recruitment Services Ltd",
-   "location": "Redhill",
-   "url": "https://www.reed.co.uk/jobs/1st-line-technicians/57422373",
-   "posted_at": "2026-10-05T12:00:00+00:00",
-   "description": "Worked in 1st Line IT support for a year or two and feeling ready for the next step? This could be exactly what you're looking for. We're looking for three 1st Line Technicians who want more than just another support desk job. Whether you're currently working in an MSP or have gained your experience in an internal IT team, this is an opportunity to join a company that genuinely invests in its people and promotes from within. Important: Applicant... ",
-   "salary_min": 28000.0,
-   "salary_max": 30000.0,
-   "applicants": 16,
-   "apply_type": "quick",
-   "score": 61,
-   "reasons": [
-    "core target role",
-    "entry-level",
-    "16 applicants"
-   ],
-   "key": "90b479a27776",
-   "salary_text": "\u00a328,000\u2013\u00a330,000",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
-   "notes": ""
-  },
   {
    "source": "reed",
    "source_id": "57422373",
@@ -70,85 +45,10 @@
     "entry-level",
     "skills: Customer service, Troubleshooting, Windows"
    ],
-   "key": "8ba070d45d61",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5911416150",
-   "title": "1st Line Support / Desktop Support (W11, M365)",
-   "company": "MS Talent Ltd",
-   "location": "Fitzrovia, West London",
-   "url": "https://www.adzuna.co.uk/jobs/details/5911416150?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-04T12:06:51+00:00",
-   "description": "Salary: \u00a3? - ? per year Requirements: Experience providing Windows 10 and Windows 11 desktop support Experience supporting Microsoft 365 and Office 365 Experience providing hands-on, face-to-face support to end users Ability to troubleshoot user access, authentication, and general desktop issues Full driving licence and access to your own vehicle Comfortable travelling between multiple locations Responsibilities: Provide desktop support to users working with Windows 10 and Windows 11 Troublesho\u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "score": 60,
-   "reasons": [
-    "core target role",
-    "entry-level",
-    "skills: Customer service, Troubleshooting, Windows"
-   ],
    "key": "55b260f7634b",
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
-   "notes": ""
-  },
-  {
-   "source": "reed",
-   "source_id": "57428458",
-   "title": "IT Support Technician",
-   "company": "Rise Technical Recruitment Limited",
-   "location": "Staines-upon-Thames",
-   "url": "https://www.reed.co.uk/jobs/it-support-technician/57428458",
-   "posted_at": "2026-10-06T12:00:00+00:00",
-   "description": "IT Support Technician Staines, commutable from: Windsor, Slough, Hayes, Hounslow, Feltham, Sunbury-on-Thames, Ashford, Chertsey, Weybridge, Sunningdale, Stanwell, Woking, West Byfleet, Walton-on-Thames &amp; all surrounding areas 30,000 - 33,000 + Training + Career Progression + Pension + Excellent Company Benefits Are you an IT Support Technician, looking to take the next step in your career within an established and growing engineering organis... ",
-   "salary_min": 30000.0,
-   "salary_max": 33000.0,
-   "applicants": 22,
-   "apply_type": "quick",
-   "score": 56,
-   "reasons": [
-    "core target role",
-    "posted today",
-    "22 applicants"
-   ],
-   "key": "115eac0daac6",
-   "salary_text": "\u00a330,000\u2013\u00a333,000",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
-   "notes": ""
-  },
-  {
-   "source": "reed",
-   "source_id": "57421522",
-   "title": "Cyber Security Analyst",
-   "company": "VIQU IT Recruitment",
-   "location": "London",
-   "url": "https://www.reed.co.uk/jobs/cyber-security-analyst/57421522",
-   "posted_at": "2026-10-05T12:00:00+00:00",
-   "description": "Cyber Security Analyst \u2013 2-month contract \u2013 Remote/London \u2013 Inside of IR35 My Client is looking for a Cyber Security Analyst to support day-to-day BAU security operations, with a primary focus on Rapid7, SIEM monitoring, vulnerability management and security investigations . They have quite a few backlog of alerts, so they are looking for someone with strong SIEM, vulnerability and investigation skills. Key Skills &amp; Experience from the Cyber... ",
-   "salary_min": 350.0,
-   "salary_max": 400.0,
-   "applicants": 24,
-   "apply_type": "quick",
-   "score": 56,
-   "reasons": [
-    "core target role",
-    "skills: Vulnerability assessment",
-    "24 applicants"
-   ],
-   "key": "429d14dfaef3",
-   "salary_text": "\u00a3350\u2013\u00a3400",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
    "notes": ""
   },
   {
@@ -219,58 +119,10 @@
     "core target role",
     "skills: Customer service, Troubleshooting, Windows"
    ],
-   "key": "ea6841dda1c2",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5911416282",
-   "title": "VIP Desktop Support Engineer",
-   "company": "ECS Resource Group Ltd",
-   "location": "Camberwell, South East London",
-   "url": "https://www.adzuna.co.uk/jobs/details/5911416282?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-04T12:06:52+00:00",
-   "description": "Salary: \u00a3? - ? per year Requirements: Proven experience in VIP support, Executive Support, Service Desk, or a similar role Experience working in financial services, ideally within the past three years Experience providing VIP or white-glove support, ideally in front-office or trading-floor environments Strong troubleshooting and analytical skills, with the ability to work under pressure Excellent communication and customer service skills Familiarity with Windows 10/11, Microsoft 365, Outlook/Ex\u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "score": 50,
-   "reasons": [
-    "core target role",
-    "skills: Customer service, Troubleshooting, Windows"
-   ],
    "key": "55da9bea7c09",
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5913461790",
-   "title": "IT Support & Project Coordinator",
-   "company": "The Opportunity Hub UK",
-   "location": "London, UK",
-   "url": "https://www.adzuna.co.uk/jobs/details/5913461790?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-06T06:44:09+00:00",
-   "description": "This is an exciting opportunity for an experienced IT Support & Project Coordinator to join a forward-thinking technology-driven business that prides itself on delivering innovativeThis is an exciting opportunity for an experienced IT Support & Project Coordinator to join a forward-thinking technology-driven business that prides itself on delivering innovative solutions to a diverse client base.Company Overview:A leading technology company based in Stratford, London, specialises in providing be\u2026",
-   "salary_min": 30000,
-   "salary_max": 35000,
-   "applicants": null,
-   "apply_type": "company-site",
-   "score": 45,
-   "reasons": [
-    "core target role",
-    "posted today"
-   ],
-   "key": "52fa68f8387a",
-   "salary_text": "\u00a330,000\u2013\u00a335,000",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
    "notes": ""
   },
   {
@@ -319,29 +171,6 @@
    "salary_text": "\u00a330,000\u2013\u00a340,000",
    "status": "new",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5912530215",
-   "title": "Desktop Support Engineer",
-   "company": "Robert Half Limited",
-   "location": "London, UK",
-   "url": "https://www.adzuna.co.uk/jobs/details/5912530215?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-05T14:30:11+00:00",
-   "description": "Robert Half has partnered with a growing, high-performing technology organisation looking to add an additional Desktop Support Engineer to the team in London. They are looking for the Desktop Support Engineer to deliver critical IT support within a fast-paced, client-focused environment. This is an on-site role in Central London, with occasional travel to other locations. You'll provide hands-on support, act as a technical escalation point, and ensure a high-quality, responsive service across a\u2026",
-   "salary_min": 45000,
-   "salary_max": 45000,
-   "applicants": null,
-   "apply_type": "company-site",
-   "score": 40,
-   "reasons": [
-    "core target role"
-   ],
-   "key": "b084728dc378",
-   "salary_text": "\u00a345,000",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
    "notes": ""
   },
   {
@@ -480,29 +309,6 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5911414087",
-   "title": "Technical Support Engineer",
-   "company": "Complete Security Recruitment",
-   "location": "Victoria, South West London",
-   "url": "https://www.adzuna.co.uk/jobs/details/5911414087?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-04T12:06:29+00:00",
-   "description": "Salary: \u00a330,000 - 40,000 per year Requirements: Good understanding of IP networking, switches, firewalls, routers, and VPNs. IT support or helpdesk experience. Experience with patching, system upgrades, and remote access support. Strong communication skills and a self-driven approach. Experience with FAT testing. Familiarity with SQL or database technologies. Experience integrating platforms and systems. Active certifications in relevant security, IT, or networking areas. Self-motivated and pro\u2026",
-   "salary_min": 30000,
-   "salary_max": 40000,
-   "applicants": null,
-   "apply_type": "company-site",
-   "score": 25,
-   "reasons": [
-    "skills: Networking"
-   ],
-   "key": "8680d52af5dd",
-   "salary_text": "\u00a330,000\u2013\u00a340,000",
-   "status": "new",
-   "first_seen": "2026-10-06T22:57:33.820397+00:00",
    "notes": ""
   },
   {

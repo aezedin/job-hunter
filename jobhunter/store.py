@@ -29,7 +29,10 @@ class Store:
         """Insert jobs not seen before; return only the new ones."""
         new = []
         now = datetime.now(timezone.utc).isoformat()
+        seen_urls = {json.loads(r[0]).get("url") for r in self.db.execute("SELECT data FROM jobs")}
         for j in jobs:
+            if j.url in seen_urls:  # same advert saved before (maybe under an older id)
+                continue
             cur = self.db.execute(
                 "INSERT OR IGNORE INTO jobs(key, first_seen, data) VALUES (?,?,?)",
                 (j.key, now, json.dumps(j.to_dict())))
