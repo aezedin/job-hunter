@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T23:21:09.991941+00:00",
+ "updated": "2026-10-06T23:22:29.051108+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -22,31 +22,6 @@
     "skills: Risk"
    ],
    "key": "b0212a6ebcf4",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5895227043",
-   "title": "Information Security Intern \u2013 Governance, Risk & Compliance (GRC)",
-   "company": "Chanel",
-   "location": "London, UK",
-   "url": "https://www.adzuna.co.uk/jobs/details/5895227043?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-09-23T14:41:41+00:00",
-   "description": "Department: GISEC Duration: 1 year - Full-time (ideally from October 2026) Location: London Your role @ Chanel The role holder will be required to work within the Global InfoSec GRC team and collaborate across the other GISEC pillars i.e. GISEC Resilience, GISEC Response, GISEC Advisory & Awareness to support the 3rd party security scorecard monitoring, and risk analytics workstreams. The impact you can create at Chanel Support the Cyber security training and awareness initiatives across the or\u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "contract_type": "contract",
-   "score": 45,
-   "reasons": [
-    "cyber security internship",
-    "skills: Risk"
-   ],
-   "key": "71317276022e",
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
@@ -96,55 +71,6 @@
     "summer dates"
    ],
    "key": "f6ae44dfff85",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5888299456",
-   "title": "2027 Summer Technology Internship Programme - Man Group plc",
-   "company": "Man Group plc",
-   "location": "London, UK",
-   "url": "https://www.adzuna.co.uk/jobs/details/5888299456?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-09-17T23:58:05+00:00",
-   "description": "About Man Group Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manager investment strategies are underpinned by deep research and span public and private markets, across all major asset classes, with a significant focus on alternatives. Man Group takes a partnership approach to working with clients, \u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "contract_type": "contract",
-   "score": 40,
-   "reasons": [
-    "IT/tech internship",
-    "summer dates"
-   ],
-   "key": "67052907e884",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
-   "notes": ""
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5907658527",
-   "title": "IT Intern",
-   "company": "WEP Clinical",
-   "location": "Chiswick, West London",
-   "url": "https://www.adzuna.co.uk/jobs/details/5907658527?utm_medium=api&utm_source=d11271dd",
-   "posted_at": "2026-10-02T09:10:48+00:00",
-   "description": "Kickstart your career with WEP Clinical, a global specialist Contract Research Organization (CRO) dedicated to keeping the patient at the center of everything we do. We partner with Sponsors to deliver drug development, treatment access, and commercialization solutions, helping patients worldwide gain access to life-changing therapies. Role Objectives: The IT Intern \u2013 Data, Automation & Solutions will support the Information Technology function by partnering with cross-functional departments to\u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "contract_type": "contract",
-   "score": 30,
-   "reasons": [
-    "IT/tech internship"
-   ],
-   "key": "be4e7602e286",
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
@@ -820,6 +746,31 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5895227043",
+   "title": "Information Security Intern \u2013 Governance, Risk & Compliance (GRC)",
+   "company": "Chanel",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5895227043?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-09-23T14:41:41+00:00",
+   "description": "Department: GISEC Duration: 1 year - Full-time (ideally from October 2026) Location: London Your role @ Chanel The role holder will be required to work within the Global InfoSec GRC team and collaborate across the other GISEC pillars i.e. GISEC Resilience, GISEC Response, GISEC Advisory & Awareness to support the 3rd party security scorecard monitoring, and risk analytics workstreams. The impact you can create at Chanel Support the Cyber security training and awareness initiatives across the or\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 45,
+   "reasons": [
+    "cyber security internship",
+    "skills: Risk"
+   ],
+   "key": "71317276022e",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": "1-year internship from Oct 2026, not summer"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5913461790",
    "title": "IT Support & Project Coordinator",
    "company": "The Opportunity Hub UK",
@@ -916,6 +867,31 @@
    "status": "skipped",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
    "notes": "auto-hidden: no longer matches filters"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5888299456",
+   "title": "2027 Summer Technology Internship Programme - Man Group plc",
+   "company": "Man Group plc",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5888299456?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-09-17T23:58:05+00:00",
+   "description": "About Man Group Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manager investment strategies are underpinned by deep research and span public and private markets, across all major asset classes, with a significant focus on alternatives. Man Group takes a partnership approach to working with clients, \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "summer dates"
+   ],
+   "key": "67052907e884",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": "duplicate of Man Group listing"
   },
   {
    "source": "adzuna",
@@ -1255,6 +1231,30 @@
    "status": "skipped",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
    "notes": "auto-hidden: no longer matches filters"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5907658527",
+   "title": "IT Intern",
+   "company": "WEP Clinical",
+   "location": "Chiswick, West London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5907658527?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-02T09:10:48+00:00",
+   "description": "Kickstart your career with WEP Clinical, a global specialist Contract Research Organization (CRO) dedicated to keeping the patient at the center of everything we do. We partner with Sponsors to deliver drug development, treatment access, and commercialization solutions, helping patients worldwide gain access to life-changing therapies. Role Objectives: The IT Intern \u2013 Data, Automation & Solutions will support the Information Technology function by partnering with cross-functional departments to\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 30,
+   "reasons": [
+    "IT/tech internship"
+   ],
+   "key": "be4e7602e286",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": "needs SQL/data analysis, not on CV"
   },
   {
    "source": "adzuna",

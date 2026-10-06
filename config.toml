@@ -72,7 +72,8 @@ reject_phrases = [
   "industry experience", "prior experience in", "experience working in a",
   "sc clearance", "dv clearance", "security clearance", "eligible for sc",
   "unpaid", "voluntary role", "expenses only",
-  "year in industry", "12-month placement", "12 month placement",
+  "year in industry", "12-month placement", "12 month placement", "12 months",
+  "1 year - full-time", "one year internship", "1-year internship",
   "industrial placement", "sandwich",
   "final year students", "final-year students",
 ]
