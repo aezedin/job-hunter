@@ -16,6 +16,16 @@ search_terms = [
   "IT apprentice",
   "junior penetration tester",
 ]
+# Adzuna's free plan allows 250 calls/day, 1,000/week, 2,500/month.
+# 6 terms x 9 runs a day = 54/day, ~380/week, ~1,650/month - safely under.
+adzuna_terms = [
+  "IT support",
+  "service desk",
+  "1st line support",
+  "SOC analyst",
+  "cyber security",
+  "IT apprentice",
+]
 # Only keep jobs posted within this many hours
 max_age_hours = 72
 # Annual salary floor (GBP). Jobs that don't show a salary are KEPT.

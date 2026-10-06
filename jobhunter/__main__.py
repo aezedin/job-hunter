@@ -45,7 +45,7 @@ def cmd_run(args):
     found += source("Reed", bool(reed_key), lambda: reed.fetch(
         reed_key, s["search_terms"], s["location"], s["radius_miles"]))
     found += source("Adzuna", bool(az_id and az_key), lambda: adzuna.fetch(
-        az_id, az_key, s["search_terms"], s["location"], s["radius_miles"], s["max_age_hours"]))
+        az_id, az_key, s.get("adzuna_terms", s["search_terms"]), s["location"], s["radius_miles"], s["max_age_hours"]))
     found += source("Company career pages", None, lambda: companies.fetch(cfg.get("companies", {})))
 
     kept, rejected = matcher.run(found, cfg, prof)
