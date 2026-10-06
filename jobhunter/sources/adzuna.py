@@ -36,6 +36,7 @@ def fetch(app_id: str, app_key: str, terms: list[str], location: str,
                 salary_min=None if predicted else r.get("salary_min"),
                 salary_max=None if predicted else r.get("salary_max"),
                 apply_type="company-site",
+                contract_type=r.get("contract_type") or "",
             ))
     log.info("adzuna: %d results", len(jobs))
     return jobs

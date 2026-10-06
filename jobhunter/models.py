@@ -20,6 +20,7 @@ class Job:
     salary_max: float | None = None
     applicants: int | None = None
     apply_type: str = "unknown"   # quick / short-form / company-site / unknown
+    contract_type: str = ""       # permanent / contract / temporary (when known)
     # filled in later
     score: int = 0
     reasons: list[str] = field(default_factory=list)

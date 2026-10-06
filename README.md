@@ -1,6 +1,6 @@
 # Job Hunter
 
-Finds **fresh** London IT support and cyber security jobs that match my CV, scores them, and sends a push notification to my phone, usually within about 2 hours of a job going live.
+Finds **paid summer internships** in IT and cyber security in London that fit my CV and uni calendar, scores them, and sends a push notification to my phone, usually within about 2 hours of an advert going live.
 
 Built because job-site alert emails arrive late, after 100+ people have already applied.
 
@@ -9,7 +9,7 @@ Built because job-site alert emails arrive late, after 100+ people have already 
 | Step | How |
 |---|---|
 | Find jobs | Reed API, Adzuna API (aggregates most UK boards), and employers' own career boards (Greenhouse, Lever, Ashby) |
-| Filter | London only, posted in the last 72h, not senior, asks for less than 3 years' experience, at least £24k (jobs with no listed salary and internships are kept), at most 60 applicants (Reed reports this) |
+| Filter | London only; title must be an internship/summer programme in IT or cyber; rejects permanent roles, year-long placements, unpaid roles, adverts asking for experience or certifications not on my CV, and internships for other graduation years. Reed adverts are checked in full, not just the preview |
 | Score 0–100 | Target role, entry-level wording, overlap with CV skills, how fresh it is, how few applicants, how easy it is to apply |
 | Notify | Push alert through [ntfy](https://ntfy.sh). Jobs scoring 70+ that are under 12h old get an urgent alert |
 | Track | SQLite database plus a dashboard page on GitHub Pages: new, interested, applied, interview, offer |

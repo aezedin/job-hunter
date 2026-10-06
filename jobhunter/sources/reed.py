@@ -49,3 +49,21 @@ def fetch(api_key: str, terms: list[str], location: str, radius: int) -> list[Jo
             ))
     log.info("reed: %d results", len(jobs))
     return jobs
+
+
+def enrich(api_key: str, jobs: list[Job]) -> None:
+    """Search results only include the first ~450 characters of an advert.
+    Fetch the full advert (and contract type) for the few that pass the
+    title filters, so requirements hidden lower down are caught."""
+    from . import strip_html
+    for j in jobs:
+        try:
+            d = get_json(f"https://www.reed.co.uk/api/1.0/jobs/{j.source_id}", auth=(api_key, ""))
+        except Exception as e:  # noqa: BLE001
+            log.warning("reed details %s failed: %s", j.source_id, e)
+            continue
+        full = d.get("jobDescription") or d.get("JobDescription") or ""
+        if full:
+            j.description = strip_html(full)
+        j.contract_type = (d.get("contractType") or d.get("ContractType") or j.contract_type or "").lower()
+

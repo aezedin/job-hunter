@@ -11,6 +11,7 @@ def linkedin(term: str, hours: int = 24, easy_apply_only: bool = False) -> str:
     q = {"keywords": term, "location": "London, England, United Kingdom",
          "f_TPR": f"r{hours * 3600}",  # posted within N seconds
          "f_E": "1,2",                  # internship, entry level
+         "f_JT": "I",                   # job type: internship
          "sortBy": "DD"}                # newest first
     if easy_apply_only:
         q["f_AL"] = "true"

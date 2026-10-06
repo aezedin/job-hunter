@@ -1,77 +1,96 @@
 # Job Hunter settings. Edit this file to change what it looks for.
+#
+# Goal: PAID SUMMER INTERNSHIPS (fits the uni calendar) in IT / cyber security,
+# in London. No permanent jobs, nothing asking for experience or
+# qualifications that aren't on my CV.
 
 [search]
 location = "London"
 radius_miles = 8
-# Searches run against Reed and Adzuna (one call per term)
+# Searches run against Reed (one call per term)
 search_terms = [
-  "IT support",
-  "service desk analyst",
-  "helpdesk analyst",
-  "1st line support",
-  "SOC analyst",
-  "cyber security analyst",
-  "security analyst graduate",
-  "cyber security intern",
-  "IT apprentice",
-  "junior penetration tester",
+  "cyber security internship",
+  "IT internship",
+  "technology internship",
+  "summer internship",
+  "security internship",
+  "technology summer placement",
+  "IT support intern",
+  "SOC intern",
 ]
 # Adzuna's free plan allows 250 calls/day, 1,000/week, 2,500/month.
 # 6 terms x 9 runs a day = 54/day, ~380/week, ~1,650/month - safely under.
 adzuna_terms = [
-  "IT support",
-  "service desk",
-  "1st line support",
-  "SOC analyst",
-  "cyber security",
-  "IT apprentice",
+  "cyber security internship",
+  "IT internship",
+  "technology internship",
+  "summer internship",
+  "security intern",
+  "technology placement",
 ]
-# Only keep jobs posted within this many hours
-max_age_hours = 72
-# Annual salary floor (GBP). Jobs that don't show a salary are KEPT.
-# Internships/apprenticeships are exempt from the floor.
-min_salary = 24000
-# Reed shows how many people applied. Skip jobs above this.
-max_applicants = 60
+# Internships stay open for weeks, so look back further than for normal jobs.
+# You still only get one alert per advert.
+max_age_hours = 1440   # 60 days
+min_salary = 0         # internships are often listed pro-rata or "competitive"
+# Reed shows how many people applied. Skip very crowded adverts.
+max_applicants = 150
 
 [filters]
-# A job title must contain at least one of these (case-insensitive)
-title_must_include = [
-  "it support", "it technician", "service desk", "helpdesk", "help desk",
-  "desktop support", "1st line", "first line", "2nd line", "second line",
-  "technical support", "it analyst", "soc", "security analyst", "cyber",
-  "security operations", "penetration", "pen test", "infosec",
-  "information security", "it intern", "it apprentice", "security intern",
-  "it graduate", "graduate security", "vulnerability", "grc", "incident respon",
+# The TITLE must say it's an internship / summer programme
+title_must_include = ["intern", "internship", "summer", "insight"]
+# ...and the title or advert must be about IT / tech / cyber
+field_must_include = [
+  "cyber", "security", "it support", "it intern", "it summer", "it placement",
+  "information technology", "technology",
+  "tech", "infrastructure", "network", "soc", "digital", "service desk", "helpdesk",
+  "cloud", "systems",
 ]
-# Skip titles containing any of these
+# Skip titles containing any of these (wrong level, wrong field, not summer)
 title_exclude = [
-  "senior", "sr.", "lead", "principal", "head of", "manager", "director",
-  "architect", "staff", "chief", "3rd line", "third line", "vp",
-  "consultant", "specialist", "japanese", "german", "french", "mandarin",
+  "senior", "lead", "principal", "head of", "manager", "director", "architect",
+  "consultant", "specialist", "permanent", "graduate scheme", "graduate programme",
+  "year in industry", "industrial placement", "12 month", "12-month", "sandwich",
+  "marketing", "sales", "finance", "accounting", "audit", "tax", "legal", "law",
+  "hr", "human resources", "people", "recruitment", "design", "actuarial",
+  "investment banking", "trading", "markets", "japanese", "german", "french",
+  "mandarin", "phd", "masters", "msc",
 ]
+# Contract types to reject (Reed/Adzuna report these)
+reject_contract_types = ["permanent"]
+# Advert text that means it doesn't suit you - checked on the FULL advert
+reject_phrases = [
+  "proven experience", "previous experience in", "commercial experience",
+  "industry experience", "prior experience in", "experience working in a",
+  "sc clearance", "dv clearance", "security clearance", "eligible for sc",
+  "unpaid", "voluntary role", "expenses only",
+  "year in industry", "12-month placement", "12 month placement",
+  "industrial placement", "sandwich",
+  "final year students", "final-year students",
+]
+# Qualifications that aren't on your CV: reject if the advert says they're
+# required (mentioned near "required", "essential" or "must")
+certs_not_held = [
+  "cissp", "cism", "cisa", "ccna", "ccnp", "oscp", "ceh", "sc-200", "sc-900",
+  "az-900", "az-500", "ms-900", "itil", "a+", "network+", "cysa+", "pentest+",
+]
+# You graduate in 2028 - reject internships for other graduation years
+graduation_year = 2028
 # Recruiters selling paid training courses disguised as jobs - always skip
 company_exclude = [
   "newto training", "netcom", "itol recruit", "career change", "training",
   "academy", "itonlinelearning", "learning",
 ]
-# Very high pay means it isn't really entry level (or it's a day rate
-# that Adzuna turned into a yearly figure)
-max_salary_min = 50000
-# Skip if the description asks for this many years or more
-max_years_experience = 3
+max_years_experience = 1
 
 [notify]
-# Free push notifications to your phone: install the "ntfy" app and subscribe
-# to the topic set in the NTFY_TOPIC environment variable / GitHub secret.
-min_score_to_alert = 55
+# Free push notifications to your phone via the ntfy app (topic = NTFY_TOPIC secret)
+min_score_to_alert = 50
 # Jobs at or above this score AND under 12h old get an urgent alert
 urgent_score = 70
 
-# Company career boards checked directly (posted by the employer, often
-# days before they reach job sites). Add more: find the company's
-# "boards.greenhouse.io/<slug>", "jobs.lever.co/<slug>" or
-# "jobs.ashbyhq.com/<slug>" link and add the slug.
+# Company career boards checked directly (posted by the employer).
+# Add more: find the company's "boards.greenhouse.io/<slug>",
+# "jobs.lever.co/<slug>" or "jobs.ashbyhq.com/<slug>" link and add the slug.
 [companies]
 greenhouse = ["monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
 lever = ["palantir"]

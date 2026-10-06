@@ -50,6 +50,10 @@ def cmd_run(args):
         az_id, az_key, s.get("adzuna_terms", s["search_terms"]), s["location"], s["radius_miles"], s["max_age_hours"]))
     found += source("Company career pages", None, lambda: companies.fetch(cfg.get("companies", {})))
 
+    # Pass 1: cheap title checks, then fetch full Reed adverts for what's left
+    candidates = [j for j in found if not matcher.title_reason(j, cfg)]
+    if reed_key:
+        reed.enrich(reed_key, [j for j in candidates if j.source == "reed"])
     kept, rejected = matcher.run(found, cfg, prof)
     store = Store(ROOT / "data" / "jobs.db")
     now = datetime.now(timezone.utc)
