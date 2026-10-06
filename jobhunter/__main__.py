@@ -125,7 +125,8 @@ _warnings: list[str] = []
 class _Keep(logging.Handler):
     def emit(self, record):
         if record.levelno >= logging.WARNING:
-            _warnings.append(record.getMessage()[:300])
+            import re  # never save API keys: drop query strings from URLs
+            _warnings.append(re.sub(r"\?\S*", "?…", record.getMessage())[:300])
 
 
 def main():
