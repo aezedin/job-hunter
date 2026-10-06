@@ -38,6 +38,12 @@ max_applicants = 150
 [filters]
 # The TITLE must say it's an internship / summer programme
 title_must_include = ["intern", "internship", "summer", "insight"]
+# ...the TITLE must also name an IT / cyber field
+title_field_must_include = [
+  "cyber", "security", "infosec", "soc", "grc", "it", "information technology",
+  "technology", "tech", "infrastructure", "network", "service desk", "helpdesk",
+  "cloud", "digital",
+]
 # ...and the title or advert must be about IT / tech / cyber
 field_must_include = [
   "cyber", "security", "it support", "it intern", "it summer", "it placement",
@@ -54,6 +60,9 @@ title_exclude = [
   "hr", "human resources", "people", "recruitment", "design", "actuarial",
   "investment banking", "trading", "markets", "japanese", "german", "french",
   "mandarin", "phd", "masters", "msc",
+  "investment", "investor", "treasury", "banking", "consulting", "research",
+  "software", "developer", "data science", "machine learning", "quant",
+  "account representative", "operations engineering", "analyst, software",
 ]
 # Contract types to reject (Reed/Adzuna report these)
 reject_contract_types = ["permanent"]

@@ -37,6 +37,8 @@ def title_reason(job: Job, cfg: dict) -> str | None:
         return "not an internship"
     if has(title, f["title_exclude"]):
         return "wrong level or field"
+    if f.get("title_field_must_include") and not has(title, f["title_field_must_include"]):
+        return "not IT or cyber"
     if any(w in (job.company or "").lower() for w in f.get("company_exclude", [])):
         return "training-course advert"
     return None
