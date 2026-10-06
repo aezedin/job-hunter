@@ -1,20 +1,17 @@
 {
- "at": "2026-10-06T23:19:45.160013+00:00",
+ "at": "2026-10-06T23:21:09.987790+00:00",
  "sources": [
   "| Reed | \u2705 checked | 212 |",
   "| Adzuna | \u2705 checked | 201 |",
   "| Company career pages | \u2705 checked | 265 |"
  ],
  "found": 678,
- "kept": 26,
- "new": 26,
+ "kept": 6,
+ "new": 0,
  "filtered_out": {
   "not an internship": 341,
-  "permanent role": 3,
-  "not IT or cyber": 25,
-  "wrong level or field": 37,
-  "for students graduating": 1,
-  "too old": 4
+  "not IT or cyber": 24,
+  "wrong level or field": 66
  },
  "warnings": [],
  "alerts_on": true,
@@ -34,6 +31,8 @@
   "2027 Public Markets Equities Internship Programme",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London - PIMCO",
+  "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
+  "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Internship (London)",
   "2027 Summer Internship - Corporate Banking",
   "2027 Summer Internship - Debt Capital Markets",
@@ -51,13 +50,11 @@
   "Account Representative Intern, Early Career - 2027",
   "Administrative Business Partner",
   "Allocator",
+  "Alpha FMC | Insurance Consulting Summer Internship",
   "Analytics Engineering Manager",
   "Anaplan Support Analyst",
   "Android Engineer",
   "Apprentice FCO",
-  "Area Partner Marketing Manager, UKI (FTC), AWS Partner Marketing",
-  "Associate Consultant Summer Internship 2027 (London Office)",
-  "Associate Data Scientist - Intern",
-  "Associate Software Engineer - Intern"
+  "Area Partner Marketing Manager, UKI (FTC), AWS Partner Marketing"
  ]
 }
