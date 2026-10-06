@@ -95,6 +95,26 @@ def cmd_run(args):
     dashboard.build(store.all(), s["search_terms"], ROOT / "docs")
 
 
+def cmd_summary(args):
+    """Send one alert per internship you haven't dealt with yet (status 'new' or
+    'interested'), best first - a clean list for your phone."""
+    from .models import Job
+    from .sources import parse_iso
+    topic = os.getenv("NTFY_TOPIC", "")
+    rows = [r for r in Store(ROOT / "data" / "jobs.db").all() if r["status"] in ("new", "interested")]
+    rows.sort(key=lambda r: r.get("score", 0))  # lowest first, so the best ends up on top
+    notify.send(topic, f"✅ Updated list: {len(rows)} summer internships that fit you",
+                "Older alerts from the first test runs can be cleared. Only these match your rules "
+                "(paid summer internship, London, IT/cyber, nothing you lack).",
+                url=os.getenv("DASHBOARD_URL"), priority=3, tags=["white_check_mark"])
+    fields = Job.__dataclass_fields__
+    for r in rows:
+        kw = {k: v for k, v in r.items() if k in fields}
+        kw["posted_at"] = parse_iso(r.get("posted_at"))
+        notify.job_alert(topic, Job(**kw), urgent=False)
+    print(f"Sent summary of {len(rows)} jobs")
+
+
 def cmd_list(args):
     for r in Store(ROOT / "data" / "jobs.db").all(args.status):
         print(f"{r['score']:>3}% {r['key'][:6]} [{r['status']:<10}] {r['title']} – {r['company']}  {r['url']}")
@@ -148,6 +168,7 @@ def main():
     p.add_argument("--notes"); p.set_defaults(fn=cmd_status)
     p = sub.add_parser("kit"); p.add_argument("id"); p.set_defaults(fn=cmd_kit)
     sub.add_parser("links").set_defaults(fn=cmd_links)
+    sub.add_parser("summary").set_defaults(fn=cmd_summary)
     p = sub.add_parser("profile"); p.add_argument("cv"); p.set_defaults(fn=cmd_profile)
     args = ap.parse_args()
     args.fn(args)

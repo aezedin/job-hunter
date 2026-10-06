@@ -4,7 +4,12 @@ on:
   schedule:
     # Every 2 hours, 06:00-22:00 UTC (07:00-23:00 UK summer time)
     - cron: "0 6-22/2 * * *"
-  workflow_dispatch: {}   # "Run workflow" button for a manual run
+  workflow_dispatch:      # "Run workflow" button for a manual run
+    inputs:
+      summary:
+        description: "Also send a clean list of current matches to my phone"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,7 +33,9 @@ jobs:
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
-        run: python -m jobhunter run
+        run: |
+          python -m jobhunter run
+          if [ "${{ inputs.summary }}" = "true" ]; then python -m jobhunter summary; fi
       - name: Save results (so the same job is never alerted twice)
         run: |
           git config user.name "job-hunter-bot"
