@@ -8,6 +8,9 @@ import requests
 log = logging.getLogger("jobhunter")
 
 
+RADAR_URL = ""  # set from config.toml [notify] radar_url
+
+
 def send(topic: str, title: str, message: str, url: str | None = None,
          priority: int = 3, tags: list[str] | None = None, server: str = "https://ntfy.sh"):
     if not topic:
@@ -15,9 +18,14 @@ def send(topic: str, title: str, message: str, url: str | None = None,
         return False
     payload = {"topic": topic, "title": title, "message": message,
                "priority": priority, "tags": tags or []}
+    actions = []
     if url:
         payload["click"] = url
-        payload["actions"] = [{"action": "view", "label": "Open job", "url": url}]
+        actions.append({"action": "view", "label": "Open advert", "url": url})
+    if RADAR_URL:
+        actions.append({"action": "view", "label": "Job Radar", "url": RADAR_URL})
+    if actions:
+        payload["actions"] = actions
     try:
         requests.post(server, json=payload, timeout=15).raise_for_status()
         return True

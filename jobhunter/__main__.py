@@ -25,7 +25,9 @@ log = logging.getLogger("jobhunter")
 
 
 def load_cfg():
-    return tomllib.loads((ROOT / "config.toml").read_text())
+    cfg = tomllib.loads((ROOT / "config.toml").read_text())
+    notify.RADAR_URL = cfg.get("notify", {}).get("radar_url", "")
+    return cfg
 
 
 def cmd_run(args):

@@ -96,6 +96,8 @@ company_exclude = [
 max_years_experience = 1
 
 [notify]
+# Every phone alert gets a "Job Radar" button that opens your tracker (only you can open it)
+radar_url = "https://claude.ai/artifact/3t3NcYotmTLL1eYEbnfP5H"
 # Free push notifications to your phone via the ntfy app (topic = NTFY_TOPIC secret)
 min_score_to_alert = 50
 # Jobs at or above this score AND under 12h old get an urgent alert
