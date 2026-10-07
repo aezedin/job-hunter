@@ -1,22 +1,26 @@
 {
- "at": "2026-10-06T23:30:52.221241+00:00",
+ "at": "2026-10-07T00:36:40.320635+00:00",
  "sources": [
   "| Reed | \u2705 checked | 212 |",
   "| Adzuna | \u2705 checked | 201 |",
-  "| Company career pages | \u2705 checked | 265 |"
+  "| Jooble | \u2705 checked | 300 |",
+  "| Company career pages | \u2705 checked | 291 |"
  ],
- "found": 678,
- "kept": 5,
+ "found": 1004,
+ "kept": 4,
  "new": 0,
  "filtered_out": {
-  "not an internship": 341,
-  "not IT or cyber": 24,
-  "wrong level or field": 66,
+  "not an internship": 541,
+  "not IT or cyber": 26,
+  "wrong level or field": 67,
+  "training-course advert": 1,
   "advert says": 1
  },
  "warnings": [],
  "alerts_on": true,
  "sample_rejected_titles": [
+  " Investment Risk 2027 Summer Internship",
+  " Senior Technical Support Engineer ",
   "2027 Actuarial Summer Internship Programme",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
@@ -45,17 +49,15 @@
   "2027 Summer Internship \u2013 Global Markets",
   "2027 Summer Technology Internship Programme",
   "AI Apprenticeship Coach",
+  "AI Enablement Lead",
+  "AI Engineer",
   "AI Trainer \u2013 Apprenticeships",
   "AI and Technical Learning Manager",
   "AWS Alliance Director \u2014 EMEA",
+  "Account Executive",
+  "Account Executive, SMB",
   "Account Representative Intern, Early Career - 2027",
   "Administrative Business Partner",
-  "Allocator",
-  "Alpha FMC | Insurance Consulting Summer Internship",
-  "Analytics Engineering Manager",
-  "Anaplan Support Analyst",
-  "Android Engineer",
-  "Apprentice FCO",
-  "Area Partner Marketing Manager, UKI (FTC), AWS Partner Marketing"
+  "Aircraft Maintenance Technician - RW"
  ]
 }
