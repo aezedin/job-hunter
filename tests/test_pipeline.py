@@ -37,6 +37,7 @@ def test_rejections():
     assert r(description="Security internship. Proven experience with Splunk.").startswith("advert says")
     assert r(description="Security internship. CCNA certification is essential.") == "requires CCNA"
     assert r(description="Cyber internship for students graduating in 2027.").startswith("for students graduating")
+    assert r(description="Cyber summer internship for students graduating in 2029.") is None
     assert r(description="Cyber internship, 12 month placement in industry.").startswith("advert says")
     # you have a licence and a car, so this must NOT be rejected
     assert r(description="Security summer internship. Full UK driving licence required.") is None

@@ -83,8 +83,9 @@ certs_not_held = [
   "cissp", "cism", "cisa", "ccna", "ccnp", "oscp", "ceh", "sc-200", "sc-900",
   "az-900", "az-500", "ms-900", "itil", "a+", "network+", "cysa+", "pentest+",
 ]
-# You graduate in 2028 - reject internships for other graduation years
-graduation_year = 2028
+# You graduate in Feb 2029. Internships asking for 2028 or 2029 graduates are kept
+# (for 2028 ones, ask the recruiter - your summer 2027 is your penultimate summer)
+graduation_years = [2028, 2029]
 # Recruiters selling paid training courses disguised as jobs - always skip
 company_exclude = [
   # employers whose forms only accept a fixed list of universities (UWL not listed)

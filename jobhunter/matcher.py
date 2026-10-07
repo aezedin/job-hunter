@@ -71,12 +71,12 @@ def reject_reason(job: Job, cfg: dict, now: datetime) -> str | None:
     yrs = years_required(job.description)
     if yrs is not None and yrs >= f.get("max_years_experience", 1):
         return "asks for experience"
-    grad = f.get("graduation_year")
-    if grad:
+    grads = set(f.get("graduation_years") or ([f["graduation_year"]] if f.get("graduation_year") else []))
+    if grads:
         for sent in _sentences(text):
             if "graduat" in sent:
                 years = {int(y) for y in re.findall(r"\b(20[2-3]\d)\b", sent)}
-                if years and grad not in years and not (min(years) < grad < max(years)):
+                if years and not (grads & years) and not any(min(years) < g < max(years) for g in grads):
                     return f"for students graduating {', '.join(map(str, sorted(years)))}"
     if any(w in (job.company or "").lower() for w in f.get("company_exclude", [])):
         return "training-course advert"
