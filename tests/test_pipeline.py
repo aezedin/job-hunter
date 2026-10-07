@@ -93,3 +93,18 @@ def test_sources_parse(monkeypatch):
 
 def test_notify_without_topic_is_safe():
     assert notify.job_alert("", J(score=80, reasons=["x"]), urgent=True) is False
+
+
+def test_jooble_parse(monkeypatch):
+    from jobhunter.sources import jooble
+
+    class R:
+        def raise_for_status(self): pass
+        def json(self):
+            return {"jobs": [{"id": 7, "title": "<b>Cyber</b> Security Summer Intern", "company": "Acme",
+                              "location": "London", "snippet": "Paid summer internship.", "type": "Internship",
+                              "link": "https://jooble.org/desc/7", "updated": NOW.isoformat()}]}
+    monkeypatch.setattr(jooble.requests, "post", lambda *a, **k: R())
+    j = jooble.fetch("key", ["cyber"], "London", 8)[0]
+    assert j.title == "Cyber Security Summer Intern" and j.company == "Acme" and j.source == "jooble"
+    assert jooble.fetch("", ["x"], "London", 8) == []

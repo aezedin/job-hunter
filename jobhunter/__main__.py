@@ -17,7 +17,7 @@ import tomllib
 from pathlib import Path
 
 from . import dashboard, kit, links, matcher, notify, profile
-from .sources import adzuna, companies, reed
+from .sources import adzuna, companies, jooble, reed
 from .store import STATUSES, Store
 
 ROOT = Path(os.environ.get("JOBHUNTER_HOME", Path(__file__).resolve().parent.parent))
@@ -48,6 +48,9 @@ def cmd_run(args):
         reed_key, s["search_terms"], s["location"], s["radius_miles"]))
     found += source("Adzuna", bool(az_id and az_key), lambda: adzuna.fetch(
         az_id, az_key, s.get("adzuna_terms", s["search_terms"]), s["location"], s["radius_miles"], s["max_age_hours"]))
+    jooble_key = os.getenv("JOOBLE_API_KEY", "")
+    found += source("Jooble", bool(jooble_key), lambda: jooble.fetch(
+        jooble_key, s.get("jooble_terms", s.get("adzuna_terms", s["search_terms"])), s["location"], s["radius_miles"]))
     found += source("Company career pages", None, lambda: companies.fetch(cfg.get("companies", {})))
 
     # Pass 1: cheap title checks, then fetch full Reed adverts for what's left

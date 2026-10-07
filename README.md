@@ -8,7 +8,7 @@ Built because job-site alert emails arrive late, after 100+ people have already 
 
 | Step | How |
 |---|---|
-| Find jobs | Reed API, Adzuna API (aggregates most UK boards), and employers' own career boards (Greenhouse, Lever, Ashby) |
+| Find jobs | Reed API, Adzuna API and Jooble API (both aggregate many UK boards), and employers' own career boards (Greenhouse, Lever, Ashby) |
 | Filter | London only; title must be an internship/summer programme in IT or cyber; rejects permanent roles, year-long placements, unpaid roles, adverts asking for experience or certifications not on my CV, and internships for other graduation years. Reed adverts are checked in full, not just the preview |
 | Score 0–100 | Target role, entry-level wording, overlap with CV skills, how fresh it is, how few applicants, how easy it is to apply |
 | Notify | Push alert through [ntfy](https://ntfy.sh). Jobs scoring 70+ that are under 12h old get an urgent alert |
@@ -23,7 +23,7 @@ Built because job-site alert emails arrive late, after 100+ people have already 
    - Adzuna: https://developer.adzuna.com/signup
 2. **Phone alerts:** install the **ntfy** app (Android/iOS) and subscribe to a long, random topic name, e.g. `abdul-jobs-7Kq92xLm`. Anyone who knows the name can read it.
 3. **GitHub:** create a new repo, upload these files, then go to *Settings → Secrets and variables → Actions* and add these secrets:
-   `REED_API_KEY`, `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `NTFY_TOPIC`
+   `REED_API_KEY`, `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `NTFY_TOPIC`, and optionally `JOOBLE_API_KEY` (free from https://jooble.org/api/about)
 4. **Dashboard:** go to *Settings → Pages → Deploy from branch → main / docs*. Add a repository *variable* `DASHBOARD_URL` with the Pages URL.
 5. **Test it:** go to *Actions → Job hunt → Run workflow*. After that it runs every 2 hours from 07:00 to 23:00 UK time.
 
