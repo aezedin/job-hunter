@@ -8,7 +8,7 @@ from . import get_json, log, parse_iso, strip_html
 from ..models import Job
 
 
-NAMES = {"wizinc": "Wiz", "gocardless": "GoCardless", "truelayer": "TrueLayer"}
+NAMES = {"mangroup": "Man Group", "wizinc": "Wiz", "gocardless": "GoCardless", "truelayer": "TrueLayer"}
 
 
 def _name(slug):
@@ -21,7 +21,11 @@ def _is_london(loc: str) -> bool:
 
 
 def greenhouse(slug: str) -> list[Job]:
-    data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"})
+    # Companies on Greenhouse's EU servers (job-boards.eu.greenhouse.io) use a separate API host
+    try:
+        data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"})
+    except Exception:  # noqa: BLE001
+        data = get_json(f"https://boards-api.eu.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"})
     out = []
     for j in data.get("jobs", []):
         loc = (j.get("location") or {}).get("name", "")

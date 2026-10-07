@@ -101,10 +101,13 @@ min_score_to_alert = 50
 # Jobs at or above this score AND under 12h old get an urgent alert
 urgent_score = 70
 
-# Company career boards checked directly (posted by the employer).
-# Add more: find the company's "boards.greenhouse.io/<slug>",
-# "jobs.lever.co/<slug>" or "jobs.ashbyhq.com/<slug>" link and add the slug.
+# Company career boards checked directly (posted by the employer). No API key needed.
+# To add a company: open one of its job adverts and look at the web address.
+#   job-boards.greenhouse.io/<slug>/jobs/...     -> add <slug> under greenhouse
+#   job-boards.eu.greenhouse.io/<slug>/jobs/...  -> add <slug> under greenhouse
+#   jobs.lever.co/<slug>/...                     -> add <slug> under lever
+#   jobs.ashbyhq.com/<slug>/...                  -> add <slug> under ashby
 [companies]
-greenhouse = ["monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
+greenhouse = ["mangroup", "monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
 lever = ["palantir"]
 ashby = ["snyk", "synthesia"]
