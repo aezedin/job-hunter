@@ -1,16 +1,16 @@
 {
- "at": "2026-10-07T19:41:45.787277+00:00",
+ "at": "2026-10-07T23:59:00.472713+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
-  "| Adzuna | \u2705 checked | 204 |",
+  "| Adzuna | \u2705 checked | 203 |",
   "| Jooble | \u2705 checked | 300 |",
-  "| Company career pages | \u2705 checked | 490 |"
+  "| Company career pages | \u2705 checked | 489 |"
  ],
- "found": 1207,
+ "found": 1205,
  "kept": 5,
  "new": 0,
  "filtered_out": {
-  "not an internship": 715,
+  "not an internship": 713,
   "not IT or cyber": 33,
   "wrong level or field": 83,
   "training-course advert": 1,
@@ -57,8 +57,8 @@
   "AI Trainer \u2013 Apprenticeships",
   "AI and Technical Learning Manager",
   "AML Compliance - Operations & Quality Control Manager",
-  "ASST STORE MGR - 20 and older only - in LONDON KY S25036",
   "AWS Alliance Director \u2014 EMEA",
-  "Account Executive, SMB"
+  "Account Executive, SMB",
+  "Account Representative Intern, Early Career - 2027"
  ]
 }
