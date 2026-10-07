@@ -1,18 +1,18 @@
 {
- "at": "2026-10-07T00:47:15.924789+00:00",
+ "at": "2026-10-07T12:31:38.487610+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 212 |",
-  "| Adzuna | \u2705 checked | 201 |",
+  "| Reed | \u2705 checked | 213 |",
+  "| Adzuna | \u2705 checked | 203 |",
   "| Jooble | \u2705 checked | 300 |",
-  "| Company career pages | \u2705 checked | 484 |"
+  "| Company career pages | \u2705 checked | 490 |"
  ],
- "found": 1197,
- "kept": 4,
- "new": 0,
+ "found": 1206,
+ "kept": 5,
+ "new": 2,
  "filtered_out": {
-  "not an internship": 707,
-  "not IT or cyber": 31,
-  "wrong level or field": 85,
+  "not an internship": 715,
+  "not IT or cyber": 33,
+  "wrong level or field": 84,
   "training-course advert": 1,
   "advert says": 1,
   "too old": 1
@@ -28,14 +28,12 @@
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Business Change Project Delivery and Analysis Internship Programme",
   "2027 Client Group Internship Programme",
-  "2027 Finance Internship Programme",
   "2027 Internal Audit Internship Programme",
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 Level 4 Insurance Professional Apprenticeship Programme, London",
   "2027 MUFG UK Summer Analyst Programme: Global Client Sales",
   "2027 Point72 Academy Spring Insight Programme \u2013 UK",
   "2027 Product Internship Programme",
-  "2027 Public Markets Equities Internship Programme",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London - PIMCO",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
@@ -59,6 +57,8 @@
   "AI Researcher, LLMs",
   "AI Trainer \u2013 Apprenticeships",
   "AI and Technical Learning Manager",
-  "AML Compliance - Operations & Quality Control Manager"
+  "AML Compliance - Operations & Quality Control Manager",
+  "AWS Alliance Director \u2014 EMEA",
+  "Account Executive, SMB"
  ]
 }

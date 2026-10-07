@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T00:47:15.928533+00:00",
+ "updated": "2026-10-07T12:31:38.567213+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -52,6 +52,58 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5916580377",
+   "title": "Summer 2027 - Risk Tech Internship",
+   "company": "Capstone Investment Advisors",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5916580377?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-07T09:20:54+00:00",
+   "description": "We see the world differently at Capstone Investment Advisors. You will, too. Capstone is a global, alternative investment management firm operating across a broad range of derivatives-based strategies with a deep understanding of volatility. With approximately $14.6 billion of AUM and 315 employees (as of September 1, 2026, Capstone was formed in 2007 and is headquartered in New York with offices in London, Amsterdam, Tokyo, California, Stamford, Boston, and Milan. At Capstone, we constantly ai\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 50,
+   "reasons": [
+    "internship",
+    "summer dates",
+    "skills: Networking, Risk",
+    "posted today"
+   ],
+   "key": "29aa7cc8a303",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5916588985",
+   "title": "Technology Internship & Placement 2027",
+   "company": "Orbis Investments",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5916588985?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-07T09:23:38+00:00",
+   "description": "At Orbis, we understand the challenge of acquiring professional experience when you are at the start of your career. Our programme sets out to be the catalyst in your professional development journey by embedding you within one of our technology teams where you'll work on projects that have a real-world impact on our clients . As a global contrarian investment management firm that has seen first-hand the pivotal role technology plays in our continued success, we are committed to finding and inv\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "8d4108d93685",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-07T12:31:38.481149+00:00",
    "notes": ""
   },
   {
