@@ -108,6 +108,7 @@ urgent_score = 70
 #   jobs.lever.co/<slug>/...                     -> add <slug> under lever
 #   jobs.ashbyhq.com/<slug>/...                  -> add <slug> under ashby
 [companies]
-greenhouse = ["mangroup", "monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
+greenhouse = ["mangroup", "wehrtyou", "jumptrading", "squarepointcapital", "imc", "drweng",
+              "xtxmarketstechnologies", "recordedfuture", "huntress", "monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
 lever = ["palantir"]
 ashby = ["snyk", "synthesia"]

@@ -8,7 +8,9 @@ from . import get_json, log, parse_iso, strip_html
 from ..models import Job
 
 
-NAMES = {"mangroup": "Man Group", "wizinc": "Wiz", "gocardless": "GoCardless", "truelayer": "TrueLayer"}
+NAMES = {"mangroup": "Man Group", "wehrtyou": "Hudson River Trading", "jumptrading": "Jump Trading",
+         "squarepointcapital": "Squarepoint Capital", "imc": "IMC Trading", "drweng": "DRW",
+         "xtxmarketstechnologies": "XTX Markets", "recordedfuture": "Recorded Future", "huntress": "Huntress", "wizinc": "Wiz", "gocardless": "GoCardless", "truelayer": "TrueLayer"}
 
 
 def _name(slug):
