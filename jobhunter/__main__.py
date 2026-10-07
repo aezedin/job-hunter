@@ -105,6 +105,7 @@ def cmd_summary(args):
     'interested'), best first - a clean list for your phone."""
     from .models import Job
     from .sources import parse_iso
+    load_cfg()  # sets the Job Radar button link
     topic = os.getenv("NTFY_TOPIC", "")
     rows = [r for r in Store(ROOT / "data" / "jobs.db").all() if r["status"] in ("new", "interested")]
     rows.sort(key=lambda r: r.get("score", 0))  # lowest first, so the best ends up on top
