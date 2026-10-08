@@ -1,19 +1,19 @@
 {
- "at": "2026-10-08T12:41:05.539519+00:00",
+ "at": "2026-10-08T19:37:59.544415+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 214 |",
-  "| Adzuna | \u2705 checked | 204 |",
-  "| Jooble | \u2705 checked | 282 |",
-  "| Company career pages | \u2705 checked | 487 |"
+  "| Reed | \u2705 checked | 213 |",
+  "| Adzuna | \u2705 checked | 205 |",
+  "| Jooble | \u2705 checked | 276 |",
+  "| Company career pages | \u2705 checked | 490 |"
  ],
- "found": 1187,
+ "found": 1184,
  "kept": 6,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 693,
+  "not an internship": 683,
   "not IT or cyber": 31,
-  "wrong level or field": 86,
-  "training-course advert": 2,
+  "wrong level or field": 87,
+  "training-course advert": 1,
   "advert says": 1,
   "too old": 1
  },
@@ -47,7 +47,6 @@
   "2027 Summer Internship \u2013 Global Markets",
   "2027 Summer Technology Internship Programme",
   "AI Apprenticeship Coach",
-  "AI Enablement Lead",
   "AI Research Engineer, Inference",
   "AI Research Engineer, Pre-Training",
   "AI Researcher",
@@ -56,9 +55,10 @@
   "AI and Technical Learning Manager",
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
-  "Account Executive, SMB",
   "Account Representative Intern, Early Career - 2027",
   "Accounts Payable Assistant",
-  "Activities Staff"
+  "Activities Staff",
+  "Administrative Business Partner",
+  "Aircraft Maintenance Technician - RW"
  ]
 }
