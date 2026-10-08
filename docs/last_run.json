@@ -1,19 +1,19 @@
 {
- "at": "2026-10-07T23:59:00.472713+00:00",
+ "at": "2026-10-08T12:41:05.539519+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 213 |",
-  "| Adzuna | \u2705 checked | 203 |",
-  "| Jooble | \u2705 checked | 300 |",
-  "| Company career pages | \u2705 checked | 489 |"
+  "| Reed | \u2705 checked | 214 |",
+  "| Adzuna | \u2705 checked | 204 |",
+  "| Jooble | \u2705 checked | 282 |",
+  "| Company career pages | \u2705 checked | 487 |"
  ],
- "found": 1205,
- "kept": 5,
- "new": 0,
+ "found": 1187,
+ "kept": 6,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 713,
-  "not IT or cyber": 33,
-  "wrong level or field": 83,
-  "training-course advert": 1,
+  "not an internship": 693,
+  "not IT or cyber": 31,
+  "wrong level or field": 86,
+  "training-course advert": 2,
   "advert says": 1,
   "too old": 1
  },
@@ -27,12 +27,11 @@
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Business Change Project Delivery and Analysis Internship Programme",
-  "2027 Client Group Internship Programme",
   "2027 Internal Audit Internship Programme",
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 Level 4 Insurance Professional Apprenticeship Programme, London",
-  "2027 MUFG UK Summer Analyst Programme: Global Client Sales",
   "2027 Point72 Academy Spring Insight Programme \u2013 UK",
+  "2027 Private Banking - Summer Internship",
   "2027 Product Internship Programme",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London - PIMCO",
@@ -43,13 +42,12 @@
   "2027 Summer Internship - Debt Capital Markets",
   "2027 Summer Internship - Global Markets",
   "2027 Summer Internship - Investment Banking",
-  "2027 Summer Internship Programme - Capital & Pricing",
+  "2027 Summer Internship Programme - Capital & Pricing Actuarial",
   "2027 Summer Internship \u2013 Debt Capital Markets",
   "2027 Summer Internship \u2013 Global Markets",
   "2027 Summer Technology Internship Programme",
   "AI Apprenticeship Coach",
   "AI Enablement Lead",
-  "AI Engineer",
   "AI Research Engineer, Inference",
   "AI Research Engineer, Pre-Training",
   "AI Researcher",
@@ -59,6 +57,8 @@
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
   "Account Executive, SMB",
-  "Account Representative Intern, Early Career - 2027"
+  "Account Representative Intern, Early Career - 2027",
+  "Accounts Payable Assistant",
+  "Activities Staff"
  ]
 }

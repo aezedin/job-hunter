@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T23:59:00.478311+00:00",
+ "updated": "2026-10-08T12:41:05.799952+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -52,6 +52,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5918524154",
+   "title": "Cyber Security Summer 2027 Intern",
+   "company": "Johnson Matthey Plc",
+   "location": "The City, Central London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5918524154?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-08T06:47:18+00:00",
+   "description": "Job title: Cyber Security Summer 2027 Intern Location: London OR Royston, UK (hybrid working) At Johnson Matthey, your work will matter. As a Cyber Security Intern, you'll join a world leader in platinum group metals with over 200 years of history and innovation. You'll help tackle the world's biggest challenges - cutting emissions, powering modern society and enhancing lives - as we continue to apply, refine and recycle metals that matter, for a healthier and more resilient future. The role: A\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 60,
+   "reasons": [
+    "cyber security internship",
+    "summer dates",
+    "posted today"
+   ],
+   "key": "19144a0669b3",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-08T12:41:05.531805+00:00",
    "notes": ""
   },
   {
