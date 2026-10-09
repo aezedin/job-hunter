@@ -1,17 +1,17 @@
 {
- "at": "2026-10-09T12:28:00.606741+00:00",
+ "at": "2026-10-09T19:12:41.465504+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
   "| Adzuna | \u2705 checked | 203 |",
   "| Jooble | \u2705 checked | 293 |",
-  "| Company career pages | \u2705 checked | 490 |"
+  "| Company career pages | \u2705 checked | 489 |"
  ],
- "found": 1199,
+ "found": 1198,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 709,
-  "not IT or cyber": 32,
+  "not an internship": 704,
+  "not IT or cyber": 33,
   "wrong level or field": 88,
   "training-course advert": 1,
   "too old": 1
@@ -56,8 +56,8 @@
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
   "Account Representative Intern, Early Career - 2027",
-  "Accounts Payable Assistant",
   "Administrative Business Partner",
-  "Aircraft Maintenance Technician - RW"
+  "Aircraft Maintenance Technician - RW",
+  "Algorithm Developer (Quant Research & Trading) \u2013 2027 Grads"
  ]
 }
