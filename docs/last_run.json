@@ -1,16 +1,16 @@
 {
- "at": "2026-10-09T19:12:41.465504+00:00",
+ "at": "2026-10-09T23:46:55.244037+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
   "| Adzuna | \u2705 checked | 203 |",
   "| Jooble | \u2705 checked | 293 |",
-  "| Company career pages | \u2705 checked | 489 |"
+  "| Company career pages | \u2705 checked | 491 |"
  ],
- "found": 1198,
+ "found": 1200,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 704,
+  "not an internship": 709,
   "not IT or cyber": 33,
   "wrong level or field": 88,
   "training-course advert": 1,
