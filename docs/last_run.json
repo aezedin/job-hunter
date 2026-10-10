@@ -1,17 +1,17 @@
 {
- "at": "2026-10-10T11:47:02.678797+00:00",
+ "at": "2026-10-10T16:50:08.745592+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
-  "| Adzuna | \u2705 checked | 198 |",
-  "| Jooble | \u2705 checked | 256 |",
+  "| Adzuna | \u2705 checked | 197 |",
+  "| Jooble | \u2705 checked | 295 |",
   "| Company career pages | \u2705 checked | 491 |"
  ],
- "found": 1158,
+ "found": 1196,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 669,
-  "not IT or cyber": 35,
+  "not an internship": 704,
+  "not IT or cyber": 33,
   "wrong level or field": 86,
   "training-course advert": 1,
   "too old": 1
@@ -52,11 +52,11 @@
   "AI Researcher",
   "AI Researcher, LLMs",
   "AI Trainer \u2013 Apprenticeships",
-  "AI and Technical Learning Manager",
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
   "Account Representative Intern, Early Career - 2027",
   "Accounts Payable Assistant",
+  "Activities Staff",
   "Administrative Business Partner",
   "Aircraft Maintenance Technician - RW"
  ]
