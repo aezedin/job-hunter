@@ -1,18 +1,18 @@
 {
- "at": "2026-10-09T23:46:55.244037+00:00",
+ "at": "2026-10-10T11:47:02.678797+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
-  "| Adzuna | \u2705 checked | 203 |",
-  "| Jooble | \u2705 checked | 293 |",
+  "| Adzuna | \u2705 checked | 198 |",
+  "| Jooble | \u2705 checked | 256 |",
   "| Company career pages | \u2705 checked | 491 |"
  ],
- "found": 1200,
+ "found": 1158,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 709,
-  "not IT or cyber": 33,
-  "wrong level or field": 88,
+  "not an internship": 669,
+  "not IT or cyber": 35,
+  "wrong level or field": 86,
   "training-course advert": 1,
   "too old": 1
  },
@@ -26,6 +26,7 @@
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Business Change Project Delivery and Analysis Internship Programme",
+  "2027 Corient UK Wealth Management Summer Intern Programme",
   "2027 Internal Audit Internship Programme",
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 Level 4 Insurance Professional Apprenticeship Programme, London",
@@ -33,14 +34,13 @@
   "2027 Private Banking - Summer Internship",
   "2027 Product Internship Programme",
   "2027 Software Dev Engineer Intern - United Kingdom",
+  "2027 Software Internship",
   "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London - PIMCO",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Internship (London)",
-  "2027 Summer Internship - Corporate Banking",
   "2027 Summer Internship - Debt Capital Markets",
   "2027 Summer Internship - Global Markets",
-  "2027 Summer Internship - Investment Banking",
   "2027 Summer Internship Programme - Capital & Pricing Actuarial",
   "2027 Summer Internship \u2013 Debt Capital Markets",
   "2027 Summer Internship \u2013 Global Markets",
@@ -56,8 +56,8 @@
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
   "Account Representative Intern, Early Career - 2027",
+  "Accounts Payable Assistant",
   "Administrative Business Partner",
-  "Aircraft Maintenance Technician - RW",
-  "Algorithm Developer (Quant Research & Trading) \u2013 2027 Grads"
+  "Aircraft Maintenance Technician - RW"
  ]
 }
