@@ -1,17 +1,17 @@
 {
- "at": "2026-10-11T17:34:43.770943+00:00",
+ "at": "2026-10-11T21:23:49.283517+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
   "| Adzuna | \u2705 checked | 194 |",
-  "| Jooble | \u2705 checked | 299 |",
+  "| Jooble | \u2705 checked | 298 |",
   "| Company career pages | \u2705 checked | 491 |"
  ],
- "found": 1197,
+ "found": 1196,
  "kept": 5,
  "new": 0,
  "filtered_out": {
-  "not an internship": 713,
-  "not IT or cyber": 33,
+  "not an internship": 714,
+  "not IT or cyber": 34,
   "wrong level or field": 82,
   "training-course advert": 1,
   "too old": 1
@@ -57,7 +57,7 @@
   "AWS Alliance Director \u2014 EMEA",
   "Account Representative Intern, Early Career - 2027",
   "Accounts Payable Assistant",
-  "Administrative Business Partner",
-  "Aircraft Maintenance Technician - RW"
+  "Activities Staff",
+  "Administrative Business Partner"
  ]
 }
