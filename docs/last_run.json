@@ -1,17 +1,17 @@
 {
- "at": "2026-10-12T14:13:47.786808+00:00",
+ "at": "2026-10-12T22:42:11.461601+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
   "| Adzuna | \u2705 checked | 195 |",
-  "| Jooble | \u2705 checked | 298 |",
-  "| Company career pages | \u2705 checked | 487 |"
+  "| Jooble | \u2705 checked | 295 |",
+  "| Company career pages | \u2705 checked | 486 |"
  ],
- "found": 1193,
+ "found": 1189,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 708,
-  "not IT or cyber": 35,
+  "not an internship": 712,
+  "not IT or cyber": 34,
   "wrong level or field": 80,
   "training-course advert": 1,
   "too old": 1
@@ -50,7 +50,6 @@
   "2027 Talbot Underwriting Summer Internship",
   "2027 Underwriting Summer Internship",
   "AI Apprenticeship Coach",
-  "AI Engineer",
   "AI Research Engineer, Inference",
   "AI Research Engineer, Pre-Training",
   "AI Researcher",
@@ -58,6 +57,7 @@
   "AI Trainer \u2013 Apprenticeships",
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
-  "Account Representative Intern, Early Career - 2027"
+  "Account Representative Intern, Early Career - 2027",
+  "Accounts Payable Assistant"
  ]
 }
