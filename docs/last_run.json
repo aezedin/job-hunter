@@ -1,18 +1,18 @@
 {
- "at": "2026-10-12T00:55:09.148454+00:00",
+ "at": "2026-10-12T14:13:47.786808+00:00",
  "sources": [
   "| Reed | \u2705 checked | 213 |",
-  "| Adzuna | \u2705 checked | 194 |",
+  "| Adzuna | \u2705 checked | 195 |",
   "| Jooble | \u2705 checked | 298 |",
-  "| Company career pages | \u2705 checked | 491 |"
+  "| Company career pages | \u2705 checked | 487 |"
  ],
- "found": 1196,
- "kept": 5,
+ "found": 1193,
+ "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 712,
-  "not IT or cyber": 34,
-  "wrong level or field": 82,
+  "not an internship": 708,
+  "not IT or cyber": 35,
+  "wrong level or field": 80,
   "training-course advert": 1,
   "too old": 1
  },
@@ -27,12 +27,15 @@
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Claims Summer Internship",
   "2027 Corient UK Wealth Management Summer Intern Programme",
+  "2027 DMFI COO Intern",
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 Level 4 Insurance Professional Apprenticeship Programme, London",
+  "2027 MBA Summer Intern - Credit Research Analyst, EMEA - PIMCO",
   "2027 Off-cycle Internship Program - EMEA",
   "2027 Private Banking - Summer Internship",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Software Internship",
+  "2027 Spring Insight Programme - Macquarie Group",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Internship (London)",
@@ -55,9 +58,6 @@
   "AI Trainer \u2013 Apprenticeships",
   "AML Compliance - Operations & Quality Control Manager",
   "AWS Alliance Director \u2014 EMEA",
-  "Account Representative Intern, Early Career - 2027",
-  "Accounts Payable Assistant",
-  "Activities Staff",
-  "Administrative Business Partner"
+  "Account Representative Intern, Early Career - 2027"
  ]
 }
