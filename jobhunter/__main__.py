@@ -121,6 +121,41 @@ def cmd_summary(args):
     print(f"Sent summary of {len(rows)} jobs")
 
 
+def cmd_relay(args):
+    """Send phone alerts for jobs the Claude Job Radar scan found (LinkedIn/Indeed
+    emails, Gradcracker, ...). The scan can't reach ntfy itself, so it drops one
+    JSON file per run into data/radar_queue/; this sends them and deletes the file."""
+    load_cfg()
+    topic = os.getenv("NTFY_TOPIC", "")
+    qdir = ROOT / "data" / "radar_queue"
+    files = sorted(qdir.glob("*.json")) if qdir.exists() else []
+    sent = 0
+    for f in files:
+        try:
+            jobs = json.loads(f.read_text())
+            if isinstance(jobs, dict):
+                jobs = jobs.get("jobs", [])
+        except Exception as e:  # noqa: BLE001
+            log.warning("bad radar file %s: %s", f.name, e)
+            f.unlink()
+            continue
+        ok = True
+        for j in jobs:
+            score = j.get("score")
+            lines = [f"{j.get('company', '')} · {j.get('location', '')}".strip(" ·"),
+                     f"Salary: {j.get('salary') or 'not stated'}",
+                     "Why: " + "; ".join((j.get("reasons") or [])[:3]),
+                     f"Found by Job Radar ({j.get('source', 'scan')})"]
+            title = f"{score}% {j.get('title', 'New internship')}" if score is not None else j.get("title", "New internship")
+            urgent = isinstance(score, (int, float)) and score >= 70
+            ok &= notify.send(topic, ("🔥 " if urgent else "") + title, "\n".join(l for l in lines if l),
+                              url=j.get("url"), priority=5 if urgent else 4, tags=["briefcase", "radar"])
+            sent += 1
+        if ok or not topic:
+            f.unlink()  # keep the file for a retry if ntfy failed
+    print(f"Relayed {sent} Job Radar alert(s) from {len(files)} file(s)")
+
+
 def cmd_list(args):
     for r in Store(ROOT / "data" / "jobs.db").all(args.status):
         print(f"{r['score']:>3}% {r['key'][:6]} [{r['status']:<10}] {r['title']} – {r['company']}  {r['url']}")
@@ -175,6 +210,7 @@ def main():
     p = sub.add_parser("kit"); p.add_argument("id"); p.set_defaults(fn=cmd_kit)
     sub.add_parser("links").set_defaults(fn=cmd_links)
     sub.add_parser("summary").set_defaults(fn=cmd_summary)
+    sub.add_parser("relay").set_defaults(fn=cmd_relay)
     p = sub.add_parser("profile"); p.add_argument("cv"); p.set_defaults(fn=cmd_profile)
     args = ap.parse_args()
     args.fn(args)
