@@ -154,3 +154,9 @@ def test_radancy_parse(monkeypatch):
     assert [j.title for j in jobs] == ["2027 Technology Spring Week"]
     assert jobs[0].url == "https://search.jobs.barclays/job/london/2027-tech-spring-week/13015/111"
     assert jobs[0].description == "For first year students" and jobs[0].posted_at.day == 2
+
+
+def test_discovery_word_alone_is_not_a_programme():
+    r = lambda **kw: matcher.reject_reason(J(**kw), CFG, NOW)
+    assert r(title="Business Process Analyst – Automation & Discovery") == "not an internship"
+    assert r(title="Technology Discovery Day 2027", description="Technology taster for first year students. Paid.") is None
