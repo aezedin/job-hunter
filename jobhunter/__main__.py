@@ -84,7 +84,7 @@ def cmd_run(args):
     (ROOT / "docs" / "last_run.json").write_text(json.dumps({
         "at": datetime.now(timezone.utc).isoformat(), "sources": report,
         "found": len(found), "kept": len(kept), "new": len(new), "filtered_out": rejected,
-        "warnings": _warnings[-30:], "alerts_on": bool(topic),
+        "warnings": _warnings[-30:], "alerts_on": bool(topic), "boards": companies.BOARD_COUNTS,
         "sample_rejected_titles": sorted({j.title for j in found if j not in kept})[:40],
     }, indent=1))
 

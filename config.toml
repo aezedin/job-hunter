@@ -128,6 +128,38 @@ urgent_score = 70
 #   jobs.ashbyhq.com/<slug>/...                  -> add <slug> under ashby
 [companies]
 greenhouse = ["mangroup", "wehrtyou", "jumptrading", "squarepointcapital", "imc", "drweng",
-              "xtxmarketstechnologies", "recordedfuture", "huntress", "monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc"]
-lever = ["palantir"]
-ashby = ["snyk", "synthesia"]
+              "xtxmarketstechnologies", "recordedfuture", "huntress", "monzo", "cloudflare", "gocardless", "deliveroo", "datadog", "elastic", "truelayer", "wizinc",
+              # added 13 Oct 2026 - kept only if they answer (see docs/last_run.json "boards")
+              "mavensecuritiesholdingltd", "towerresearchcapital", "flowtraders", "point72",
+              "marshallwace", "gresearch", "optiver", "qubeResearchTechnologies", "wayve",
+              "starlingbank", "checkoutcom", "darktrace", "thoughtmachine", "paddle",
+              "onfido", "multiverse", "ocadotechnology", "graphcore", "improbable"]
+lever = ["palantir", "kraken", "mistral", "netlify"]
+ashby = ["snyk", "synthesia", "elevenlabs", "cleo", "multiverse", "wayve", "monzo", "ramp", "lovable"]
+# Workday boards (most banks / insurers): "host/tenant/site" from the careers web address
+workday = [
+  "blackrock.wd1.myworkdayjobs.com/blackrock/BlackRock_Professional",
+  "bnymellon.wd1.myworkdayjobs.com/bnymellon/BNY_Careers",
+  "citi.wd5.myworkdayjobs.com/citi/2",
+  "ms.wd5.myworkdayjobs.com/ms/External",
+  "nomura.wd3.myworkdayjobs.com/nomura/Nomura_Campus",
+  "mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers",
+  "lseg.wd3.myworkdayjobs.com/lseg/Careers",
+  "spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers",
+  "crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers",
+  "paloaltonetworks.wd5.myworkdayjobs.com/paloaltonetworks/Careers",
+  "mmc.wd1.myworkdayjobs.com/mmc/MMC",
+  "astrazeneca.wd3.myworkdayjobs.com/astrazeneca/Careers",
+  "gsk.wd5.myworkdayjobs.com/gsk/GSKCareers",
+  "schroders.wd3.myworkdayjobs.com/schroders/Schroders",
+  "fil.wd3.myworkdayjobs.com/fil/FidelityInternational",
+]
+# Radancy careers sites (adverts look like https://<site>/job/london/<title>/<id>/<id>)
+radancy = [
+  "search.jobs.barclays", "jobs.citi.com", "careers.blackrock.com",
+  "jobs.natwestgroup.com", "careers.lloydsbankinggroup.com", "careers.astrazeneca.com",
+  "jobs.gsk.com", "jobs.bt.com", "careers.mastercard.com", "jobs.vodafone.com",
+  "careers.lseg.com", "careers.hsbc.com", "jobs.thalesgroup.com", "careers.baesystems.com",
+]
+# amazon.jobs public feed (Amazon + AWS)
+amazon = ["amazon"]

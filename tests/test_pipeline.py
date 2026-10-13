@@ -115,3 +115,42 @@ def test_jooble_parse(monkeypatch):
     j = jooble.fetch("key", ["cyber"], "London", 8)[0]
     assert j.title == "Cyber Security Summer Intern" and j.company == "Acme" and j.source == "jooble"
     assert jooble.fetch("", ["x"], "London", 8) == []
+
+
+def test_workday_parse(monkeypatch):
+    class R:
+        def __init__(self, d): self.d = d
+        def raise_for_status(self): pass
+        def json(self): return self.d
+    lst = {"jobPostings": [
+        {"title": "Technology Spring Insight", "externalPath": "/job/London/Spring_R1", "locationsText": "London"},
+        {"title": "Intern", "externalPath": "/job/NY/Intern_R2", "locationsText": "New York"},
+        {"title": "Summer Analyst", "externalPath": "/job/Multi/SA_R3", "locationsText": "2 Locations"}]}
+    details = {
+        "/job/London/Spring_R1": {"title": "Technology Spring Insight", "location": "London", "jobReqId": "R1",
+                                  "startDate": "2026-10-01", "jobDescription": "<p>First year students</p>",
+                                  "externalUrl": "https://x/job/R1"},
+        "/job/Multi/SA_R3": {"title": "Summer Analyst", "location": "Paris", "additionalLocations": ["Edinburgh"]}}
+    monkeypatch.setattr(companies.requests, "post", lambda *a, **k: R(lst))
+    monkeypatch.setattr(companies, "get_json", lambda url, **k: {"jobPostingInfo": details[url.split("/Ext")[1]]})
+    jobs = companies.workday("acme.wd3.myworkdayjobs.com/acme/Ext")
+    assert [j.title for j in jobs] == ["Technology Spring Insight"]
+    assert jobs[0].url == "https://x/job/R1" and jobs[0].description == "First year students"
+
+
+def test_radancy_parse(monkeypatch):
+    class R:
+        def __init__(self, d=None, text=""): self.d, self.text = d, text
+        def raise_for_status(self): pass
+        def json(self): return self.d
+    results = {"results": '<a href="/job/london/2027-tech-spring-week/13015/111" class="x" data-job-id="111">'
+                          '<strong>2027 Technology Spring Week</strong></a>'
+                          '<a href="/job/stockholm/intern/13015/222"><strong>Intern</strong></a>'}
+    page = ('<script type="application/ld+json">{"@type":"JobPosting","title":"2027 Technology Spring Week",'
+            '"datePosted":"2026-10-02","description":"<p>For first year students</p>"}</script>')
+    monkeypatch.setattr(companies.requests, "get",
+                        lambda url, **k: R(results) if "search-jobs" in url else R(text=page))
+    jobs = companies.radancy("search.jobs.barclays")
+    assert [j.title for j in jobs] == ["2027 Technology Spring Week"]
+    assert jobs[0].url == "https://search.jobs.barclays/job/london/2027-tech-spring-week/13015/111"
+    assert jobs[0].description == "For first year students" and jobs[0].posted_at.day == 2
