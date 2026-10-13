@@ -1,18 +1,18 @@
 {
- "at": "2026-10-13T09:40:24.890654+00:00",
+ "at": "2026-10-13T13:24:29.130492+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 204 |",
-  "| Adzuna | \u2705 checked | 195 |",
-  "| Jooble | \u2705 checked | 294 |",
-  "| Company career pages | \u2705 checked | 484 |"
+  "| Reed | \u2705 checked | 200 |",
+  "| Adzuna | \u2705 checked | 193 |",
+  "| Jooble | \u2705 checked | 291 |",
+  "| Company career pages | \u2705 checked | 496 |"
  ],
- "found": 1177,
+ "found": 1180,
  "kept": 6,
  "new": 0,
  "filtered_out": {
-  "not an internship": 716,
-  "wrong level or field": 82,
-  "not IT or cyber": 35,
+  "not an internship": 721,
+  "wrong level or field": 80,
+  "not IT or cyber": 37,
   "training-course advert": 1,
   "too old": 1
  },
