@@ -1,23 +1,26 @@
 {
- "at": "2026-10-13T16:54:53.716447+00:00",
+ "at": "2026-10-13T20:04:21.843219+00:00",
  "sources": [
   "| Reed | \u2705 checked | 313 |",
-  "| Adzuna | \u2705 checked | 188 |",
-  "| Jooble | \u2705 checked | 344 |",
-  "| Company career pages | \u2705 checked | 836 |"
+  "| Adzuna | \u2705 checked | 187 |",
+  "| Jooble | \u2705 checked | 345 |",
+  "| Company career pages | \u2705 checked | 796 |"
  ],
- "found": 1681,
+ "found": 1641,
  "kept": 10,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1118,
-  "wrong level or field": 114,
-  "not IT or cyber": 60,
+  "not an internship": 1090,
+  "wrong level or field": 109,
+  "not IT or cyber": 58,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
  },
- "warnings": [],
+ "warnings": [
+  "adzuna 'cyber security internship' failed: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/gb/search/1?\u2026",
+  "lever:palantir failed: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
+ ],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 24,
@@ -32,7 +35,7 @@
   "greenhouse:monzo": 53,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 4,
-  "greenhouse:deliveroo": 114,
+  "greenhouse:deliveroo": 115,
   "greenhouse:datadog": 15,
   "greenhouse:elastic": 23,
   "greenhouse:truelayer": 1,
@@ -44,32 +47,33 @@
   "greenhouse:marshallwace": 0,
   "greenhouse:optiver": 0,
   "greenhouse:graphcore": 10,
-  "lever:palantir": 43,
+  "lever:palantir": "failed",
   "lever:kraken": 0,
   "lever:mistral": 0,
   "ashby:snyk": 3,
   "ashby:synthesia": 19,
   "ashby:elevenlabs": 51,
-  "ashby:multiverse": 25,
-  "ashby:wayve": 55,
+  "ashby:multiverse": 26,
+  "ashby:wayve": 56,
   "ashby:ramp": 12,
   "ashby:lovable": 30,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 14,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 0,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 7,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 5,
-  "radancy:careers.blackrock.com": 15,
+  "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 8
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
   " Senior Technical Support Engineer ",
+  "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "2027 Actuarial Summer Internship Programme",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
@@ -106,7 +110,6 @@
   "2027 Summer Internship - Debt Capital Markets",
   "2027 Summer Internship - Global Markets",
   "2027 Summer Internship Program - EMEA London, England 06/30/2026",
-  "2027 Summer Internship Programme - Capital & Pricing Actuarial",
-  "2027 Summer Internship \u2013 Debt Capital Markets"
+  "2027 Summer Internship Programme - Capital & Pricing Actuarial"
  ]
 }
