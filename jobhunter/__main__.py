@@ -88,7 +88,10 @@ def cmd_run(args):
         "sample_rejected_titles": sorted({j.title for j in found if j not in kept})[:40],
     }, indent=1))
 
-    alerts = [j for j in new if j.score >= n["min_score_to_alert"]]
+    # first-year programmes (spring weeks, insight) score low on cyber keywords but are
+    # exactly what a first-year can apply to, so always alert them
+    fy = cfg["filters"].get("title_first_year_words", [])
+    alerts = [j for j in new if j.score >= n["min_score_to_alert"] or matcher.has(j.title, fy)]
     for j in alerts[:8]:  # individual alerts for the best; the rest go in a digest
         age = j.age_hours()
         notify.job_alert(topic, j, urgent=j.score >= n["urgent_score"] and (age is None or age < 12))
