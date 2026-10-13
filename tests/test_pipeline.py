@@ -160,3 +160,10 @@ def test_discovery_word_alone_is_not_a_programme():
     r = lambda **kw: matcher.reject_reason(J(**kw), CFG, NOW)
     assert r(title="Business Process Analyst – Automation & Discovery") == "not an internship"
     assert r(title="Technology Discovery Day 2027", description="Technology taster for first year students. Paid.") is None
+
+
+def test_old_spring_week_still_counts():
+    old = NOW - timedelta(days=120)
+    r = lambda **kw: matcher.reject_reason(J(posted_at=old, **kw), CFG, NOW)
+    assert r() == "too old"
+    assert r(title="2027 Spring Insight Event - EMEA", description="Technology track. First year students. Paid.") is None

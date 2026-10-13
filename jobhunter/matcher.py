@@ -57,7 +57,8 @@ def reject_reason(job: Job, cfg: dict, now: datetime) -> str | None:
     if (job.contract_type or "").lower() in f.get("reject_contract_types", []):
         return "permanent role"
     age = job.age_hours(now)
-    if age is not None and age > s["max_age_hours"]:
+    # spring weeks / insight programmes stay open for months, so don't drop them for age
+    if age is not None and age > s["max_age_hours"] and not has(job.title, f.get("title_first_year_words", [])):
         return "too old"
     if job.applicants is not None and job.applicants > s["max_applicants"]:
         return "too many applicants"
