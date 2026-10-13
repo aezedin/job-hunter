@@ -1,8 +1,11 @@
 # Job Hunter settings. Edit this file to change what it looks for.
 #
-# Goal: PAID SUMMER INTERNSHIPS (fits the uni calendar) in IT / cyber security,
-# in London. No permanent jobs, nothing asking for experience or
-# qualifications that aren't on my CV.
+# Goal: things a FIRST-YEAR student can apply to now (I started Feb 2026, so I'm
+# in first year until Feb 2027): spring insight weeks, first-year internships and
+# summer internships open to first years / any year, in IT / cyber security, in
+# London. Most "penultimate year" summer internships check your year AT THE TIME
+# YOU APPLY (PwC told me this), so those are for autumn 2027 (summer 2028).
+# No permanent jobs, nothing asking for experience or qualifications I don't have.
 
 [search]
 location = "London"
@@ -17,16 +20,20 @@ search_terms = [
   "technology summer placement",
   "IT support intern",
   "SOC intern",
+  "spring insight",
+  "first year internship",
+  "insight week technology",
 ]
 # Adzuna's free plan allows 250 calls/day, 1,000/week, 2,500/month.
-# 6 terms x 9 runs a day = 54/day, ~380/week, ~1,650/month - safely under.
+# 7 terms x 9 runs a day = 63/day, ~440/week, ~1,900/month - safely under.
 adzuna_terms = [
   "cyber security internship",
   "IT internship",
   "technology internship",
   "summer internship",
   "security intern",
-  "technology placement",
+  "spring insight",
+  "first year internship",
 ]
 # Internships stay open for weeks, so look back further than for normal jobs.
 # You still only get one alert per advert.
@@ -37,7 +44,12 @@ max_applicants = 150
 
 [filters]
 # The TITLE must say it's an internship / summer programme
-title_must_include = ["intern", "internship", "summer", "insight"]
+title_must_include = ["intern", "internship", "summer", "insight", "spring", "first year",
+                      "first-year", "1st year", "discovery", "taster"]
+# Spring weeks / insight / first-year schemes are often not tied to one field, so
+# for these the title doesn't need an IT word (the advert still must mention tech)
+title_first_year_words = ["spring", "insight", "first year", "first-year", "1st year",
+                          "discovery", "taster"]
 # ...the TITLE must also name an IT / cyber field
 title_field_must_include = [
   "cyber", "security", "infosec", "soc", "grc", "it", "information technology",
@@ -77,15 +89,20 @@ reject_phrases = [
   "industrial placement", "sandwich",
   "final year students", "final-year students",
 ]
+# YEAR OF STUDY. Employers check this when you APPLY. I'm a first year until Feb 2027.
+# If an advert names years of study, it must include mine (or say any year).
+my_year_words = ["first year", "first-year", "1st year", "1st-year",
+                 "any year", "all years", "all year groups", "any stage", "any year of study"]
+other_year_words = ["penultimate", "second year", "second-year", "2nd year", "2nd-year",
+                    "final year", "final-year", "pre-final"]
 # Qualifications that aren't on your CV: reject if the advert says they're
 # required (mentioned near "required", "essential" or "must")
 certs_not_held = [
   "cissp", "cism", "cisa", "ccna", "ccnp", "oscp", "ceh", "sc-200", "sc-900",
   "az-900", "az-500", "ms-900", "itil", "a+", "network+", "cysa+", "pentest+",
 ]
-# You graduate in Feb 2029. Internships asking for 2028 or 2029 graduates are kept
-# (for 2028 ones, ask the recruiter - your summer 2027 is your penultimate summer)
-graduation_years = [2028, 2029]
+# You graduate in Feb 2029. Adverts asking for 2028 graduates want second-years now.
+graduation_years = [2029]
 # Recruiters selling paid training courses disguised as jobs - always skip
 company_exclude = [
   # employers whose forms only accept a fixed list of universities (UWL not listed)

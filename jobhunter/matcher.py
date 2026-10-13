@@ -37,7 +37,8 @@ def title_reason(job: Job, cfg: dict) -> str | None:
         return "not an internship"
     if has(title, f["title_exclude"]):
         return "wrong level or field"
-    if f.get("title_field_must_include") and not has(title, f["title_field_must_include"]):
+    first_year = has(title, f.get("title_first_year_words", []))
+    if f.get("title_field_must_include") and not first_year and not has(title, f["title_field_must_include"]):
         return "not IT or cyber"
     if any(w in (job.company or "").lower() for w in f.get("company_exclude", [])):
         return "training-course advert"
@@ -68,6 +69,11 @@ def reject_reason(job: Job, cfg: dict, now: datetime) -> str | None:
             for cert in f.get("certs_not_held", []):
                 if has(sent, [cert]):
                     return f"requires {cert.upper()}"
+    # "first and penultimate year", "1st or 2nd year students" also count as open to first-years
+    open_to_first = has(text, f.get("my_year_words", [])) or re.search(
+        r"\b(first|1st)\b(?:\s*(?:,|and|or|&|/)\s*\w+(?:-\w+)?){1,3}\s+years?\b", text)
+    if has(text, f.get("other_year_words", [])) and not open_to_first:
+        return "not open to first-years"
     yrs = years_required(job.description)
     if yrs is not None and yrs >= f.get("max_years_experience", 1):
         return "asks for experience"
@@ -95,8 +101,10 @@ def score(job: Job, profile: dict, now: datetime) -> Job:
         pts += 20; why.append("internship")
     if "summer" in text or re.search(r"\b(june|july|august)\b", text):
         pts += 10; why.append("summer dates")
-    if any(w in text for w in ["penultimate", "first year", "1st year", "any year", "all years"]):
-        pts += 10; why.append("open to your year")
+    if any(w in text for w in ["first year", "first-year", "1st year", "any year", "all years"]):
+        pts += 10; why.append("open to first-years")
+    if has(title, ["spring", "insight", "first year", "first-year"]):
+        pts += 5; why.append("first-year programme")
 
     mine = set(profile.get("skills", []))
     overlap = sorted(mine & set(skills_in(text)))

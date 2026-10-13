@@ -18,7 +18,7 @@ def J(**kw):
     base = dict(source="t", source_id="1", title="Cyber Security Summer Internship 2027", company="Acme Bank",
                 location="London", url="https://x", posted_at=NOW - timedelta(days=3),
                 description="10-week summer internship in our security operations team, June to August 2027. "
-                            "Open to penultimate year students graduating in 2028. Paid.")
+                            "Open to students in any year of study. Paid.")
     base.update(kw)
     return Job(**base)
 
@@ -39,6 +39,13 @@ def test_rejections():
     assert r(description="Cyber internship for students graduating in 2027.").startswith("for students graduating")
     assert r(description="Cyber summer internship for students graduating in 2029.") is None
     assert r(description="Cyber internship, 12 month placement in industry.").startswith("advert says")
+    # year of study is checked when you APPLY - I'm a first year until Feb 2027
+    assert r(description="Security summer internship for penultimate year students. Paid.") == "not open to first-years"
+    assert r(description="Security summer internship for final-year students.") is not None
+    assert r(description="Security internship open to first and penultimate year students.") is None
+    assert r(description="Cyber summer internship for students graduating in 2028.").startswith("for students graduating")
+    assert r(title="Spring Insight Week 2027", description="One week in our technology division for first-year students. Paid.") is None
+    assert r(title="2027 Spring Insight Programme", description="Rotate across trading and markets only. First year.") == "not IT or cyber"
     # you have a licence and a car, so this must NOT be rejected
     assert r(description="Security summer internship. Full UK driving licence required.") is None
 
