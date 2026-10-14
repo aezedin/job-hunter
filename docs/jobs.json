@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T00:51:28.479216+00:00",
+ "updated": "2026-10-14T11:04:34.639090+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -156,6 +156,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5926926565",
+   "title": "IT and Product Intern | Graduate Opportunity",
+   "company": "THIS IS SPOKEN LTD",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5926926565?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-14T06:15:51+00:00",
+   "description": "Spoken is a boutique London-based firm, specialising in thought leadership and engagement programmes. We create partnerships, events and experiences with world-leading thinkers, speakers, and institutions and businesses. We are looking for an IT and Product Intern to help us run, test and improve the systems the business depends on. This is a first role. We are not looking for prior professional experience and it is not an advantage here. We would rather teach you how we work than ask you to un\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 30,
+   "reasons": [
+    "internship",
+    "posted today"
+   ],
+   "key": "b4e63ac6d1a6",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-14T11:04:34.623272+00:00",
    "notes": ""
   },
   {
