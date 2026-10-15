@@ -1,18 +1,18 @@
 {
- "at": "2026-10-15T16:13:09.604083+00:00",
+ "at": "2026-10-15T20:54:26.192945+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 319 |",
+  "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 186 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 856 |"
+  "| Company career pages | \u2705 checked | 855 |"
  ],
  "found": 1711,
  "kept": 9,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1159,
-  "wrong level or field": 106,
-  "not IT or cyber": 64,
+  "not an internship": 1154,
+  "wrong level or field": 107,
+  "not IT or cyber": 66,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -20,10 +20,10 @@
  "warnings": [],
  "alerts_on": true,
  "boards": {
-  "greenhouse:mangroup": 23,
+  "greenhouse:mangroup": 22,
   "greenhouse:wehrtyou": 30,
   "greenhouse:jumptrading": 26,
-  "greenhouse:squarepointcapital": 70,
+  "greenhouse:squarepointcapital": 69,
   "greenhouse:imc": 10,
   "greenhouse:drweng": 45,
   "greenhouse:xtxmarketstechnologies": 3,
@@ -56,23 +56,22 @@
   "ashby:lovable": 29,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 0,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 10,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 7,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 6,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 10
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
   " Senior Technical Support Engineer ",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "2027 Actuarial Summer Internship Programme",
-  "2027 Applied Scientist Internship \u2013 PhD, Amazon University Talent Acquisition",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Claims Summer Internship",
@@ -107,6 +106,7 @@
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship (London)",
   "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Global Markets"
+  "2027 Summer Internship - Global Markets",
+  "2027 Summer Internship Program - EMEA London, England 06/30/2026"
  ]
 }
