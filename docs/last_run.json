@@ -1,18 +1,18 @@
 {
- "at": "2026-10-14T21:16:05.646490+00:00",
+ "at": "2026-10-15T00:18:12.860716+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 301 |",
-  "| Adzuna | \u2705 checked | 187 |",
-  "| Jooble | \u2705 checked | 328 |",
+  "| Reed | \u2705 checked | 300 |",
+  "| Adzuna | \u2705 checked | 185 |",
+  "| Jooble | \u2705 checked | 327 |",
   "| Company career pages | \u2705 checked | 837 |"
  ],
- "found": 1653,
- "kept": 10,
+ "found": 1649,
+ "kept": 9,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1112,
-  "wrong level or field": 106,
-  "not IT or cyber": 62,
+  "not an internship": 1107,
+  "wrong level or field": 107,
+  "not IT or cyber": 63,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -55,7 +55,7 @@
   "ashby:ramp": 12,
   "ashby:lovable": 28,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 0,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 0,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
@@ -65,13 +65,14 @@
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 9
+  "amazon:amazon": 10
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
   " Senior Technical Support Engineer ",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "2027 Actuarial Summer Internship Programme",
+  "2027 Applied Scientist Internship \u2013 PhD, Amazon University Talent Acquisition",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Claims Summer Internship",
@@ -106,7 +107,6 @@
   "2027 Summer Internship (London)",
   "2027 Summer Internship - Debt Capital Markets",
   "2027 Summer Internship - Global Markets",
-  "2027 Summer Internship Program - EMEA London, England 06/30/2026",
-  "2027 Summer Internship Programme - Capital & Pricing Actuarial"
+  "2027 Summer Internship Program - EMEA London, England 06/30/2026"
  ]
 }
