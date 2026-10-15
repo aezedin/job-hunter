@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:18:12.871854+00:00",
+ "updated": "2026-10-15T10:47:21.123916+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -105,6 +105,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5928722198",
+   "title": "Information Technology Intern",
+   "company": "Creative Artists Agency",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5928722198?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-15T09:37:51+00:00",
+   "description": "Job Description THE AGENCY Creative Artists Agency (CAA) is a leading entertainment and sports agency, with global expertise in filmed and live entertainment, digital media, publishing, sponsorship sales and endorsements, media finance, consumer investing, fashion, brand management and consumer product licensing, and philanthropy. Distinguished by its culture of collaboration and exceptional client service, CAA\u2019s diverse workforce identifies, innovates, and amplifies opportunities for the peopl\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 45,
+   "reasons": [
+    "IT/tech internship",
+    "skills: Networking",
+    "posted today"
+   ],
+   "key": "d9da9f168aed",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-15T10:47:21.109519+00:00",
    "notes": ""
   },
   {

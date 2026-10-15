@@ -1,18 +1,18 @@
 {
- "at": "2026-10-15T00:18:12.860716+00:00",
+ "at": "2026-10-15T10:47:21.111946+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 300 |",
-  "| Adzuna | \u2705 checked | 185 |",
-  "| Jooble | \u2705 checked | 327 |",
-  "| Company career pages | \u2705 checked | 837 |"
+  "| Reed | \u2705 checked | 320 |",
+  "| Adzuna | \u2705 checked | 186 |",
+  "| Jooble | \u2705 checked | 350 |",
+  "| Company career pages | \u2705 checked | 849 |"
  ],
- "found": 1649,
+ "found": 1705,
  "kept": 9,
- "new": 0,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1107,
-  "wrong level or field": 107,
-  "not IT or cyber": 63,
+  "not an internship": 1151,
+  "wrong level or field": 106,
+  "not IT or cyber": 64,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -29,12 +29,12 @@
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 3,
   "greenhouse:huntress": 1,
-  "greenhouse:monzo": 52,
+  "greenhouse:monzo": 54,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 5,
-  "greenhouse:deliveroo": 112,
+  "greenhouse:deliveroo": 115,
   "greenhouse:datadog": 16,
-  "greenhouse:elastic": 23,
+  "greenhouse:elastic": 24,
   "greenhouse:truelayer": 1,
   "greenhouse:wizinc": 5,
   "greenhouse:mavensecuritiesholdingltd": 18,
@@ -49,22 +49,22 @@
   "lever:mistral": 0,
   "ashby:snyk": 3,
   "ashby:synthesia": 21,
-  "ashby:elevenlabs": 54,
+  "ashby:elevenlabs": 59,
   "ashby:multiverse": 27,
   "ashby:wayve": 61,
   "ashby:ramp": 12,
   "ashby:lovable": 28,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 0,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 0,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
-  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 10,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 7,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 4,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
-  "radancy:careers.astrazeneca.com": 4,
+  "radancy:careers.astrazeneca.com": 5,
   "amazon:amazon": 10
  },
  "sample_rejected_titles": [
@@ -104,9 +104,9 @@
   "2027 Spring Insights: Influence & Execute at JPMorganChase \u2013 London",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
+  "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship (London)",
   "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Global Markets",
-  "2027 Summer Internship Program - EMEA London, England 06/30/2026"
+  "2027 Summer Internship - Global Markets"
  ]
 }
