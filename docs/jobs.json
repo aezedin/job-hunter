@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T00:03:32.037476+00:00",
+ "updated": "2026-10-16T10:34:50.936587+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -105,6 +105,33 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5930277751",
+   "title": "Summer 2027 - Tech Enterprise Internship",
+   "company": "Capstone Investment Advisors",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5930277751?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-16T09:47:20+00:00",
+   "description": "We see the world differently at Capstone Investment Advisors. You will, too. Capstone is a global, alternative investment management firm operating across a broad range of derivatives-based strategies with a deep understanding of volatility. With approximately $14.6 billion of AUM and 315 employees (as of September 1, 2026, Capstone was formed in 2007 and is headquartered in New York with offices in London, Amsterdam, Tokyo, California, Stamford, Boston, and Milan. At Capstone, we constantly ai\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 45,
+   "reasons": [
+    "internship",
+    "summer dates",
+    "skills: Networking",
+    "posted today"
+   ],
+   "key": "34c12f13ca4d",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-16T10:34:50.920695+00:00",
    "notes": ""
   },
   {
