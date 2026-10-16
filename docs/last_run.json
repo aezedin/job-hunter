@@ -1,16 +1,16 @@
 {
- "at": "2026-10-16T19:25:10.879982+00:00",
+ "at": "2026-10-16T22:28:29.936391+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 348 |",
-  "| Company career pages | \u2705 checked | 864 |"
+  "| Jooble | \u2705 checked | 345 |",
+  "| Company career pages | \u2705 checked | 865 |"
  ],
- "found": 1724,
+ "found": 1722,
  "kept": 9,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1156,
+  "not an internship": 1154,
   "wrong level or field": 108,
   "not IT or cyber": 63,
   "training-course advert": 1,
@@ -65,7 +65,7 @@
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 8
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
