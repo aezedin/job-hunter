@@ -1,17 +1,17 @@
 {
- "at": "2026-10-16T16:01:25.793785+00:00",
+ "at": "2026-10-16T19:25:10.879982+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 350 |",
+  "| Jooble | \u2705 checked | 348 |",
   "| Company career pages | \u2705 checked | 864 |"
  ],
- "found": 1726,
+ "found": 1724,
  "kept": 9,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1159,
-  "wrong level or field": 107,
+  "not an internship": 1156,
+  "wrong level or field": 108,
   "not IT or cyber": 63,
   "training-course advert": 1,
   "too old": 1,
@@ -32,7 +32,7 @@
   "greenhouse:monzo": 57,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 5,
-  "greenhouse:deliveroo": 118,
+  "greenhouse:deliveroo": 119,
   "greenhouse:datadog": 16,
   "greenhouse:elastic": 24,
   "greenhouse:truelayer": 1,
@@ -54,9 +54,9 @@
   "ashby:wayve": 63,
   "ashby:ramp": 12,
   "ashby:lovable": 29,
-  "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 11,
+  "workday:ms.wd5.myworkdayjobs.com/ms/External": 2,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 7,
@@ -65,7 +65,7 @@
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 10
+  "amazon:amazon": 8
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
@@ -89,14 +89,12 @@
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 MBA Summer Intern - Credit Research Analyst, EMEA - PIMCO",
   "2027 Marketing Analyst Summer Internship Programme London",
-  "2027 Off-cycle Internship Program - EMEA",
   "2027 Off-cycle Internship Program - EMEA London, England 06/29/2026",
   "2027 Operations Analyst Summer Internship Programme London",
   "2027 Placement Program - EMEA London, England 06/30/2026",
   "2027 Point72 Academy Spring Insight Programme \u2013 UK",
   "2027 Private Equity Summer Analyst",
   "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London London, England 09/15/2026",
-  "2027 Retail, Business and Customer Banking Summer Internship Programme London",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Software Internship",
   "2027 Spring Insight Programme - Macquarie Group",
@@ -107,6 +105,8 @@
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship (London)",
-  "2027 Summer Internship - Debt Capital Markets"
+  "2027 Summer Internship - Debt Capital Markets",
+  "2027 Summer Internship - Global Markets",
+  "2027 Summer Internship - Platform Support Engineer Intern"
  ]
 }
