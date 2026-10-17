@@ -1,18 +1,18 @@
 {
- "at": "2026-10-17T10:05:14.882947+00:00",
+ "at": "2026-10-17T14:52:45.143656+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
-  "| Adzuna | \u2705 checked | 195 |",
-  "| Jooble | \u2705 checked | 348 |",
-  "| Company career pages | \u2705 checked | 865 |"
+  "| Adzuna | \u2705 checked | 196 |",
+  "| Jooble | \u2705 checked | 347 |",
+  "| Company career pages | \u2705 checked | 863 |"
  ],
- "found": 1728,
+ "found": 1726,
  "kept": 9,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1158,
+  "not an internship": 1151,
   "wrong level or field": 107,
-  "not IT or cyber": 66,
+  "not IT or cyber": 65,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -32,7 +32,7 @@
   "greenhouse:monzo": 57,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 5,
-  "greenhouse:deliveroo": 119,
+  "greenhouse:deliveroo": 117,
   "greenhouse:datadog": 16,
   "greenhouse:elastic": 24,
   "greenhouse:truelayer": 1,
