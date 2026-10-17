@@ -1,18 +1,18 @@
 {
- "at": "2026-10-17T14:52:45.143656+00:00",
+ "at": "2026-10-17T18:09:21.296164+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 196 |",
-  "| Jooble | \u2705 checked | 347 |",
+  "| Jooble | \u2705 checked | 346 |",
   "| Company career pages | \u2705 checked | 863 |"
  ],
- "found": 1726,
+ "found": 1725,
  "kept": 9,
  "new": 0,
  "filtered_out": {
   "not an internship": 1151,
   "wrong level or field": 107,
-  "not IT or cyber": 65,
+  "not IT or cyber": 66,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -89,6 +89,7 @@
   "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 MBA Summer Intern - Credit Research Analyst, EMEA - PIMCO",
   "2027 Marketing Analyst Summer Internship Programme London",
+  "2027 Off-cycle Internship Program - EMEA",
   "2027 Off-cycle Internship Program - EMEA London, England 06/29/2026",
   "2027 Operations Analyst Summer Internship Programme London",
   "2027 Placement Program - EMEA London, England 06/30/2026",
@@ -96,6 +97,7 @@
   "2027 Private Equity Summer Analyst",
   "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London London, England 09/15/2026",
   "2027 Software Dev Engineer Intern - United Kingdom",
+  "2027 Software Engineer Intern",
   "2027 Software Internship",
   "2027 Spring Insight Programme - Macquarie Group",
   "2027 Spring Insights: Advise & Invest at JPMorganChase \u2013 London",
@@ -105,8 +107,6 @@
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship (London)",
-  "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Global Markets",
-  "2027 Summer Internship - Platform Support Engineer Intern"
+  "2027 Summer Internship - Debt Capital Markets"
  ]
 }
