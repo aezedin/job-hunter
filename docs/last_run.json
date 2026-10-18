@@ -1,18 +1,18 @@
 {
- "at": "2026-10-17T23:46:25.115830+00:00",
+ "at": "2026-10-18T10:17:37.098241+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
-  "| Adzuna | \u2705 checked | 196 |",
-  "| Jooble | \u2705 checked | 347 |",
-  "| Company career pages | \u2705 checked | 864 |"
+  "| Adzuna | \u2705 checked | 190 |",
+  "| Jooble | \u2705 checked | 345 |",
+  "| Company career pages | \u2705 checked | 865 |"
  ],
- "found": 1727,
- "kept": 9,
+ "found": 1720,
+ "kept": 8,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1148,
-  "wrong level or field": 105,
-  "not IT or cyber": 70,
+  "not an internship": 1151,
+  "wrong level or field": 103,
+  "not IT or cyber": 69,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 1
@@ -55,9 +55,9 @@
   "ashby:ramp": 12,
   "ashby:lovable": 29,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 2,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
-  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 10,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
@@ -65,7 +65,7 @@
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 4,
-  "amazon:amazon": 9
+  "amazon:amazon": 10
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
@@ -74,6 +74,7 @@
   "12 Month Internship - FX IT Developer",
   "12-Month Internship - IT PMO Junior Analyst",
   "1:1 Pastoral Support Worker",
+  "2027 BNY Summer Internship Program - Delivery (London)",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
   "2027 Claims Summer Internship",
@@ -105,7 +106,6 @@
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
-  "2027 Summer Internship (London)",
   "2027 Summer Internship - Debt Capital Markets",
   "2027 Summer Internship - Global Markets"
  ]
