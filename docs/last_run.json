@@ -1,17 +1,17 @@
 {
- "at": "2026-10-18T15:18:34.875381+00:00",
+ "at": "2026-10-18T18:27:20.385026+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 190 |",
-  "| Jooble | \u2705 checked | 344 |",
+  "| Jooble | \u2705 checked | 346 |",
   "| Company career pages | \u2705 checked | 865 |"
  ],
- "found": 1719,
+ "found": 1721,
  "kept": 8,
  "new": 0,
  "filtered_out": {
   "not an internship": 1147,
-  "wrong level or field": 104,
+  "wrong level or field": 102,
   "not IT or cyber": 68,
   "training-course advert": 1,
   "too old": 1,
@@ -98,7 +98,6 @@
   "2027 Private Equity Summer Analyst",
   "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London London, England 09/15/2026",
   "2027 Software Dev Engineer Intern - United Kingdom",
-  "2027 Software Engineer Intern",
   "2027 Spring Insight Programme - Macquarie Group",
   "2027 Spring Insights: Advise & Invest at JPMorganChase \u2013 London",
   "2027 Spring Insights: Analyse & Trade at JPMorganChase \u2013 London",
@@ -107,6 +106,7 @@
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Global Markets"
+  "2027 Summer Internship - Global Markets",
+  "2027 Summer Internship - Platform Support Engineer Intern"
  ]
 }
