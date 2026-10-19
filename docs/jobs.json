@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T11:57:02.430302+00:00",
+ "updated": "2026-10-19T18:15:56.035327+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -78,6 +78,33 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-08T12:41:05.531805+00:00",
+   "notes": ""
+  },
+  {
+   "source": "radancy:jobs.citi.com",
+   "source_id": "102161045504",
+   "title": "Career Insights: Meet the Business- Technology & Risk (UK, Europe & MEA Session)",
+   "company": "Citi",
+   "location": "London",
+   "url": "https://jobs.citi.com/job/london/career-insights-meet-the-business-technology-and-risk-uk-europe-and-mea-session/287/102161045504",
+   "posted_at": "2026-10-19T00:00:00+00:00",
+   "description": "Event Start Date: 01/12/2026 Event Start Time: 12:00 PM GMT Event End Date: 01/12/2026 Event End Time: 12:45 PM GMT Event Venue Address: Event Description: Curious about a career in Technology & Risk? Join our virtual event and hear directly from Citi engineers, risk analysts, and associates about what it's really like to build secure, resilient systems and protect global financial infrastructure. They\u2019ll share their personal journeys, day-to-day experiences, and tips for transitioning from student life to the fast-paced intersection of tech innovation, cybersecurity, and risk management. This is your chance to ask questions, get real insights, and learn how to prepare for a successful career in Technology & Risk. Don\u2019t miss out \u2013 sign up now!",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "",
+   "score": 50,
+   "reasons": [
+    "IT/tech internship",
+    "first-year programme",
+    "skills: Risk",
+    "posted today"
+   ],
+   "key": "478a9f01cbc0",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-19T18:15:55.945850+00:00",
    "notes": ""
   },
   {
