@@ -1,18 +1,18 @@
 {
- "at": "2026-10-20T16:16:49.896179+00:00",
+ "at": "2026-10-20T21:13:01.515578+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 320 |",
-  "| Adzuna | \u2705 checked | 189 |",
-  "| Jooble | \u2705 checked | 348 |",
+  "| Reed | \u2705 checked | 319 |",
+  "| Adzuna | \u2705 checked | 186 |",
+  "| Jooble | \u2705 checked | 350 |",
   "| Company career pages | \u2705 checked | 869 |"
  ],
- "found": 1726,
+ "found": 1724,
  "kept": 10,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1141,
+  "not an internship": 1149,
   "wrong level or field": 106,
-  "not IT or cyber": 69,
+  "not IT or cyber": 70,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 2
@@ -49,18 +49,18 @@
   "lever:mistral": 0,
   "ashby:snyk": 3,
   "ashby:synthesia": 19,
-  "ashby:elevenlabs": 54,
+  "ashby:elevenlabs": 55,
   "ashby:multiverse": 29,
   "ashby:wayve": 64,
   "ashby:ramp": 12,
   "ashby:lovable": 28,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 2,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 4,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 17,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 16,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
-  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 7,
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 8,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 16,
@@ -87,7 +87,6 @@
   "2027 Full-Time Analyst Program - EMEA London, England 06/30/2026",
   "2027 Human Resources Analyst Summer Internship Programme London",
   "2027 Internal Audit Analyst Summer Internship Programme London",
-  "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 London Financial Advisory Spring Insight Programme",
   "2027 MBA Summer Intern - Credit Research Analyst, EMEA - PIMCO",
   "2027 Marketing Analyst Summer Internship Programme London",
@@ -107,6 +106,7 @@
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
   "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
-  "2027 Summer Internship - Debt Capital Markets"
+  "2027 Summer Internship - Debt Capital Markets",
+  "2027 Summer Internship - Global Markets"
  ]
 }
