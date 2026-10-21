@@ -1,23 +1,25 @@
 {
- "at": "2026-10-20T21:13:01.515578+00:00",
+ "at": "2026-10-21T00:23:58.245208+00:00",
  "sources": [
   "| Reed | \u2705 checked | 319 |",
-  "| Adzuna | \u2705 checked | 186 |",
+  "| Adzuna | \u2705 checked | 187 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 869 |"
+  "| Company career pages | \u2705 checked | 867 |"
  ],
- "found": 1724,
+ "found": 1723,
  "kept": 10,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1149,
-  "wrong level or field": 106,
-  "not IT or cyber": 70,
+  "not an internship": 1146,
+  "wrong level or field": 105,
+  "not IT or cyber": 71,
   "training-course advert": 1,
   "too old": 1,
   "not open to first-years": 2
  },
- "warnings": [],
+ "warnings": [
+  "radancy careers.blackrock.com advert failed: HTTPSConnectionPool(host='careers.blackrock.com', port=443): Read timed out. (read timeout=20)"
+ ],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 21,
@@ -25,7 +27,7 @@
   "greenhouse:jumptrading": 26,
   "greenhouse:squarepointcapital": 68,
   "greenhouse:imc": 10,
-  "greenhouse:drweng": 47,
+  "greenhouse:drweng": 46,
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 3,
   "greenhouse:huntress": 1,
@@ -60,7 +62,7 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 8,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 7,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 16,
