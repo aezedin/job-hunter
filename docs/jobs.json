@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:25:20.106546+00:00",
+ "updated": "2026-10-22T11:03:39.230926+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -132,6 +132,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5937640325",
+   "title": "2026 Hasbro London Internship Networking Event",
+   "company": "Hasbro",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5937640325?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-22T09:50:39+00:00",
+   "description": "We take play seriously. We\u2019re looking for curious adventurers ready to find their party, fueled by imagination and drive to build what\u2019s never been built before. At Hasbro and Wizards of the Coast, you\u2019ll collaborate with passionate teams to reimagine our iconic brands and create experiences that spark joy, connection, and community through the magic of play. This is your chance to shape legendary play that lasts a lifetime. Calling all Greater London Uni students! As Hasbro continues to build \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 45,
+   "reasons": [
+    "IT/tech internship",
+    "skills: Networking",
+    "posted today"
+   ],
+   "key": "e6e99dbedb5e",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-22T11:03:39.220315+00:00",
    "notes": ""
   },
   {
