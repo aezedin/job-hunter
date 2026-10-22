@@ -1,16 +1,16 @@
 {
- "at": "2026-10-21T21:11:32.719079+00:00",
+ "at": "2026-10-22T00:25:20.094994+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 321 |",
+  "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 344 |",
-  "| Company career pages | \u2705 checked | 856 |"
+  "| Jooble | \u2705 checked | 324 |",
+  "| Company career pages | \u2705 checked | 860 |"
  ],
- "found": 1713,
+ "found": 1696,
  "kept": 10,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1128,
+  "not an internship": 1118,
   "wrong level or field": 109,
   "not IT or cyber": 65,
   "training-course advert": 1,
@@ -60,7 +60,7 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 2,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 6,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 17,
