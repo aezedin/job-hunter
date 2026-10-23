@@ -1,31 +1,29 @@
 {
- "at": "2026-10-23T16:22:42.769318+00:00",
+ "at": "2026-10-23T20:56:46.776359+00:00",
  "sources": [
   "| Reed | \u2705 checked | 323 |",
-  "| Adzuna | \u2705 checked | 195 |",
-  "| Jooble | \u2705 checked | 329 |",
-  "| Company career pages | \u2705 checked | 816 |"
+  "| Adzuna | \u2705 checked | 194 |",
+  "| Jooble | \u2705 checked | 343 |",
+  "| Company career pages | \u2705 checked | 857 |"
  ],
- "found": 1663,
+ "found": 1717,
  "kept": 11,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1080,
-  "wrong level or field": 107,
-  "not IT or cyber": 63,
+  "not an internship": 1119,
+  "wrong level or field": 109,
+  "not IT or cyber": 64,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
   "not open to first-years": 2
  },
- "warnings": [
-  "lever:palantir failed: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
- ],
+ "warnings": [],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 23,
   "greenhouse:wehrtyou": 32,
-  "greenhouse:jumptrading": 26,
+  "greenhouse:jumptrading": 25,
   "greenhouse:squarepointcapital": 67,
   "greenhouse:imc": 11,
   "greenhouse:drweng": 47,
@@ -47,14 +45,14 @@
   "greenhouse:marshallwace": 0,
   "greenhouse:optiver": 0,
   "greenhouse:graphcore": 13,
-  "lever:palantir": "failed",
+  "lever:palantir": 45,
   "lever:kraken": 0,
   "lever:mistral": 0,
   "ashby:snyk": 4,
   "ashby:synthesia": 19,
   "ashby:elevenlabs": 55,
   "ashby:multiverse": 28,
-  "ashby:wayve": 62,
+  "ashby:wayve": 63,
   "ashby:ramp": 12,
   "ashby:lovable": 30,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
@@ -63,12 +61,12 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 10,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 3,
-  "amazon:amazon": 9
+  "amazon:amazon": 10
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
@@ -89,6 +87,7 @@
   "2027 Full-Time Analyst Program - EMEA London, England 06/30/2026",
   "2027 Human Resources Analyst Summer Internship Programme London",
   "2027 Internal Audit Analyst Summer Internship Programme London",
+  "2027 Level 4 Actuarial Technician Apprenticeship Insurance Consulting & Technology, Property and Casualty, London",
   "2027 London Financial Advisory Spring Insight Programme",
   "2027 Marketing Analyst Summer Internship Programme London",
   "2027 Off-cycle Internship Program - EMEA London, England 06/29/2026",
@@ -109,7 +108,6 @@
   "2027 Summer Internship - Corporate and Leveraged Finance",
   "2027 Summer Internship - Coverage",
   "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Distribution & Asset Rotation",
-  "2027 Summer Internship - Global Investment Banking"
+  "2027 Summer Internship - Distribution & Asset Rotation"
  ]
 }
