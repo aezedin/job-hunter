@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T00:23:51.271625+00:00",
+ "updated": "2026-10-23T10:56:22.456050+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -78,6 +78,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-08T12:41:05.531805+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5939014503",
+   "title": "2027 Summer Internship - Technology",
+   "company": "TD Bank",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5939014503?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-23T09:42:11+00:00",
+   "description": "Work Location : London, United Kingdom Hours: 35 Line of Business: TD General Pay Details: We\u2019re committed to providing fair and equitable compensation to all our colleagues. As a candidate, we encourage you to have an open dialogue with a member of our HR Team and ask compensation related questions, including pay details for this role. Job Description: 2027 Summer Internship - Technology London TD Securities are offering an exceptional opportunity to join a diverse and dynamic team through our\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 50,
+   "reasons": [
+    "IT/tech internship",
+    "summer dates",
+    "posted today"
+   ],
+   "key": "2c03289ee83f",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-23T10:56:22.368115+00:00",
    "notes": ""
   },
   {
