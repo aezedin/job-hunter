@@ -1,17 +1,17 @@
 {
- "at": "2026-10-23T20:56:46.776359+00:00",
+ "at": "2026-10-24T00:14:28.004291+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 323 |",
+  "| Reed | \u2705 checked | 322 |",
   "| Adzuna | \u2705 checked | 194 |",
   "| Jooble | \u2705 checked | 343 |",
-  "| Company career pages | \u2705 checked | 857 |"
+  "| Company career pages | \u2705 checked | 855 |"
  ],
- "found": 1717,
+ "found": 1714,
  "kept": 11,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1119,
-  "wrong level or field": 109,
+  "not an internship": 1113,
+  "wrong level or field": 108,
   "not IT or cyber": 64,
   "training-course advert": 1,
   "too old": 1,
@@ -61,12 +61,12 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 4,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 16,
   "radancy:careers.astrazeneca.com": 3,
-  "amazon:amazon": 10
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
