@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:35:17.591393+00:00",
+ "updated": "2026-10-24T22:14:38.289799+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -104,6 +104,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-08T12:41:05.531805+00:00",
+   "notes": ""
+  },
+  {
+   "source": "jooble",
+   "source_id": "-3474904503418178917",
+   "title": "Information Security Internship",
+   "company": "Apple",
+   "location": "London, KY",
+   "url": "https://jooble.org/desc/-3474904503418178917?ckey=cyber+security+internship&rgn=18836&pos=5&groupId=-177248500&elckey=2109425052403247767&p=1&aq=4331391857208864961&cid=20947&jobAge=16&brelb=10&bscr=67.588394&scr=67.588394",
+   "posted_at": "2026-10-24T13:45:45.163000+00:00",
+   "description": "...phenomenal products services and customer experiences very quickly. Bring passion and dedication to your internship and theres no telling what you could Security protects Apples information including business employee and customer data wherever it goes. Our tools and...",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "internship",
+   "score": 50,
+   "reasons": [
+    "cyber security internship",
+    "posted today"
+   ],
+   "key": "e7a0d5584fed",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-24T22:14:38.030593+00:00",
    "notes": ""
   },
   {
