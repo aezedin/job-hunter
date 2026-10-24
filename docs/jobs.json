@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T10:10:55.087115+00:00",
+ "updated": "2026-10-24T15:18:46.614889+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -52,6 +52,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5940484199",
+   "title": "Summer Internship Program 2027 - Cybersecurity Engineering Intern",
+   "company": "Intercontinental Exchange",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5940484199?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-24T13:34:49+00:00",
+   "description": "The ICE Internship Program offers a dynamic opportunity to combine hands-on, impactful work on projects that shape our business, alongside practical career and professional development. You'll build meaningful connections, strengthen your interpersonal skills, and contribute in ways that truly make a difference. Beyond your day-to-day responsibilities, you'll participate in weekly sessions led by industry leaders, connect with fellow interns, and deepen your understanding of the financial servi\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 60,
+   "reasons": [
+    "cyber security internship",
+    "summer dates",
+    "posted today"
+   ],
+   "key": "574938a4ac64",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-24T15:18:46.347452+00:00",
    "notes": ""
   },
   {

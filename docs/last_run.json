@@ -1,18 +1,18 @@
 {
- "at": "2026-10-24T10:10:55.075806+00:00",
+ "at": "2026-10-24T15:18:46.349869+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 322 |",
-  "| Adzuna | \u2705 checked | 191 |",
+  "| Reed | \u2705 checked | 321 |",
+  "| Adzuna | \u2705 checked | 192 |",
   "| Jooble | \u2705 checked | 343 |",
-  "| Company career pages | \u2705 checked | 856 |"
+  "| Company career pages | \u2705 checked | 855 |"
  ],
- "found": 1712,
- "kept": 11,
- "new": 0,
+ "found": 1711,
+ "kept": 12,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1118,
-  "wrong level or field": 110,
-  "not IT or cyber": 62,
+  "not an internship": 1116,
+  "wrong level or field": 108,
+  "not IT or cyber": 64,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
@@ -61,7 +61,7 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 4,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 3,
   "radancy:search.jobs.barclays": 25,
   "radancy:jobs.citi.com": 3,
   "radancy:careers.blackrock.com": 16,
@@ -104,10 +104,10 @@
   "2027 Spring Insights: Influence & Execute at JPMorganChase \u2013 London",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
-  "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
   "2027 Summer Internship - Corporate and Leveraged Finance",
   "2027 Summer Internship - Coverage",
   "2027 Summer Internship - Debt Capital Markets",
-  "2027 Summer Internship - Distribution & Asset Rotation"
+  "2027 Summer Internship - Distribution & Asset Rotation",
+  "2027 Summer Internship - Global Investment Banking"
  ]
 }
