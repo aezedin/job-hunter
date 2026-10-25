@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:28:22.306384+00:00",
+ "updated": "2026-10-25T18:43:23.532642+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -390,6 +390,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-13T16:54:53.714505+00:00",
+   "notes": ""
+  },
+  {
+   "source": "jooble",
+   "source_id": "3767298283899044404",
+   "title": "Remote Consumer Insights Participant",
+   "company": "GL Inc",
+   "location": "Corbin, KY",
+   "url": "https://jooble.org/away/3767298283899044404?p=1&pos=1&rgn=18836&cid=20947&ckey=spring+insight&jobAge=2652&relb=153&brelb=100&scr=4396.5146700000005&bscr=2873.539&aq=-7684029729827606284&elckey=-5093763057319695447",
+   "posted_at": "2026-07-07T00:00:00+00:00",
+   "description": "...require participants to use MFour\u2019s Mobile In-Home Use Test Technology (cutting-edge smartphone technology to capture Point-of-Emotion\u00ae insights to gain unparalleled depth of responses) There are times when the product being tested may be discussed in a private chat room...",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "",
+   "score": 25,
+   "reasons": [
+    "internship",
+    "first-year programme"
+   ],
+   "key": "320ec45fa542",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-25T18:43:23.266387+00:00",
    "notes": ""
   },
   {

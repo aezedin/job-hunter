@@ -1,16 +1,16 @@
 {
- "at": "2026-10-25T15:28:22.289350+00:00",
+ "at": "2026-10-25T18:43:23.269001+00:00",
  "sources": [
   "| Reed | \u2705 checked | 321 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 348 |",
-  "| Company career pages | \u2705 checked | 856 |"
+  "| Jooble | \u2705 checked | 341 |",
+  "| Company career pages | \u2705 checked | 857 |"
  ],
- "found": 1717,
- "kept": 13,
- "new": 0,
+ "found": 1711,
+ "kept": 14,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1122,
+  "not an internship": 1113,
   "wrong level or field": 107,
   "not IT or cyber": 63,
   "training-course advert": 1,
@@ -57,7 +57,7 @@
   "ashby:lovable": 30,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
