@@ -1,12 +1,12 @@
 {
- "at": "2026-10-25T10:36:20.728791+00:00",
+ "at": "2026-10-25T15:28:22.289350+00:00",
  "sources": [
   "| Reed | \u2705 checked | 321 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 855 |"
+  "| Jooble | \u2705 checked | 348 |",
+  "| Company career pages | \u2705 checked | 856 |"
  ],
- "found": 1718,
+ "found": 1717,
  "kept": 13,
  "new": 0,
  "filtered_out": {
@@ -56,7 +56,7 @@
   "ashby:ramp": 12,
   "ashby:lovable": 30,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
