@@ -1,18 +1,18 @@
 {
- "at": "2026-10-24T22:14:38.033221+00:00",
+ "at": "2026-10-25T10:36:20.728791+00:00",
  "sources": [
   "| Reed | \u2705 checked | 321 |",
   "| Adzuna | \u2705 checked | 192 |",
-  "| Jooble | \u2705 checked | 349 |",
-  "| Company career pages | \u2705 checked | 856 |"
+  "| Jooble | \u2705 checked | 350 |",
+  "| Company career pages | \u2705 checked | 855 |"
  ],
  "found": 1718,
  "kept": 13,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1125,
-  "wrong level or field": 109,
-  "not IT or cyber": 64,
+  "not an internship": 1122,
+  "wrong level or field": 107,
+  "not IT or cyber": 63,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
@@ -57,7 +57,7 @@
   "ashby:lovable": 30,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
