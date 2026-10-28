@@ -1,18 +1,18 @@
 {
- "at": "2026-10-27T21:46:02.894810+00:00",
+ "at": "2026-10-28T00:57:59.659963+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 323 |",
-  "| Adzuna | \u2705 checked | 182 |",
-  "| Jooble | \u2705 checked | 342 |",
-  "| Company career pages | \u2705 checked | 845 |"
+  "| Reed | \u2705 checked | 322 |",
+  "| Adzuna | \u2705 checked | 181 |",
+  "| Jooble | \u2705 checked | 343 |",
+  "| Company career pages | \u2705 checked | 841 |"
  ],
- "found": 1692,
+ "found": 1687,
  "kept": 11,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1092,
+  "not an internship": 1093,
   "wrong level or field": 110,
-  "not IT or cyber": 62,
+  "not IT or cyber": 61,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
@@ -50,7 +50,7 @@
   "lever:mistral": 0,
   "ashby:snyk": 4,
   "ashby:synthesia": 18,
-  "ashby:elevenlabs": 52,
+  "ashby:elevenlabs": 51,
   "ashby:multiverse": 27,
   "ashby:wayve": 62,
   "ashby:ramp": 14,
@@ -62,11 +62,11 @@
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 2,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 10,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
-  "radancy:search.jobs.barclays": 23,
+  "radancy:search.jobs.barclays": 24,
   "radancy:jobs.citi.com": 2,
   "radancy:careers.blackrock.com": 15,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 10
+  "amazon:amazon": 6
  },
  "sample_rejected_titles": [
   " DevOps/High Performance Trading System Engineer ",
