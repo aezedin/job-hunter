@@ -1,26 +1,24 @@
 {
- "at": "2026-10-29T19:25:51.711892+00:00",
+ "at": "2026-10-29T23:48:24.775492+00:00",
  "sources": [
   "| Reed | \u2705 checked | 321 |",
   "| Adzuna | \u2705 checked | 182 |",
-  "| Jooble | \u2705 checked | 344 |",
-  "| Company career pages | \u2705 checked | 837 |"
+  "| Jooble | \u2705 checked | 342 |",
+  "| Company career pages | \u2705 checked | 851 |"
  ],
- "found": 1684,
- "kept": 12,
+ "found": 1696,
+ "kept": 14,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1080,
-  "wrong level or field": 107,
-  "not IT or cyber": 58,
+  "not an internship": 1083,
+  "wrong level or field": 104,
+  "not IT or cyber": 69,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
   "not open to first-years": 2
  },
- "warnings": [
-  "radancy:careers.blackrock.com failed: HTTPSConnectionPool(host='careers.blackrock.com', port=443): Read timed out. (read timeout=20)"
- ],
+ "warnings": [],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 28,
@@ -52,11 +50,11 @@
   "lever:mistral": 0,
   "ashby:snyk": 5,
   "ashby:synthesia": 18,
-  "ashby:elevenlabs": 51,
+  "ashby:elevenlabs": 50,
   "ashby:multiverse": 29,
   "ashby:wayve": 58,
   "ashby:ramp": 13,
-  "ashby:lovable": 32,
+  "ashby:lovable": 31,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 2,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 6,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 14,
@@ -66,9 +64,9 @@
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 6,
   "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 4,
-  "radancy:careers.blackrock.com": "failed",
+  "radancy:careers.blackrock.com": 15,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 8
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
@@ -76,19 +74,23 @@
   " Product Manager, Homepage",
   " Senior Technical Support Engineer ",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
-  "2026 Hasbro London Internship Networking Event",
-  "2027 BNY Summer Internship Program - Delivery (London)",
   "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Blackstone Technology & Innovations - Software Engineer Summer Analyst",
+  "2027 Client and Product Graduate Rotational Program - EMEA London, England 06/30/2026",
+  "2027 Client and Product Summer Internship Program - EMEA London, England 06/30/2026",
   "2027 Compliance Analyst Summer Internship Programme London",
   "2027 Customer and Digital - Data and Analytics Summer Internship Programme London",
   "2027 Finance Analyst Summer Internship Programme London",
+  "2027 Full-Time Analyst Program - EMEA London, England 06/30/2026",
   "2027 Human Resources Analyst Summer Internship Programme London",
   "2027 Internal Audit Analyst Summer Internship Programme London",
   "2027 London Financial Advisory Spring Insight Programme",
   "2027 Marketing Analyst Summer Internship Programme London",
+  "2027 Off-cycle Internship Program - EMEA London, England 06/29/2026",
   "2027 Operations Analyst Summer Internship Programme London",
+  "2027 Placement Program - EMEA London, England 06/30/2026",
   "2027 Point72 Academy Spring Insight Programme \u2013 UK",
+  "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London London, England 09/15/2026",
   "2027 Retail, Business and Customer Banking Summer Internship Programme London",
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Software Dev Engineer Intern - United Kingdom",
@@ -97,8 +99,6 @@
   "2027 Spring Insights: Analyse & Trade at JPMorganChase \u2013 London",
   "2027 Spring Insights: Influence & Execute at JPMorganChase \u2013 London",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
-  "2027 Summer Internship - Corporate and Leveraged Finance",
-  "2027 Summer Internship - Coverage",
   "2027 Summer Internship - Distribution & Asset Rotation",
   "2027 Summer Internship - Global Investment Banking",
   "2027 Summer Internship - Global Markets Division",
@@ -107,9 +107,7 @@
   "2027 Summer Internship - Risk Department",
   "2027 Summer Internship - Technology",
   "2027 Summer Internship Program - Business Analyst",
-  "2027 Summer Internship Programme - Software Engineering",
-  "2027 Summer Internship, Data & Analytics",
-  "2027 Summer Internship, Economic & Financial Consulting",
-  "2027 Summer Internship, Strategic Communications"
+  "2027 Summer Internship Program - EMEA London, England 06/30/2026",
+  "2027 Summer Internship, Data & Analytics"
  ]
 }
