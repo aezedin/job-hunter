@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:51:35.158403+00:00",
+ "updated": "2026-10-29T12:12:08.841700+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -315,6 +315,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-15T10:47:21.109519+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5945047247",
+   "title": "Technology Governance Intern",
+   "company": "Janus Henderson Investors",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5945047247?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-10-29T02:01:45+00:00",
+   "description": "Why work for us? A career at Janus Henderson is more than a job, it's about investing in a brighter future together. Our Mission at Janus Henderson is to help clients define and achieve superior financial outcomes through differentiated insights, disciplined investments, and world-class service. We will do this by protecting and growing our core business, amplifying our strengths and diversifying where we have the right. Our Values are key to driving our success, and are at the heart of everyth\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "af053f62cec3",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-10-29T12:12:08.829675+00:00",
    "notes": ""
   },
   {
