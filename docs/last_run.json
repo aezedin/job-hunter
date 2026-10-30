@@ -1,18 +1,18 @@
 {
- "at": "2026-10-30T18:59:20.709317+00:00",
+ "at": "2026-10-30T23:28:32.943457+00:00",
  "sources": [
   "| Reed | \u2705 checked | 321 |",
-  "| Adzuna | \u2705 checked | 180 |",
-  "| Jooble | \u2705 checked | 344 |",
-  "| Company career pages | \u2705 checked | 831 |"
+  "| Adzuna | \u2705 checked | 181 |",
+  "| Jooble | \u2705 checked | 341 |",
+  "| Company career pages | \u2705 checked | 832 |"
  ],
- "found": 1676,
+ "found": 1675,
  "kept": 13,
  "new": 0,
  "filtered_out": {
   "not an internship": 1079,
-  "wrong level or field": 101,
-  "not IT or cyber": 68,
+  "wrong level or field": 100,
+  "not IT or cyber": 69,
   "permanent role": 1,
   "training-course advert": 1,
   "too old": 1,
@@ -55,11 +55,11 @@
   "ashby:multiverse": 29,
   "ashby:wayve": 58,
   "ashby:ramp": 13,
-  "ashby:lovable": 31,
+  "ashby:lovable": 32,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 0,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
-  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 9,
@@ -67,7 +67,7 @@
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 15,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 8
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
