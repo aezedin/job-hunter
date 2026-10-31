@@ -1,18 +1,18 @@
 {
- "at": "2026-10-31T11:38:00.978393+00:00",
+ "at": "2026-10-31T16:44:37.996376+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
-  "| Adzuna | \u2705 checked | 186 |",
-  "| Jooble | \u2705 checked | 342 |",
-  "| Company career pages | \u2705 checked | 826 |"
+  "| Adzuna | \u2705 checked | 185 |",
+  "| Jooble | \u2705 checked | 345 |",
+  "| Company career pages | \u2705 checked | 823 |"
  ],
- "found": 1674,
+ "found": 1673,
  "kept": 13,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1073,
+  "not an internship": 1077,
   "wrong level or field": 101,
-  "not IT or cyber": 71,
+  "not IT or cyber": 70,
   "permanent role": 1,
   "training-course advert": 1,
   "too old": 1,
@@ -34,7 +34,7 @@
   "greenhouse:monzo": 51,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 5,
-  "greenhouse:deliveroo": 113,
+  "greenhouse:deliveroo": 111,
   "greenhouse:datadog": 15,
   "greenhouse:elastic": 28,
   "greenhouse:truelayer": 2,
@@ -62,7 +62,7 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 5,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 9,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 8,
   "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
@@ -95,7 +95,6 @@
   "2027 Retail, Business and Customer Banking Summer Internship Programme London",
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Software Dev Engineer Intern - United Kingdom",
-  "2027 Spring Insight Programme - Macquarie Group",
   "2027 Spring Insight Week - Corporate Finance",
   "2027 Spring Insights: Advise & Invest at JPMorganChase \u2013 London",
   "2027 Spring Insights: Analyse & Trade at JPMorganChase \u2013 London",
@@ -109,6 +108,7 @@
   "2027 Summer Internship, Economic & Financial Consulting",
   "2027 Summer Internship, Strategic Communications",
   "2027 Summer Internship, TMT Business Transformation, Corporate Finance",
-  "2027 Summer Internship, Tax Advisory"
+  "2027 Summer Internship, Tax Advisory",
+  "2027 Technology Analyst Summer Internship Programme London"
  ]
 }
