@@ -1,18 +1,18 @@
 {
- "at": "2026-10-30T23:28:32.943457+00:00",
+ "at": "2026-10-31T11:38:00.978393+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 321 |",
-  "| Adzuna | \u2705 checked | 181 |",
-  "| Jooble | \u2705 checked | 341 |",
-  "| Company career pages | \u2705 checked | 832 |"
+  "| Reed | \u2705 checked | 320 |",
+  "| Adzuna | \u2705 checked | 186 |",
+  "| Jooble | \u2705 checked | 342 |",
+  "| Company career pages | \u2705 checked | 826 |"
  ],
- "found": 1675,
+ "found": 1674,
  "kept": 13,
- "new": 0,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1079,
-  "wrong level or field": 100,
-  "not IT or cyber": 69,
+  "not an internship": 1073,
+  "wrong level or field": 101,
+  "not IT or cyber": 71,
   "permanent role": 1,
   "training-course advert": 1,
   "too old": 1,
@@ -51,9 +51,9 @@
   "lever:mistral": 0,
   "ashby:snyk": 5,
   "ashby:synthesia": 17,
-  "ashby:elevenlabs": 46,
+  "ashby:elevenlabs": 44,
   "ashby:multiverse": 29,
-  "ashby:wayve": 58,
+  "ashby:wayve": 59,
   "ashby:ramp": 13,
   "ashby:lovable": 32,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 0,
@@ -61,13 +61,13 @@
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
-  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 5,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 9,
   "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 4,
-  "radancy:careers.blackrock.com": 15,
+  "radancy:careers.blackrock.com": 14,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 9
+  "amazon:amazon": 8
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
@@ -102,13 +102,13 @@
   "2027 Spring Insights: Influence & Execute at JPMorganChase \u2013 London",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
   "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
-  "2027 Summer Internship - International Trade and Transaction Banking",
   "2027 Summer Internship - Technology",
   "2027 Summer Internship Program - Business Analyst",
   "2027 Summer Internship Program - EMEA London, England 06/30/2026",
   "2027 Summer Internship, Data & Analytics",
   "2027 Summer Internship, Economic & Financial Consulting",
   "2027 Summer Internship, Strategic Communications",
-  "2027 Summer Internship, TMT Business Transformation, Corporate Finance"
+  "2027 Summer Internship, TMT Business Transformation, Corporate Finance",
+  "2027 Summer Internship, Tax Advisory"
  ]
 }
