@@ -1,16 +1,16 @@
 {
- "at": "2026-10-31T16:44:37.996376+00:00",
+ "at": "2026-10-31T20:56:13.097684+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
   "| Adzuna | \u2705 checked | 185 |",
-  "| Jooble | \u2705 checked | 345 |",
-  "| Company career pages | \u2705 checked | 823 |"
+  "| Jooble | \u2705 checked | 349 |",
+  "| Company career pages | \u2705 checked | 824 |"
  ],
- "found": 1673,
+ "found": 1678,
  "kept": 13,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1077,
+  "not an internship": 1089,
   "wrong level or field": 101,
   "not IT or cyber": 70,
   "permanent role": 1,
@@ -19,7 +19,9 @@
   "asks for experience": 1,
   "not open to first-years": 2
  },
- "warnings": [],
+ "warnings": [
+  "lever:mistral failed: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
+ ],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 27,
@@ -48,7 +50,7 @@
   "greenhouse:graphcore": 13,
   "lever:palantir": 42,
   "lever:kraken": 0,
-  "lever:mistral": 0,
+  "lever:mistral": "failed",
   "ashby:snyk": 5,
   "ashby:synthesia": 17,
   "ashby:elevenlabs": 44,
@@ -62,7 +64,7 @@
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 5,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 8,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 9,
   "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
