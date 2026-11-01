@@ -1,27 +1,25 @@
 {
- "at": "2026-10-31T20:56:13.097684+00:00",
+ "at": "2026-11-01T00:39:55.471371+00:00",
  "sources": [
   "| Reed | \u2705 checked | 320 |",
-  "| Adzuna | \u2705 checked | 185 |",
+  "| Adzuna | \u2705 checked | 182 |",
   "| Jooble | \u2705 checked | 349 |",
-  "| Company career pages | \u2705 checked | 824 |"
+  "| Company career pages | \u2705 checked | 821 |"
  ],
- "found": 1678,
- "kept": 13,
+ "found": 1672,
+ "kept": 12,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1089,
-  "wrong level or field": 101,
-  "not IT or cyber": 70,
+  "not an internship": 1090,
+  "wrong level or field": 100,
+  "not IT or cyber": 67,
   "permanent role": 1,
   "training-course advert": 1,
   "too old": 1,
   "asks for experience": 1,
   "not open to first-years": 2
  },
- "warnings": [
-  "lever:mistral failed: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)"
- ],
+ "warnings": [],
  "alerts_on": true,
  "boards": {
   "greenhouse:mangroup": 27,
@@ -33,7 +31,7 @@
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 2,
   "greenhouse:huntress": 1,
-  "greenhouse:monzo": 51,
+  "greenhouse:monzo": 50,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 5,
   "greenhouse:deliveroo": 111,
@@ -50,10 +48,10 @@
   "greenhouse:graphcore": 13,
   "lever:palantir": 42,
   "lever:kraken": 0,
-  "lever:mistral": "failed",
+  "lever:mistral": 0,
   "ashby:snyk": 5,
   "ashby:synthesia": 17,
-  "ashby:elevenlabs": 44,
+  "ashby:elevenlabs": 42,
   "ashby:multiverse": 29,
   "ashby:wayve": 59,
   "ashby:ramp": 13,
@@ -101,8 +99,7 @@
   "2027 Spring Insights: Advise & Invest at JPMorganChase \u2013 London",
   "2027 Spring Insights: Analyse & Trade at JPMorganChase \u2013 London",
   "2027 Spring Insights: Influence & Execute at JPMorganChase \u2013 London",
-  "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA",
-  "2027 Summer Intern - Technology Analyst, Software Engineering, EMEA - PIMCO",
+  "2027 Summer Internship - International Trade and Transaction Banking",
   "2027 Summer Internship - Technology",
   "2027 Summer Internship Program - Business Analyst",
   "2027 Summer Internship Program - EMEA London, England 06/30/2026",
@@ -111,6 +108,7 @@
   "2027 Summer Internship, Strategic Communications",
   "2027 Summer Internship, TMT Business Transformation, Corporate Finance",
   "2027 Summer Internship, Tax Advisory",
-  "2027 Technology Analyst Summer Internship Programme London"
+  "2027 Technology Analyst Summer Internship Programme London",
+  "ACSU Peer Support Specialist"
  ]
 }
