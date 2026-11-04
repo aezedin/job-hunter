@@ -1,16 +1,16 @@
 {
- "at": "2026-11-03T20:25:42.081330+00:00",
+ "at": "2026-11-04T01:52:39.975959+00:00",
  "sources": [
   "| Reed | \u2705 checked | 326 |",
   "| Adzuna | \u2705 checked | 177 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 829 |"
+  "| Company career pages | \u2705 checked | 825 |"
  ],
- "found": 1682,
- "kept": 15,
+ "found": 1678,
+ "kept": 16,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1131,
+  "not an internship": 1138,
   "wrong level or field": 90,
   "not IT or cyber": 66,
   "permanent role": 3,
@@ -27,14 +27,14 @@
   "greenhouse:jumptrading": 24,
   "greenhouse:squarepointcapital": 66,
   "greenhouse:imc": 8,
-  "greenhouse:drweng": 49,
+  "greenhouse:drweng": 48,
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 3,
   "greenhouse:huntress": 3,
   "greenhouse:monzo": 46,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 4,
-  "greenhouse:deliveroo": 109,
+  "greenhouse:deliveroo": 108,
   "greenhouse:datadog": 15,
   "greenhouse:elastic": 28,
   "greenhouse:truelayer": 2,
@@ -54,10 +54,10 @@
   "ashby:elevenlabs": 54,
   "ashby:multiverse": 28,
   "ashby:wayve": 60,
-  "ashby:ramp": 12,
+  "ashby:ramp": 11,
   "ashby:lovable": 32,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 2,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 4,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 3,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 11,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
@@ -65,9 +65,9 @@
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 4,
   "radancy:search.jobs.barclays": 20,
   "radancy:jobs.citi.com": 4,
-  "radancy:careers.blackrock.com": 12,
+  "radancy:careers.blackrock.com": 13,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 10
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
