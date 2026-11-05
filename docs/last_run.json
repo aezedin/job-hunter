@@ -1,22 +1,21 @@
 {
- "at": "2026-11-05T01:59:29.653143+00:00",
+ "at": "2026-11-05T13:55:35.844329+00:00",
  "sources": [
   "| Reed | \u2705 checked | 325 |",
-  "| Adzuna | \u2705 checked | 182 |",
+  "| Adzuna | \u2705 checked | 180 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 827 |"
+  "| Company career pages | \u2705 checked | 825 |"
  ],
- "found": 1684,
- "kept": 16,
+ "found": 1680,
+ "kept": 15,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1163,
-  "wrong level or field": 92,
-  "not IT or cyber": 64,
+  "not an internship": 1159,
+  "wrong level or field": 91,
+  "not IT or cyber": 66,
   "permanent role": 3,
   "training-course advert": 1,
   "too old": 1,
-  "asks for experience": 1,
   "not open to first-years": 2
  },
  "warnings": [
@@ -36,8 +35,8 @@
   "greenhouse:monzo": 47,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 4,
-  "greenhouse:deliveroo": 110,
-  "greenhouse:datadog": 15,
+  "greenhouse:deliveroo": 109,
+  "greenhouse:datadog": 14,
   "greenhouse:elastic": 30,
   "greenhouse:truelayer": 2,
   "greenhouse:wizinc": 7,
@@ -53,23 +52,23 @@
   "lever:mistral": "failed",
   "ashby:snyk": 6,
   "ashby:synthesia": 18,
-  "ashby:elevenlabs": 51,
-  "ashby:multiverse": 26,
+  "ashby:elevenlabs": 50,
+  "ashby:multiverse": 28,
   "ashby:wayve": 62,
   "ashby:ramp": 11,
-  "ashby:lovable": 32,
+  "ashby:lovable": 31,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 2,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 12,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 9,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
-  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 10,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 0,
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 9,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 2,
   "radancy:search.jobs.barclays": 24,
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 13,
   "radancy:careers.astrazeneca.com": 1,
-  "amazon:amazon": 10
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
@@ -96,8 +95,9 @@
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Spring Insight Week - Corporate Finance",
+  "2027 Summer Intern - Account Analyst, London - PIMCO",
+  "2027 Summer Internship - CASA MLT Funding",
   "2027 Summer Internship - Technology",
-  "2027 Summer Internship Program - Business Analyst",
   "2027 Summer Internship Program - EMEA London, England 06/30/2026",
   "2027 Technology Analyst Summer Internship Programme London",
   "2027 Technology Developer Summer Internship Programme London",
@@ -110,7 +110,6 @@
   "AI Research Engineer, Pre-Training",
   "AI Researcher",
   "AI Researcher, LLMs",
-  "AI Response Reviewer - English (Remote)",
-  "AI Solutions Architect"
+  "AI Response Reviewer - English (Remote)"
  ]
 }
