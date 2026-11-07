@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T18:28:17.757205+00:00",
+ "at": "2026-11-07T23:23:08.355547+00:00",
  "sources": [
   "| Reed | \u2705 checked | 327 |",
   "| Adzuna | \u2705 checked | 202 |",
@@ -10,7 +10,7 @@
  "kept": 15,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1167,
+  "not an internship": 1169,
   "wrong level or field": 91,
   "not IT or cyber": 60,
   "permanent role": 1,
@@ -95,7 +95,6 @@
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Software Dev Engineer Intern - United Kingdom",
   "2027 Spring Insight Week - Corporate Finance",
-  "2027 Summer Intern - Account Analyst, London - PIMCO",
   "2027 Summer Internship - CASA MLT Funding",
   "2027 Summer Internship - Technology",
   "2027 Summer Internship Program - EMEA London, England 06/30/2026",
@@ -110,6 +109,7 @@
   "AI Engineer Apprentice",
   "AI Engineer, Trading Ops & Management",
   "AI Ops Engineer Build AI Workflows at Scale (Equity)",
-  "AI Quality Reviewer - English Speaker (Remote)"
+  "AI Quality Reviewer - English Speaker (Remote)",
+  "AI Research Engineer"
  ]
 }
