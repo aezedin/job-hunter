@@ -1,18 +1,18 @@
 {
- "at": "2026-11-07T12:20:48.303104+00:00",
+ "at": "2026-11-07T18:28:17.757205+00:00",
  "sources": [
   "| Reed | \u2705 checked | 327 |",
-  "| Adzuna | \u2705 checked | 201 |",
+  "| Adzuna | \u2705 checked | 202 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 829 |"
+  "| Company career pages | \u2705 checked | 830 |"
  ],
- "found": 1707,
+ "found": 1709,
  "kept": 15,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1163,
+  "not an internship": 1167,
   "wrong level or field": 91,
-  "not IT or cyber": 61,
+  "not IT or cyber": 60,
   "permanent role": 1,
   "training-course advert": 1,
   "for students graduating": 1,
@@ -68,7 +68,7 @@
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
   "radancy:careers.astrazeneca.com": 0,
-  "amazon:amazon": 8
+  "amazon:amazon": 9
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
@@ -104,12 +104,12 @@
   "2027 Summer Internships - Marketing - [LONDON, UK]",
   "2027 Technology Analyst Summer Internship Programme London",
   "2027 Technology Developer Summer Internship Programme London",
+  "ACSU Peer Support Specialist",
   "AI - Workshop Lead",
   "AI Engineer",
   "AI Engineer Apprentice",
   "AI Engineer, Trading Ops & Management",
   "AI Ops Engineer Build AI Workflows at Scale (Equity)",
-  "AI Quality Reviewer - English Speaker (Remote)",
-  "AI Research Engineer"
+  "AI Quality Reviewer - English Speaker (Remote)"
  ]
 }
