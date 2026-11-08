@@ -1,18 +1,18 @@
 {
- "at": "2026-11-08T18:39:44.846621+00:00",
+ "at": "2026-11-08T23:26:02.971321+00:00",
  "sources": [
   "| Reed | \u2705 checked | 328 |",
   "| Adzuna | \u2705 checked | 210 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 828 |"
+  "| Company career pages | \u2705 checked | 827 |"
  ],
- "found": 1716,
+ "found": 1715,
  "kept": 15,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1175,
+  "not an internship": 1164,
   "wrong level or field": 86,
-  "not IT or cyber": 57,
+  "not IT or cyber": 58,
   "permanent role": 1,
   "training-course advert": 1,
   "for students graduating": 1,
@@ -58,7 +58,7 @@
   "ashby:ramp": 10,
   "ashby:lovable": 31,
   "workday:ms.wd5.myworkdayjobs.com/ms/External": 1,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 0,
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 11,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 10,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
@@ -77,6 +77,7 @@
   " Senior Technical Support Engineer ",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "1:1 Pastoral Support Worker",
+  "2027 BNY Summer Internship Program - Product Management (London)",
   "2027 Business Banking Degree Apprenticeship Programme London",
   "2027 Client and Product Graduate Rotational Program - EMEA London, England 06/30/2026",
   "2027 Client and Product Summer Internship Program - EMEA London, England 06/30/2026",
@@ -107,7 +108,6 @@
   "ACSU Peer Support Specialist",
   "AI - Workshop Lead",
   "AI Engineer Apprentice",
-  "AI Engineer, Trading Ops & Management",
   "AI Quality Reviewer - English Speaker (Remote)",
   "AI Research Engineer",
   "AI Research Engineer, Inference"
