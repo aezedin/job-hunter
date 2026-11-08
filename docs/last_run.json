@@ -1,18 +1,18 @@
 {
- "at": "2026-11-08T12:40:59.932002+00:00",
+ "at": "2026-11-08T18:39:44.846621+00:00",
  "sources": [
   "| Reed | \u2705 checked | 328 |",
   "| Adzuna | \u2705 checked | 210 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 829 |"
+  "| Company career pages | \u2705 checked | 828 |"
  ],
- "found": 1717,
+ "found": 1716,
  "kept": 15,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1178,
-  "wrong level or field": 87,
-  "not IT or cyber": 58,
+  "not an internship": 1175,
+  "wrong level or field": 86,
+  "not IT or cyber": 57,
   "permanent role": 1,
   "training-course advert": 1,
   "for students graduating": 1,
@@ -68,7 +68,7 @@
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
   "radancy:careers.astrazeneca.com": 0,
-  "amazon:amazon": 9
+  "amazon:amazon": 8
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
