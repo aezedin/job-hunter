@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T13:29:32.492916+00:00",
+ "updated": "2026-11-11T21:04:32.710249+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -26,6 +26,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5962011729",
+   "title": "Junior SOC Analyst Internship",
+   "company": "Encrytpedge Labs Limited",
+   "location": "St Lukes, Central London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5962011729?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-11T19:13:10+00:00",
+   "description": "This is a remote position. The Junior Security Operations Center (SOC) Analyst Internship Program at EncryptEdge Labs is designed to provide aspiring SOC analysts with hands-on experience in monitoring and defending against cyber threats. Throughout the eight-week program, interns will engage in practical tasks that cover everything from threat landscape understanding, data collection and analysis, incident response, to vulnerability management and compliance. Participants will gain exposure to\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 65,
+   "reasons": [
+    "cyber security internship",
+    "skills: Incident response, Networking, Vulnerability assessment",
+    "posted today"
+   ],
+   "key": "7941ea976358",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-11T21:04:32.498347+00:00",
    "notes": ""
   },
   {
@@ -57,28 +83,28 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5881131892",
-   "title": "Cyber Security Intern",
-   "company": "Tencent",
-   "location": "London, UK",
-   "url": "https://targetjobs.co.uk/jobs/cyber-security-intern-247609",
-   "posted_at": "2026-09-12T16:52:40+00:00",
-   "description": "About the Hiring Team Tencent Overseas IT has the mission to empower Tencent\u2019s rapid global growth with future ready, global IT platforms, applications and services. We are chartered to lead the Overseas IT strategy, architecture, roadmap and execution. Satisfying our internal/external customers and becoming a world class global IT team are our top aspirations. What the Role Entails About the Role We are seeking an enthusiastic Cyber Security Intern to join our Security Engineering team in Lond\u2026",
+   "source_id": "5962011743",
+   "title": "Junior Network Security Engineer Internship",
+   "company": "Encrytpedge Labs Limited",
+   "location": "St Lukes, Central London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5962011743?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-11T19:13:10+00:00",
+   "description": "This is a remote position. The Junior Network Security Engineer Internship Program at EncryptEdge Labs offers a comprehensive, hands-on experience for those interested in building a career in network security. Over eight weeks, interns will work through challenges covering key aspects of network security, including traffic monitoring, firewall configuration, system security, vulnerability assessment, and advanced cybersecurity practices. Participants will engage in practical tasks such as confi\u2026",
    "salary_min": null,
    "salary_max": null,
    "applicants": null,
    "apply_type": "company-site",
    "contract_type": "contract",
-   "score": 62,
+   "score": 60,
    "reasons": [
-    "SOC & incident response",
-    "essentials match your CV",
-    "check dates are summer"
+    "cyber security internship",
+    "skills: Networking, Vulnerability assessment",
+    "posted today"
    ],
-   "key": "c252819f7849",
+   "key": "d653c2c30864",
    "salary_text": "not listed",
    "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
+   "first_seen": "2026-11-11T21:04:32.498347+00:00",
    "notes": ""
   },
   {
@@ -1201,6 +1227,32 @@
    "salary_text": "\u00a328,000\u2013\u00a340,000",
    "status": "skipped",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
+   "notes": "auto-hidden: no longer matches filters"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5881131892",
+   "title": "Cyber Security Intern",
+   "company": "Tencent",
+   "location": "London, UK",
+   "url": "https://targetjobs.co.uk/jobs/cyber-security-intern-247609",
+   "posted_at": "2026-09-12T16:52:40+00:00",
+   "description": "About the Hiring Team Tencent Overseas IT has the mission to empower Tencent\u2019s rapid global growth with future ready, global IT platforms, applications and services. We are chartered to lead the Overseas IT strategy, architecture, roadmap and execution. Satisfying our internal/external customers and becoming a world class global IT team are our top aspirations. What the Role Entails About the Role We are seeking an enthusiastic Cyber Security Intern to join our Security Engineering team in Lond\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 62,
+   "reasons": [
+    "SOC & incident response",
+    "essentials match your CV",
+    "check dates are summer"
+   ],
+   "key": "c252819f7849",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
    "notes": "auto-hidden: no longer matches filters"
   },
   {
