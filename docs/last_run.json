@@ -1,16 +1,16 @@
 {
- "at": "2026-11-10T21:39:26.482228+00:00",
+ "at": "2026-11-11T01:42:53.541053+00:00",
  "sources": [
   "| Reed | \u2705 checked | 327 |",
-  "| Adzuna | \u2705 checked | 202 |",
+  "| Adzuna | \u2705 checked | 200 |",
   "| Jooble | \u2705 checked | 350 |",
-  "| Company career pages | \u2705 checked | 830 |"
+  "| Company career pages | \u2705 checked | 828 |"
  ],
- "found": 1709,
+ "found": 1705,
  "kept": 15,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1164,
+  "not an internship": 1162,
   "wrong level or field": 87,
   "not IT or cyber": 58,
   "permanent role": 1,
@@ -65,9 +65,9 @@
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 8,
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 6,
-  "radancy:search.jobs.barclays": 23,
+  "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 5,
-  "radancy:careers.blackrock.com": 15,
+  "radancy:careers.blackrock.com": 14,
   "radancy:careers.astrazeneca.com": 0,
   "amazon:amazon": 9
  },
