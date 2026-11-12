@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:04:32.710249+00:00",
+ "updated": "2026-11-12T02:41:56.597758+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -236,6 +236,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-11-01T12:35:01.548640+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5961743090",
+   "title": "Technology, Application Development, Full-Time Analyst, United Kingdom - London, 2027 (2026 Summer Intern Converts Only) - Citi",
+   "company": "Citi",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5961743090?se=wgpTWELe8RGRmdATXFA07g&utm_medium=api&utm_source=d11271dd&v=A28D4A578D875A76D27AFE22707EE69AD8530E7D",
+   "posted_at": "2026-11-11T14:32:37+00:00",
+   "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview You are the brains behind our work At Citi, we do not just adapt to change - we drive it. Our Full Time Technology Analyst Program is where forward thinking talents meet unparalleled opportunities. \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 50,
+   "reasons": [
+    "IT/tech internship",
+    "summer dates",
+    "posted today"
+   ],
+   "key": "f7b1493f256f",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-12T02:41:56.357905+00:00",
    "notes": ""
   },
   {
