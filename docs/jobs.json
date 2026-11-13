@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:03:18.295075+00:00",
+ "updated": "2026-11-13T13:50:45.902977+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -602,6 +602,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-15T10:47:21.109519+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5964337076",
+   "title": "IT Intern - AI & Transformation",
+   "company": "WEP Clinical",
+   "location": "Chiswick, West London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5964337076?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-13T09:56:18+00:00",
+   "description": "Kickstart your career with WEP Clinical, a global specialist Contract Research Organization (CRO) dedicated to keeping the patient at the center of everything we do. We partner with Sponsors to deliver drug development, treatment access, and commercialization solutions, helping patients worldwide gain access to life-changing therapies. Role Objectives: The IT Intern \u2013 AI & Transformation will support the Information Technology function by partnering with cross-functional departments to identify\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "a968c15178af",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-13T13:50:45.886198+00:00",
    "notes": ""
   },
   {
