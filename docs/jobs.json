@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T02:00:33.606424+00:00",
+ "updated": "2026-11-14T12:53:39.346724+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -236,6 +236,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-11-01T12:35:01.548640+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5965585632",
+   "title": "BGC & Cantor 2027 UK Technology Summer Internship Programme - Infrastructure",
+   "company": "Cantor Fitzgerald",
+   "location": "Poplar, East London",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5965585632?se=_tMGTCrg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=d11271dd&v=3486B77ECEEE7431278CE2241640428030274655",
+   "posted_at": "2026-11-14T09:57:13+00:00",
+   "description": "Description Location: London Program Length: 10 weeks, Summer 2027 Track: Infrastructure & Automation Firm Overview BGC Group (Nasdaq: BGC) is a leading global brokerage and financial technology company, serving wholesale financial and commercial real estate markets. BGC traces its origins to Cantor Fitzgerald's interdealer brokerage business and has been a separate publicly listed company since 2004, taking its name from Cantor's founder, B. Gerald Cantor. The two firms remain closely linked: \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 50,
+   "reasons": [
+    "IT/tech internship",
+    "summer dates",
+    "posted today"
+   ],
+   "key": "d6c602743139",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-14T12:53:39.246392+00:00",
    "notes": ""
   },
   {
@@ -602,6 +628,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-15T10:47:21.109519+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5964894845",
+   "title": "Digital & Technology Project Intern",
+   "company": "Arriva Limited",
+   "location": "Holborn, Central London",
+   "url": "https://www.adzuna.co.uk/jobs/details/5964894845?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-13T19:08:13+00:00",
+   "description": "Digital & Technology Project Intern 12-week internship | January 2027 start Every day, millions of people rely on transport to access the people, places and opportunities that matter most. At Arriva, we are helping to shape the future of passenger transport and investing in the people who can help us keep moving forward. We are one of Europe\u2019s leading passenger transport partners, operating across 11 countries, with around 35,000 colleagues supporting more than 1.5 billion passenger journeys ea\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "aacd2333aaa9",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-14T12:53:39.246392+00:00",
    "notes": ""
   },
   {
