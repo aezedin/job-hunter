@@ -1,25 +1,25 @@
 {
- "at": "2026-11-14T18:57:37.587161+00:00",
+ "at": "2026-11-14T23:38:28.958390+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 330 |",
+  "| Reed | \u2705 checked | 230 |",
   "| Adzuna | \u2705 checked | 206 |",
-  "| Jooble | \u2705 checked | 342 |",
+  "| Jooble | \u2705 checked | 348 |",
   "| Company career pages | \u2705 checked | 815 |"
  ],
- "found": 1693,
+ "found": 1599,
  "kept": 21,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1111,
-  "wrong level or field": 89,
-  "not IT or cyber": 54,
-  "permanent role": 2,
+  "not an internship": 1038,
+  "wrong level or field": 79,
+  "not IT or cyber": 53,
   "advert says": 2,
   "training-course advert": 1,
   "for students graduating": 1,
   "not open to first-years": 2
  },
  "warnings": [
+  "reed 'insight week technology' failed: HTTPSConnectionPool(host='www.reed.co.uk', port=443): Read timed out. (read timeout=20)",
   "lever:mistral failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?\u2026"
  ],
  "alerts_on": true,
