@@ -1,25 +1,25 @@
 {
- "at": "2026-11-14T23:38:28.958390+00:00",
+ "at": "2026-11-15T13:21:40.014217+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 230 |",
-  "| Adzuna | \u2705 checked | 206 |",
-  "| Jooble | \u2705 checked | 348 |",
-  "| Company career pages | \u2705 checked | 815 |"
+  "| Reed | \u2705 checked | 329 |",
+  "| Adzuna | \u2705 checked | 207 |",
+  "| Jooble | \u2705 checked | 349 |",
+  "| Company career pages | \u2705 checked | 816 |"
  ],
- "found": 1599,
- "kept": 21,
- "new": 0,
+ "found": 1701,
+ "kept": 20,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1038,
-  "wrong level or field": 79,
+  "not an internship": 1120,
+  "wrong level or field": 88,
   "not IT or cyber": 53,
+  "permanent role": 2,
   "advert says": 2,
   "training-course advert": 1,
   "for students graduating": 1,
   "not open to first-years": 2
  },
  "warnings": [
-  "reed 'insight week technology' failed: HTTPSConnectionPool(host='www.reed.co.uk', port=443): Read timed out. (read timeout=20)",
   "lever:mistral failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?\u2026"
  ],
  "alerts_on": true,
@@ -63,8 +63,8 @@
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 13,
   "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 11,
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
-  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 5,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 5,
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 7,
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 4,
   "radancy:search.jobs.barclays": 20,
   "radancy:jobs.citi.com": 5,
   "radancy:careers.blackrock.com": 14,
