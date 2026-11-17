@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:59:19.187430+00:00",
+ "updated": "2026-11-17T15:26:01.266912+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -523,6 +523,32 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5969062566",
+   "title": "Technology Internship (London) - M&G plc.",
+   "company": "M&G plc.",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5969062566?se=lFhbCpvi8RGXMNRRpZDicQ&utm_medium=api&utm_source=d11271dd&v=CEE0368FE13DF9AF3DA51DDB9D0DEEC577E45679",
+   "posted_at": "2026-11-17T13:35:32+00:00",
+   "description": "Our purpose is to give everyone real confidence to put their money to work . With a heritage dating back more than 175 years, we have a long history of innovation in savings and investments, combining asset management and insurance expertise to offer a wide range of solutions. Our two distinct operating segments, Asset Management and Life, work together to provide access to balanced, long-term investment and savings solutions. Through telling it like it is, owning it now, and moving it forward \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 45,
+   "reasons": [
+    "IT/tech internship",
+    "skills: Networking",
+    "posted today"
+   ],
+   "key": "af1a3f32a5b0",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-17T15:26:01.250499+00:00",
    "notes": ""
   },
   {
