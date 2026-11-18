@@ -1,33 +1,6 @@
 {
- "updated": "2026-11-17T23:19:50.155930+00:00",
+ "updated": "2026-11-18T14:59:28.032793+00:00",
  "jobs": [
-  {
-   "source": "adzuna",
-   "source_id": "5890400639",
-   "title": "2027 Summer Technology Internship Programme",
-   "company": "Man Group",
-   "location": "London, UK",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4978934101",
-   "posted_at": "2026-09-19T11:02:25+00:00",
-   "description": "About Man Group Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manager investment strategies are underpinned by deep research and span public and private markets, across all major asset classes, with a significant focus on alternatives. Man Group takes a partnership approach to working with clients, \u2026",
-   "salary_min": null,
-   "salary_max": null,
-   "applicants": null,
-   "apply_type": "company-site",
-   "contract_type": "contract",
-   "score": 82,
-   "reasons": [
-    "closes 30 Oct 2026",
-    "for students graduating 2028 (you)",
-    "21 Jun to 10 Sep 2027",
-    "link your GitHub portfolio"
-   ],
-   "key": "f6ae44dfff85",
-   "salary_text": "not listed",
-   "status": "new",
-   "first_seen": "2026-10-06T23:19:45.156614+00:00",
-   "notes": ""
-  },
   {
    "source": "adzuna",
    "source_id": "5962011729",
@@ -1225,6 +1198,33 @@
    "salary_text": "not listed",
    "status": "skipped",
    "first_seen": "2026-10-06T22:55:13.223105+00:00",
+   "notes": "auto-hidden: no longer matches filters"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5890400639",
+   "title": "2027 Summer Technology Internship Programme",
+   "company": "Man Group",
+   "location": "London, UK",
+   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4978934101",
+   "posted_at": "2026-09-19T11:02:25+00:00",
+   "description": "About Man Group Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manager investment strategies are underpinned by deep research and span public and private markets, across all major asset classes, with a significant focus on alternatives. Man Group takes a partnership approach to working with clients, \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 82,
+   "reasons": [
+    "closes 30 Oct 2026",
+    "for students graduating 2028 (you)",
+    "21 Jun to 10 Sep 2027",
+    "link your GitHub portfolio"
+   ],
+   "key": "f6ae44dfff85",
+   "salary_text": "not listed",
+   "status": "skipped",
+   "first_seen": "2026-10-06T23:19:45.156614+00:00",
    "notes": "auto-hidden: no longer matches filters"
   },
   {
