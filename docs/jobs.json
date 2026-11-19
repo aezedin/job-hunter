@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:51:40.522631+00:00",
+ "updated": "2026-11-19T15:07:05.728634+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -657,6 +657,31 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5971465671",
+   "title": "IB Advisory Off-Cycle Internship Programme 2027 - Sector: Technology",
+   "company": "Canaccord Genuity",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5971465671?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-19T10:01:42+00:00",
+   "description": "Are you looking to launch a career in Investment Banking? If so this exciting 6 month Internship could be what you are looking for! Canaccord Genuity's Technology M&A team is looking to add an Off-Cycle Intern to the team. This is a unique opportunity to work alongside Analysts and Associates on a project by project basis to support Directors and Managing Directors in the origination and execution of Corporate Advisory transactions within the Technology space. We offer a 6 month placement start\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "8bfa42513ba9",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-19T15:07:05.711228+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
    "source_id": "5964894845",
    "title": "Digital & Technology Project Intern",
    "company": "Arriva Limited",
@@ -856,6 +881,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-07T12:31:38.481149+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5963768714",
+   "title": "Summer Internship (Data & Tech)",
+   "company": "Royal London Group",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5963768714?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-13T01:02:44+00:00",
+   "description": "Contract type: 10-week FTC Location: London Summer Internship \u2013 Technology, Data and AI Royal London is the UK\u2019s largest mutual life, pensions and investment company. We\u2019re owned by our members and work for their benefit, not shareholder profits, and that makes us different. We're looking for creative problem-solvers who are passionate about technology, engineering, data and AI. Join our ten-week Summer Internship Programme and gain hands-on experience applying these skills to real business cha\u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 30,
+   "reasons": [
+    "internship",
+    "summer dates"
+   ],
+   "key": "924c746b1302",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-19T15:07:05.711228+00:00",
    "notes": ""
   },
   {
