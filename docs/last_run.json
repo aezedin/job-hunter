@@ -1,18 +1,18 @@
 {
- "at": "2026-11-22T01:52:30.977545+00:00",
+ "at": "2026-11-22T13:57:40.121388+00:00",
  "sources": [
   "| Reed | \u2705 checked | 327 |",
-  "| Adzuna | \u2705 checked | 180 |",
+  "| Adzuna | \u2705 checked | 179 |",
   "| Jooble | \u2705 checked | 339 |",
-  "| Company career pages | \u2705 checked | 773 |"
+  "| Company career pages | \u2705 checked | 772 |"
  ],
- "found": 1619,
- "kept": 19,
- "new": 0,
+ "found": 1617,
+ "kept": 21,
+ "new": 1,
  "filtered_out": {
-  "not an internship": 1079,
-  "wrong level or field": 84,
-  "not IT or cyber": 60,
+  "not an internship": 1076,
+  "wrong level or field": 81,
+  "not IT or cyber": 63,
   "permanent role": 1,
   "training-course advert": 1,
   "not open to first-years": 2,
@@ -40,7 +40,7 @@
   "greenhouse:xtxmarketstechnologies": 2,
   "greenhouse:recordedfuture": 2,
   "greenhouse:huntress": 5,
-  "greenhouse:monzo": 51,
+  "greenhouse:monzo": 50,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 3,
   "greenhouse:deliveroo": 115,
@@ -83,6 +83,7 @@
   " DevOps/High Performance Trading System Engineer | Trading Team",
   " Product Manager, Discovery ",
   " Senior Technical Support Engineer ",
+  "'27 Summer Analyst (Undergrad) \u2013 Real Estate Investments",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "(USA) GM Coach (Non-Complex) - WM, Management",
   "2027 Advisory Summer Internship Programme - Social Mobility Programme",
@@ -97,7 +98,6 @@
   "2027 Off-cycle Internship Program - EMEA London, England 06/29/2026",
   "2027 Operations Analyst Summer Internship Programme London",
   "2027 PhD Quantitative Research Intern",
-  "2027 Placement Program - EMEA",
   "2027 Placement Program - EMEA London, England 11/10/2026",
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Software Dev Engineer Intern - United Kingdom",
@@ -117,7 +117,7 @@
   "AI & Data-Led Growth Marketing Manager",
   "AI - Workshop Lead",
   "AI Account Executive, Glass",
-  "AI Engineering Manager",
-  "AI Lead"
+  "AI Engineer Apprentice",
+  "AI Engineering Manager"
  ]
 }
