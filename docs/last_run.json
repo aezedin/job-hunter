@@ -1,27 +1,33 @@
 {
- "at": "2026-11-22T20:37:42.629924+00:00",
+ "at": "2026-11-23T02:09:11.734816+00:00",
  "sources": [
   "| Reed | \u2705 checked | 328 |",
-  "| Adzuna | \u2705 checked | 180 |",
+  "| Adzuna | \u2705 checked | 179 |",
   "| Jooble | \u2705 checked | 322 |",
-  "| Company career pages | \u2705 checked | 806 |"
+  "| Company career pages | \u2705 checked | 767 |"
  ],
- "found": 1636,
+ "found": 1596,
  "kept": 20,
  "new": 0,
  "filtered_out": {
-  "not an internship": 1108,
+  "not an internship": 1075,
   "wrong level or field": 79,
-  "not IT or cyber": 63,
+  "not IT or cyber": 59,
   "permanent role": 1,
   "training-course advert": 1,
-  "for students graduating": 1,
   "not open to first-years": 2,
   "advert says": 1
  },
  "warnings": [
   "greenhouse:truelayer failed: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/truelayer/jobs?\u2026 (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.eu.greenhouse.io', port=443): Failed to resolve 'boards-api.eu.greenhouse.io' ([",
-  "lever:mistral failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?\u2026"
+  "lever:mistral failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?\u2026",
+  "workday:ms.wd5.myworkdayjobs.com/ms/External failed: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers failed: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers failed: 429 Client Error: Too Many Requests for url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/jobs",
+  "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers failed: 429 Client Error: Too Many Requests for url: https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs",
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC failed: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers failed: 429 Client Error: Too Many Requests for url: https://gsk.wd5.myworkdayjobs.com/wday/cxs/gsk/GSKCareers/jobs"
  ],
  "alerts_on": true,
  "boards": {
@@ -34,7 +40,7 @@
   "greenhouse:xtxmarketstechnologies": 2,
   "greenhouse:recordedfuture": 2,
   "greenhouse:huntress": 5,
-  "greenhouse:monzo": 50,
+  "greenhouse:monzo": 45,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 3,
   "greenhouse:deliveroo": 115,
@@ -59,13 +65,13 @@
   "ashby:wayve": 52,
   "ashby:ramp": 9,
   "ashby:lovable": 29,
-  "workday:ms.wd5.myworkdayjobs.com/ms/External": 3,
-  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": 1,
-  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": 10,
-  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 12,
-  "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": 1,
-  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": 4,
-  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": 3,
+  "workday:ms.wd5.myworkdayjobs.com/ms/External": "failed",
+  "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": "failed",
+  "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": "failed",
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": "failed",
+  "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": "failed",
+  "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": "failed",
+  "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": "failed",
   "radancy:search.jobs.barclays": 22,
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
@@ -111,7 +117,7 @@
   "AI & Data-Led Growth Marketing Manager",
   "AI - Workshop Lead",
   "AI Account Executive, Glass",
-  "AI Engineer - Python",
-  "AI Engineer Apprentice"
+  "AI Engineer Apprentice",
+  "AI Engineering Manager"
  ]
 }
