@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:53:18.499379+00:00",
+ "updated": "2026-11-25T16:42:09.160002+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -236,6 +236,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-11-01T12:35:01.548640+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5978557501",
+   "title": "Cybersecurity Intern",
+   "company": "FTI Consulting",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/details/5978557501?utm_medium=api&utm_source=d11271dd",
+   "posted_at": "2026-11-25T15:03:31+00:00",
+   "description": "The EMEA cybersecurity team combines backgrounds from national security, military, and academia. Interns join a focused group that responds to both proactive security gaps and active cyber-attacks. What you will do Analyze technical data to triage breaches and identify root causes. Support digital forensic investigations and threat intelligence. Contribute to client reports for law firms and financial institutions. Engage with experts to develop thought leadership on security topics. What they \u2026",
+   "salary_min": null,
+   "salary_max": null,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 50,
+   "reasons": [
+    "cyber security internship",
+    "posted today"
+   ],
+   "key": "812c37131baf",
+   "salary_text": "not listed",
+   "status": "new",
+   "first_seen": "2026-11-25T16:42:08.840489+00:00",
    "notes": ""
   },
   {
