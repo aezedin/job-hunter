@@ -1,18 +1,18 @@
 {
- "at": "2026-11-25T16:42:08.842767+00:00",
+ "at": "2026-11-26T01:28:21.670941+00:00",
  "sources": [
-  "| Reed | \u2705 checked | 332 |",
-  "| Adzuna | \u2705 checked | 174 |",
-  "| Jooble | \u2705 checked | 323 |",
-  "| Company career pages | \u2705 checked | 764 |"
+  "| Reed | \u2705 checked | 331 |",
+  "| Adzuna | \u2705 checked | 172 |",
+  "| Jooble | \u2705 checked | 328 |",
+  "| Company career pages | \u2705 checked | 758 |"
  ],
- "found": 1593,
- "kept": 19,
- "new": 1,
+ "found": 1589,
+ "kept": 18,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1078,
-  "wrong level or field": 79,
-  "not IT or cyber": 61,
+  "not an internship": 1073,
+  "wrong level or field": 77,
+  "not IT or cyber": 60,
   "permanent role": 1,
   "not open to first-years": 2,
   "advert says": 1
@@ -20,26 +20,10 @@
  "warnings": [
   "greenhouse:truelayer failed: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/truelayer/jobs?\u2026 (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.eu.greenhouse.io', port=443): Failed to resolve 'boards-api.eu.greenhouse.io' ([",
   "lever:mistral failed: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?\u2026",
+  "workday:ms.wd5.myworkdayjobs.com/ms/External failed: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers failed: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers failed: 429 Client Error: Too Many Requests for url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Event-Marketing-Manager_332397",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/New-York-NY/Lead--Java-Software-Engineer_331701-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Colorado-US/Associate-Director--Software-Engineering_332897-2",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/New-York-NY/Associate-Director--Software-Engineering_328621-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Senior-Reporter_332306-2",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Central-HK/Senior-Reporter---Asia-Pac-Investors_328429-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Senior-Analyst_332022-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/UK---LONDON-25-ROPEMAKER-STREET-35-HRS/Corporate-Actions---Sales-Specialist_326305-2",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Dallas-TX/Specialized-Account-Services-Associate-Director--Data-Services_332844-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Houston-TX/Principal-Analyst---Upstream-Digital-Technologies_332907-2",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Market-Intelligence-Revenue-Associate-Internship_331786-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/New-York-NY/Associate-Director--Model-Developer---Structured-Finance---New-York-or-London_330538-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Director--Marketing-Technology_333033-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Hyderabad-Telangana/Senior-Site-Reliability-Engineer---Infrastructure_326961-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Cambridge-MA/Product-Manager_332919-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/London-UK/Enterprise-Account-Executive_332290-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Cambridge-MA/Engagement-Manager_330650-1",
-  "workday spgi advert failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/job/Hyderabad-Telangana/Senior-Analyst-Application-Security_332566-1",
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers failed: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/jobs",
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers failed: 429 Client Error: Too Many Requests for url: https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs",
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC failed: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers failed: 429 Client Error: Too Many Requests for url: https://gsk.wd5.myworkdayjobs.com/wday/cxs/gsk/GSKCareers/jobs"
@@ -48,14 +32,14 @@
  "boards": {
   "greenhouse:mangroup": 29,
   "greenhouse:wehrtyou": 33,
-  "greenhouse:jumptrading": 23,
+  "greenhouse:jumptrading": 20,
   "greenhouse:squarepointcapital": 65,
   "greenhouse:imc": 8,
   "greenhouse:drweng": 46,
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 2,
   "greenhouse:huntress": 5,
-  "greenhouse:monzo": 44,
+  "greenhouse:monzo": 45,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 3,
   "greenhouse:deliveroo": 118,
@@ -80,10 +64,10 @@
   "ashby:wayve": 52,
   "ashby:ramp": 8,
   "ashby:lovable": 30,
-  "workday:ms.wd5.myworkdayjobs.com/ms/External": 4,
+  "workday:ms.wd5.myworkdayjobs.com/ms/External": "failed",
   "workday:mastercard.wd1.myworkdayjobs.com/mastercard/CorporateCareers": "failed",
   "workday:lseg.wd3.myworkdayjobs.com/lseg/Careers": "failed",
-  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": 2,
+  "workday:spgi.wd5.myworkdayjobs.com/spgi/SPGI_Careers": "failed",
   "workday:crowdstrike.wd5.myworkdayjobs.com/crowdstrike/crowdstrikecareers": "failed",
   "workday:mmc.wd1.myworkdayjobs.com/mmc/MMC": "failed",
   "workday:gsk.wd5.myworkdayjobs.com/gsk/GSKCareers": "failed",
@@ -91,7 +75,7 @@
   "radancy:jobs.citi.com": 4,
   "radancy:careers.blackrock.com": 14,
   "radancy:careers.astrazeneca.com": 0,
-  "amazon:amazon": 10
+  "amazon:amazon": 12
  },
  "sample_rejected_titles": [
   " AWS Commercial Sales Internship",
@@ -101,6 +85,7 @@
   "'27 Summer Analyst (Undergrad) \u2013 Real Estate Investments",
   "(Physical) Security Specialist Intern - 2027 Internship, DC Security",
   "(USA) GM Coach (Non-Complex) - WM, Management",
+  "12 Month - Business Intelligence Intern ",
   "1:1 Pastoral Support Worker",
   "2027 Business Banking Degree Apprenticeship Programme London",
   "2027 Client and Product Graduate Rotational Program - EMEA London, England 06/30/2026",
@@ -116,8 +101,6 @@
   "2027 Placement Program - EMEA London, England 11/10/2026",
   "2027 Software Dev Engineer Intern (Embedded Systems) - UK",
   "2027 Spring Insight Week - Corporate Finance",
-  "2027 Summer Intern - Account Analyst, London - PIMCO",
-  "2027 Summer Intern - Client Solutions & Analytics Quantitative Research Analyst (MFE), London - PIMCO",
   "2027 Summer Internship - Policy (London)",
   "2027 Summer Internship - Postgraduate (London)",
   "2027 Summer Internship - Risk (London)",
@@ -133,6 +116,7 @@
   "AI - Workshop Lead",
   "AI Engineer Apprentice",
   "AI Engineering Manager",
-  "AI Lead"
+  "AI Lead",
+  "AI Quality Reviewer - English Speaker (Remote)"
  ]
 }
