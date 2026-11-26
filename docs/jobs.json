@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:28:21.683814+00:00",
+ "updated": "2026-11-26T16:16:41.779070+00:00",
  "jobs": [
   {
    "source": "adzuna",
@@ -705,6 +705,31 @@
    "salary_text": "not listed",
    "status": "new",
    "first_seen": "2026-10-15T10:47:21.109519+00:00",
+   "notes": ""
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5978820236",
+   "title": "Data and Technology Intern",
+   "company": "McGregor Boyall",
+   "location": "London, UK",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5978820236?se=vNz0e7Tp8RGc4pAjgmyMwA&utm_medium=api&utm_source=d11271dd&v=E60C82ED14C54668A463A10076B60C849CE1C343",
+   "posted_at": "2026-11-25T20:56:58+00:00",
+   "description": "Data & Technology Intern London (Mayfair) \u2013 5 days per week onsite Up to \u00a342,000 per annum (pro rata) 6-month initial contract \u2013 strong potential to go permanent I'm currently working with a successful European real estate private equity firm who are looking to hire two technically strong graduates to join their Technology & Research team. This is a fantastic opportunity to gain hands-on experience across Data Engineering, Software Development, Analytics and AI within a buy-side investment envi\u2026",
+   "salary_min": 42000,
+   "salary_max": 42000,
+   "applicants": null,
+   "apply_type": "company-site",
+   "contract_type": "contract",
+   "score": 40,
+   "reasons": [
+    "IT/tech internship",
+    "posted today"
+   ],
+   "key": "0f1cd3a62b47",
+   "salary_text": "\u00a342,000",
+   "status": "new",
+   "first_seen": "2026-11-26T16:16:41.755183+00:00",
    "notes": ""
   },
   {
