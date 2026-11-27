@@ -1,17 +1,17 @@
 {
- "at": "2026-11-26T16:16:41.758000+00:00",
+ "at": "2026-11-27T01:27:41.088295+00:00",
  "sources": [
   "| Reed | \u2705 checked | 331 |",
   "| Adzuna | \u2705 checked | 172 |",
-  "| Jooble | \u2705 checked | 332 |",
-  "| Company career pages | \u2705 checked | 792 |"
+  "| Jooble | \u2705 checked | 334 |",
+  "| Company career pages | \u2705 checked | 794 |"
  ],
- "found": 1627,
+ "found": 1631,
  "kept": 18,
- "new": 1,
+ "new": 0,
  "filtered_out": {
-  "not an internship": 1109,
-  "wrong level or field": 80,
+  "not an internship": 1112,
+  "wrong level or field": 82,
   "not IT or cyber": 66,
   "not open to first-years": 2,
   "advert says": 1
@@ -31,7 +31,7 @@
   "greenhouse:xtxmarketstechnologies": 3,
   "greenhouse:recordedfuture": 2,
   "greenhouse:huntress": 5,
-  "greenhouse:monzo": 48,
+  "greenhouse:monzo": 49,
   "greenhouse:cloudflare": 0,
   "greenhouse:gocardless": 2,
   "greenhouse:deliveroo": 122,
@@ -51,7 +51,7 @@
   "lever:mistral": "failed",
   "ashby:snyk": 7,
   "ashby:synthesia": 12,
-  "ashby:elevenlabs": 41,
+  "ashby:elevenlabs": 42,
   "ashby:multiverse": 22,
   "ashby:wayve": 52,
   "ashby:ramp": 8,
